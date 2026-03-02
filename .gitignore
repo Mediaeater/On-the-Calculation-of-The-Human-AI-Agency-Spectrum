@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+._*
+
+# Claude Code
+.claude/
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
