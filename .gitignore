@@ -12,6 +12,12 @@
 .vscode/
 .idea/
 
+# Source PDF
+012826-On the Calculation of The Human-AI Agency Spectrum (1).pdf
+
+# Changelog (maintained locally)
+changelog.md
+
 # Temporary files
 *.tmp
 *.bak
