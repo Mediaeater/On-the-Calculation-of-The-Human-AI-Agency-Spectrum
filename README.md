@@ -25,6 +25,7 @@ This framework provides the precision.
 
 ## The Document
 
+- **[EXECUTIVE_SUMMARY.md](EXECUTIVE_SUMMARY.md)** — Start here (5-minute read)
 - **[On_the_Calculation_of_The_Human-AI_Agency_Spectrum.md](On_the_Calculation_of_The_Human-AI_Agency_Spectrum.md)** — The full paper
 - **[CHANGELOG.md](CHANGELOG.md)** — Tracked revisions and corrections
 
