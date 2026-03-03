@@ -44,6 +44,15 @@ This framework provides the precision.
 - **Work Agency vs. Interaction Agency** — Measuring the full creative process, not just the generation moment
 - **The Three-Tier Market** — Premium (L4-L5), Standard (L3), Budget (L2) — shaped by compliance constraints
 
+## Implementation
+
+Building tools with human agency in mind? The `implementation/` directory provides practical resources for developers and product teams:
+
+- **[quick-reference.md](implementation/quick-reference.md)** — The agency spectrum, design principles, anti-patterns, and red flags at a glance
+- **[best-practices.md](implementation/best-practices.md)** — State management patterns, phased roadmap, composite agency calculation, and behavioral constraints to design against
+
+These guides translate the framework into actionable decisions: default to Suggest Mode, track contributions by source, enable granular undo, and minimize lock-in.
+
 ## Contributing
 
 See **[contributing.md](contributing.md)** for how to participate in the RFC process.
