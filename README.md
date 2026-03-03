@@ -50,6 +50,7 @@ Building tools with human agency in mind? The `implementation/` directory provid
 
 - **[quick-reference.md](implementation/quick-reference.md)** — The agency spectrum, design principles, anti-patterns, and red flags at a glance
 - **[best-practices.md](implementation/best-practices.md)** — State management patterns, phased roadmap, composite agency calculation, and behavioral constraints to design against
+- **[agency-mechanisms.md](implementation/agency-mechanisms.md)** — Tactical and strategic mechanisms with legal anchors, stakeholder audit matrices, compliance alignment, and implementation checklist
 
 These guides translate the framework into actionable decisions: default to Suggest Mode, track contributions by source, enable granular undo, and minimize lock-in.
 
