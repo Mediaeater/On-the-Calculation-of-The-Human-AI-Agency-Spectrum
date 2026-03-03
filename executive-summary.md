@@ -70,7 +70,7 @@ Below L2: Consumer/hobbyist only. Locked out of professional markets.
 
 ### Studios
 - Premium positioning requires L4-L5 capability across the production pipeline
-- Compliance determines market access—it's architecture, not paperwork
+- Compliance determines market access, architecture matters
 - The WGA distinguishes between what studios and hired writers can do with AI (Article 72.B vs. 72.C)
 
 ### Unions
@@ -86,15 +86,7 @@ Below L2: Consumer/hobbyist only. Locked out of professional markets.
 
 ## Key Insight
 
-The question was never "Does AI write?"
-
-The question is: **Where on the spectrum does your system operate, and which market tier does that give you access to?**
-
-Agency is a dial, not a switch. The dial setting determines everything else.
-
----
-
-**The window is 2025-2027.** Guild contracts are being renegotiated. Studio policies are forming. EU regulations are taking effect. The three-tier structure is the most likely outcome (65% probability). Position accordingly.
+AI is writing. The question is: **Where on the spectrum does your system operate, and which market tier does that give you access to?**
 
 ---
 
