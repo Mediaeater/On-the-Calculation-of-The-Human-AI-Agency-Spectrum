@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agency Framework Flashcards</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #1a1a2e; color: #eee; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; padding: 20px; }
+  .header { text-align: center; margin-bottom: 30px; }
+  .header h1 { font-size: 1.4em; color: #e0e0e0; font-weight: 500; }
+  .progress { font-size: 0.9em; color: #888; margin-top: 8px; }
+  .card-container { perspective: 1000px; width: 100%; max-width: 640px; height: 340px; cursor: pointer; }
+  .card { width: 100%; height: 100%; position: relative; transform-style: preserve-3d; transition: transform 0.5s ease; }
+  .card.flipped { transform: rotateY(180deg); }
+  .card-face { position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 16px; padding: 40px; display: flex; align-items: center; justify-content: center; text-align: center; line-height: 1.6; }
+  .card-front { background: linear-gradient(135deg, #16213e, #0f3460); border: 1px solid #1a3a6a; font-size: 1.15em; }
+  .card-back { background: linear-gradient(135deg, #1a3320, #0f4030); border: 1px solid #1a5a3a; transform: rotateY(180deg); font-size: 1.05em; color: #d0f0d0; }
+  .label { position: absolute; top: 16px; left: 24px; font-size: 0.7em; text-transform: uppercase; letter-spacing: 2px; color: #666; }
+  .controls { display: flex; gap: 16px; margin-top: 30px; align-items: center; }
+  .btn { background: #16213e; border: 1px solid #1a3a6a; color: #ccc; padding: 12px 28px; border-radius: 8px; font-size: 1em; cursor: pointer; transition: all 0.2s; }
+  .btn:hover { background: #1a3a6a; color: #fff; }
+  .btn:disabled { opacity: 0.3; cursor: default; }
+  .btn-flip { background: none; border: 1px solid #444; padding: 10px 20px; font-size: 0.85em; }
+  .counter { font-size: 1.1em; color: #888; min-width: 80px; text-align: center; }
+  .hint { color: #555; font-size: 0.8em; margin-top: 16px; }
+  .tag { position: absolute; top: 16px; right: 24px; font-size: 0.7em; padding: 3px 10px; border-radius: 4px; background: rgba(255,255,255,0.08); color: #777; }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Human-AI Agency Framework</h1>
+  <div class="progress" id="progress"></div>
+</div>
+<div class="card-container" id="cardContainer">
+  <div class="card" id="card">
+    <div class="card-face card-front">
+      <span class="label">Question</span>
+      <span class="tag" id="tagFront"></span>
+      <div id="question">Loading...</div>
+    </div>
+    <div class="card-face card-back">
+      <span class="label">Answer</span>
+      <span class="tag" id="tagBack"></span>
+      <div id="answer"></div>
+    </div>
+  </div>
+</div>
+<div class="controls">
+  <button class="btn" id="prevBtn" onclick="prev()">Prev</button>
+  <span class="counter" id="counter"></span>
+  <button class="btn" id="nextBtn" onclick="next()">Next</button>
+</div>
+<div class="hint">Click card to flip &middot; Arrow keys to navigate &middot; Space to flip</div>
+
+<script>
+const csvData = `What is the core problem addressed by the design principle 'Make Agency Distribution Legible'?,Users cannot make informed choices about AI assistance if they do not understand how control is distributed between them and the AI.
+"According to the 'Make Agency Distribution Legible' principle, what is one way to visualize AI contributions in a user interface?",Using different text colors or highlighting to distinguish between AI-generated and human-written content.
+Why is it important to expose default settings transparently?,"To ensure users know which interaction mode is active on startup and can easily change it, preventing unintentional agency loss."
+The design principle 'Preserve Editorial Control Through Defaults' warns that _____-_____ systems erode agency even when users retain veto power.,opt-out
+What is the recommended default interaction mode for preserving user agency?,"Suggest Mode (Opt-In), where the AI proposes options and the user must take an action to accept them."
+What is the key characteristic of 'Publish Mode' (Opt-Out) that can erode user agency?,"The AI auto-inserts content, requiring the user to actively delete or edit it if it's unwanted."
+"Name one of the three implementation patterns for 'Suggest Mode', ordered by increasing user friction.","Inline Suggestions (Low Friction), Suggestion Panel (Medium Friction), or On-Demand Generation (High Friction)."
+Under what condition might 'Publish Mode' be appropriate in a human-AI system?,"When a user explicitly requests a large-scale generation, such as 'generate entire section', and a simple undo is available."
+What problem does the 'Enable Graduated Assistance' principle solve?,It addresses the issue that one-size-fits-all AI assistance frustrates both novices (too little help) and experts (too much interference).
+What are the three recommended assistance levels for graduated assistance?,"Novice Mode (high AI initiative), Intermediate Mode (contextual co-pilot style), and Expert Mode (minimal AI interference)."
+"In the 'Novice Mode' of graduated assistance, what percentage of agency is typically retained by the human?",15-50% (L1-L2).
+"In the 'Expert Mode' of graduated assistance, what is the frequency of AI suggestions?","On-demand only, triggered by explicit user requests."
+What critical feature is needed to address the problem that users lose practical control if they cannot easily undo AI actions?,Recovery mechanisms.
+What is 'Granular Undo' as a recovery mechanism?,The ability to undo a specific AI contribution without undoing the user's own work.
+"Besides undo, what recovery mechanism allows a user to revert a document to its 'pre-AI' state?",A version history system that tracks human vs. AI contributions separately.
+What problem is the 'Minimize Lock-In' principle designed to prevent?,"Users being trapped in a platform, which prevents them from exercising strategic agency."
+What is the most crucial requirement for minimizing lock-in and ensuring data portability?,"The ability to export user data in standard, non-proprietary formats like Markdown, JSON, or plain text."
+"For academic writing tools where intellectual honesty is critical, what should be the default agency level?","Expert mode, with 90-100% human agency (L4-L5)."
+"For data analysis tools where accuracy is more important than authorship, what is the recommended default interaction mode?","'Publish' mode is acceptable, but it must be paired with strong attribution and method transparency."
+"In professional communication tools, what is the recommended division of labor between human and AI?","The human makes final content decisions, while the AI can handle styling and formatting decisions."
+What is a key component to track in the application's state management to preserve agency?,"A list or array of contributions, where each entry is tagged with its source (e.g., 'human' or 'ai')."
+What is the first strategic question a product manager should ask before implementing an AI feature?,"What values are at stake in this domain (e.g., authorship, accuracy, creativity)?"
+In which type of business model is user agency most at risk of being treated as a cost center?,"A 'Data Model', where more AI use generates more data, creating an incentive for AI dependency."
+Which business model is generally best aligned with preserving user agency?,"A 'Subscription Model', as its incentive is to preserve long-term user satisfaction."
+What is the first and most critical step in Phase 1 (Foundation) of an agency-preserving product roadmap?,Implementing 'suggest mode' properly.
+"According to the user checklist, if an AI tool auto-inserts content by default, what does this indicate about its agency level?",It has lower tactical agency because it operates in 'publish' mode.
+What is the first test a user should perform to evaluate an AI tool's strategic agency?,Check if they can export their work and in what formats.
+"According to the user decision matrix, what is the recommendation for a tool with high tactical agency but low strategic agency?","It is risky and may lead to dependency, because you have good control but will be locked in."
+What user strategy involves starting with minimal AI assistance and gradually increasing its use over time?,Graduated Adoption.
+What is a key practice for 'Skill Preservation' when using AI tools?,Periodically having 'AI-free days' or deliberately practicing core skills without AI assistance.
+What is the first legislative recommendation for policymakers regarding AI agency?,"Mandate agency transparency, requiring tools to disclose their default mode and the degree of AI involvement."
+"For high-stakes domains like legal documents or academic work, what interaction mode should be mandated as the default?",Suggest mode (opt-in).
+What is a key policy mechanism for supporting open alternatives to proprietary AI tools?,"Using public funding or government procurement requirements to favor open-source, agency-preserving tools."
+"In research, what is the objective of a longitudinal study on AI tool usage?",To track how the use of an AI tool affects human capabilities and skills over time.
+What is the primary goal of an A/B test comparing 'suggest mode' to 'publish mode'?,"To measure how the default interaction mode affects user behavior, perceived control, and error rates."
+What does the Tactical Agency Subscale of the Agency Distribution Questionnaire (ADQ) measure?,"A user's perceived control over the AI's immediate actions, such as the ability to stop, undo, or adjust its help."
+What does the Strategic Agency Subscale of the Agency Distribution Questionnaire (ADQ) measure?,"A user's ability to make long-term choices, such as exporting data, switching tools, or understanding data policies."
+"In the Authorship Risk Assessment, which default mode receives the highest score (least risk)?",Suggest mode (opt-in).
+"The implementation pattern of _____ requires more user confirmation for higher-risk actions, like 'Accept all suggestions'.",Confirmation Escalation
+What is the 'Graduated Disclosure' pattern?,"A method of presenting information about agency in layers, from a simple visible indicator to detailed documentation in settings."
+What is the key principle behind the 'Contextual Mode Switching' pattern?,"The system should suggest, but not force, changes in agency mode based on the user's current task (e.g., brainstorming vs. revision)."
+Term: Hidden Defaults,"An anti-pattern where users are not made aware of the AI's default mode (e.g., 'publish' mode), eroding agency through ignorance."
+Term: Asymmetric Friction,"An anti-pattern where accepting an AI suggestion is made significantly easier than rejecting it, nudging users toward dependency."
+Term: Attribution Soup,"An anti-pattern where AI and human contributions become blended and indistinguishable, making honest attribution impossible."
+Term: Forced Dependency,"An anti-pattern where basic product features require the use of AI, eliminating the user's choice to work without it."
+Term: Export Sabotage,"An anti-pattern where a tool makes it difficult to leave by providing no export, a proprietary format only, or a degraded export."
+"In agency-preserving design, what does a very high AI suggestion acceptance rate (e.g., >90%) likely indicate?",A red flag suggesting users don't feel they have a real choice or that friction is asymmetric.
+What is a key Agency Health Metric to track over time?,"The user's skill trajectory, to see if skills are developing or atrophying due to AI use."
+What is a primary symptom of users over-relying on an AI tool?,"A very high acceptance rate of AI suggestions (e.g., >90%) and a decline in user skill when the AI is unavailable."
+"If users are ignoring an AI feature completely, what is the first potential cause to investigate?",The quality of the AI's suggestions or its level of intrusiveness.
+"What is a good solution for 'Attribution Confusion,' where users can't tell AI and human work apart?","Implementing clear visual indicators like color coding, providing filter views, and including attribution data in exports."
+"If users complain about cognitive overload from too many settings, what is a recommended solution?","Use better defaults, implement progressive disclosure to hide advanced options, or offer task-based presets (e.g., 'Academic', 'Creative')."
+"In the cockpit analogy for AI agency, what does a clear light showing what the autopilot is doing represent?","Legibility, the principle that agency distribution must be clear to the user."
+"In the cockpit analogy for AI agency, what does an easy-to-reach override button represent?","Control and Recovery mechanisms, such as granular undo."
+"In the cockpit analogy for AI agency, what does the pilot's certainty they can land the plane themselves represent?","Strategic Agency, the ability to function without the system and avoid lock-in."
+Term: Transactional Agency,"A category of agency where commercial terms (such as paid API relationships with training opt-out) preserve rights that free-tier users forfeit. It partially mitigates low tactical agency by eliminating temporal agency erosion and maintaining cleaner copyright chains."
+"In a composite agency architecture, what determines the effective agency level?","The lowest-agency layer that touches content generation. An L5 wrapper cannot 'launder' an L1 system's authorship risk."
+"What is the formula for calculating composite agency in layered tool chains?","Effective Agency = min(Surface Layer, Generation Layer) + Data Policy Modifier"
+"How does a paid API relationship with training opt-out affect agency calculation?","It eliminates the temporal agency erosion (no future homogenization risk) but does not change the base tactical agency level determined by the generation layer."`;
+
+function parseCSV(text) {
+  const cards = [];
+  const lines = text.trim().split('\n');
+  for (let line of lines) {
+    let q, a;
+    if (line.startsWith('"')) {
+      const endQ = line.indexOf('",');
+      q = line.substring(1, endQ);
+      let rest = line.substring(endQ + 2);
+      a = rest.startsWith('"') ? rest.slice(1, -1) : rest;
+    } else {
+      const firstComma = line.indexOf(',');
+      q = line.substring(0, firstComma);
+      let rest = line.substring(firstComma + 1);
+      a = rest.startsWith('"') ? rest.slice(1, -1) : rest;
+    }
+    cards.push({ q, a });
+  }
+  return cards;
+}
+
+const cards = parseCSV(csvData);
+let current = 0;
+let flipped = false;
+
+function render() {
+  document.getElementById('question').textContent = cards[current].q;
+  document.getElementById('answer').textContent = cards[current].a;
+  document.getElementById('counter').textContent = `${current + 1} / ${cards.length}`;
+  document.getElementById('progress').textContent = `${cards.length} cards`;
+  document.getElementById('prevBtn').disabled = current === 0;
+  document.getElementById('nextBtn').disabled = current === cards.length - 1;
+  const num = `${current + 1}/${cards.length}`;
+  document.getElementById('tagFront').textContent = num;
+  document.getElementById('tagBack').textContent = num;
+}
+
+function flip() {
+  flipped = !flipped;
+  document.getElementById('card').classList.toggle('flipped', flipped);
+}
+
+function next() {
+  if (current < cards.length - 1) { current++; flipped = false; document.getElementById('card').classList.remove('flipped'); render(); }
+}
+
+function prev() {
+  if (current > 0) { current--; flipped = false; document.getElementById('card').classList.remove('flipped'); render(); }
+}
+
+document.getElementById('cardContainer').addEventListener('click', flip);
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'ArrowRight') next();
+  else if (e.key === 'ArrowLeft') prev();
+  else if (e.key === ' ') { e.preventDefault(); flip(); }
+});
+
+render();
+</script>
+</body>
+</html>
