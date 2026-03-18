@@ -40,7 +40,6 @@ To accurately apply this framework, three distinctions regarding creative realit
   - [Behavioral Constraints](#behavioral-constraints)
 - [Appendices](#appendices)
   - [Iterative Workflow Case Studies](#iterative-workflow-case-studies)
-  - [Appendix A: Design Principles & Patterns](#appendix-a-design-principles--patterns)
 
 ---
 
@@ -56,7 +55,7 @@ To accurately apply this framework, three distinctions regarding creative realit
 
 ---
 
-When a large language model generates text, is it writing? When ChatGPT produces a scene, did it write that scene? When Sudowrite suggests a paragraph, who authored it? When an AI completes your sentence, whose sentence is it?
+When a large language model generates text, is it writing? When ChatGPT produces a scene, did it write that scene? When an AI tool suggests a paragraph, who authored it? When an AI completes your sentence, whose sentence is it?
 
 Skeptics say concrete logic: it's pattern matching, not writing. Embracers say look at the output, it's indistinguishable. Creators know they are still creators, but wonder if an undiscerning audience might not care. Studios wonder who owns it. Unions wonder whose job it's replacing.
 
@@ -609,7 +608,7 @@ Compliance requirements become product positioning:
 
 | To Serve This Market... | Your Tool Must Support... |
 |---|---|
-| **Premium** | L4-L5 modes, on-premise deployment option, consent management integration, guild-compliant audit trails, forensic watermarking |
+| **Premium** | L4-L5 modes, enterprise-grade security, consent management integration, guild-compliant audit trails, content audit trails |
 | **Standard** | L3-L5 modes, dedicated cloud instances, disclosure generation, contribution tracking |
 | **Budget** | L2-L5 modes, standard cloud acceptable, basic attribution |
 
@@ -730,7 +729,7 @@ The rules create the tiers. The tiers create the competition.
 
 ### 2. Studio Policies
 
-Internal AI guidelines are becoming competitive positioning: - Premium studios (A24, HBO/Max prestige) signaling L4-L5 only - Mid-market studios testing L3 with documentation - Volume producers exploring L2 for non-guild content
+Internal AI guidelines are becoming competitive positioning. Studios across the market are developing varied internal approaches: premium studios are generally emphasizing L4-L5, though some are selectively exploring generative tools under controlled conditions. Mid-market studios are testing L3 with documentation, and volume producers are exploring L2 for non-guild content. These positions remain fluid as studios refine their strategies.
 
 What studios permit internally becomes what the market expects externally.
 
@@ -811,7 +810,7 @@ Beyond ToS, active dealmaking is setting precedents:
 
 | Your Target Market | Must Support | Must Secure | Locked Out Of |
 |---|---|---|---|
-| Premium | L4-L5, on-premise, consent management, audit trails | Licensed training data, enterprise compliance | Nothing: full access |
+| Premium | L4-L5, enterprise-grade security, consent management, audit trails | Licensed training data, enterprise compliance | Nothing: full access |
 | Standard | L3-L5, dedicated cloud, disclosure tools | Defensible training, SOC 2 | Premium (missing infrastructure) |
 | Budget only | L2-L5, shared cloud | Basic indemnification | Premium + Standard |
 | L0-L1 only | N/A | N/A | All professional tiers |
@@ -1181,11 +1180,13 @@ The third defense is practice: deliberate work without AI, maintaining the capab
 
 ## Iterative Workflow Case Studies
 
+*The following case studies are hypothetical illustrations designed to demonstrate how the framework applies in practice.*
+
 The following demonstrate work-level agency assessment for iterative creative processes, showing how aggregate scores differ from interaction-level measurements.
 
 ---
 
-### Case Study A: Feature Screenplay Development
+### Case Study A: Feature Screenplay Development (Hypothetical)
 
 **Context:** Professional screenwriter developing original feature over 6 weeks (200 hours total).
 
@@ -1207,7 +1208,7 @@ The following demonstrate work-level agency assessment for iterative creative pr
 
 ---
 
-### Case Study B: TV Episode "Writers Room" Simulation
+### Case Study B: TV Episode "Writers Room" Simulation (Hypothetical)
 
 **Context:** Solo writer using AI as brainstorming partner for 1-hour pilot (80 hours total).
 
@@ -1230,7 +1231,7 @@ The following demonstrate work-level agency assessment for iterative creative pr
 
 ---
 
-### Case Study C: The Misleading "Quick Prompt"
+### Case Study C: The Misleading "Quick Prompt" (Hypothetical)
 
 **Context:** Novelist adapting their own published work into screenplay format.
 
@@ -1270,254 +1271,6 @@ The difference is what the user brings to the interaction.
 3. **Prior work counts.** Users adapting their own material have legitimate authorship claims even when the adaptation session is low-agency.
 4. **Documentation becomes essential at L3.** The difference between conditional compliance and non-compliance often depends on whether the user can demonstrate their process.
 5. **Both views are valid.** Interaction-level for tool evaluation; work-level for authorship claims.
-
----
-
-## Appendix A: Design Principles & Patterns
-
-**Reference material for system designers and tool builders**
-
----
-
-### Five Core Design Principles
-
-### Principle 1: Make Agency Distribution Legible
-
-Users should always know where they stand.
-
-**Checklist:** - [ ] Label interaction modes explicitly ("AI Suggestion Mode" vs. "AI Generation Mode") - [ ] Visualize AI contributions (different colors, metadata tags, version history) - [ ] Expose defaults transparently (show active mode, explain choices)
-
-**Implementation:**
-
-```
-Mode indicator: Always visible
-Hover state: Explains what current mode means
-Settings: One click away
-```
-
----
-
-### Principle 2: Preserve Editorial Control Through Defaults
-
-Default to suggest mode. Require explicit acceptance.
-
-| Effect | Suggest Mode | Publish Mode | Research Finding |
-|---|---|---|---|
-| AI acceptance rate | Lower | Higher | Differences exceeding 20 pp observed |
-| Error detection | Higher | Lower | Approval mode reduces scrutiny |
-| Situational awareness | Higher | Lower | Generation requires more engagement |
-| Perceived control | Higher | Lower | Significant difference reported |
-
-**DO: Suggest Mode (Opt-In)**
-
-```
-User writes: "The project timeline is"
-AI shows overlay: "tight" | "aggressive" | "challenging"
-User clicks to accept → Content inserted
-```
-
-**DON'T: Publish Mode (Opt-Out)**
-
-```
-User writes: "The project timeline is"
-AI auto-inserts: "tight and requires immediate attention"
-User must actively delete if unwanted
-```
-
-**Suggestion Patterns by Friction Level:** - **Low Friction:** Gray overlay, Tab to accept, Esc to dismiss - **Medium Friction:** Sidebar options, click to insert - **High Friction:** User triggers via shortcut, never automatic
-
----
-
-### Principle 3: Enable Graduated Assistance
-
-One size doesn't fit all. Match AI involvement to user expertise.
-
-| Level | Human Agency | Characteristics |
-|---|---|---|
-| Novice | 15-50% (L1-L2) | Proactive AI, scaffolding, templates |
-| Intermediate | 40-89% (L2-L3) | Contextual assistance, Co-Pilot style |
-| Expert | 90%+ (L4-L5) | Minimal AI, on-demand only |
-
-**Implementation:** - Let users select level explicitly - Or adapt based on observed behavior - Always allow manual override
-
----
-
-### Principle 4: Build Recovery Mechanisms
-
-Users must be able to undo AI influence.
-
-**Essential Features:**
-
-1. **Granular Undo:** Undo specific AI contributions without undoing human work
-2. **Version History:** Track human vs. AI separately, allow reverting to pre-AI state
-3. **AI Contribution Tagging:** Metadata on every AI contribution, searchable/filterable
-4. **Change Tracking:** Accept/reject for AI suggestions, like track changes
-
----
-
-### Principle 5: Minimize Lock-In
-
-Users must be able to leave with their work.
-
-**Requirements:**
-
-1. **Standard Format Export:** Plain text, Markdown, JSON, industry formats (.fdx, .docx)
-2. **Data Portability:** One-click export, API access, complete data package
-3. **Import from Competitors:** Support competitor formats
-4. **Open APIs:** Programmatic access, third-party integrations allowed
-
----
-
-### Design Patterns
-
-### Pattern 1: Graduated Disclosure
-
-Avoid information overload while maintaining transparency.
-
-| Level | What's Shown |
-|---|---|
-| L1 | Mode badge visible at all times |
-| L2 | Hover for explanation |
-| L3 | Link to full documentation |
-| L4 | Complete settings panel |
-
----
-
-### Pattern 2: Confirmation Escalation
-
-Match friction to risk.
-
-| Risk Level | Confirmation Required |
-|---|---|
-| Low | None |
-| Medium | Single click confirm |
-| High | Double confirm with warning |
-| Critical | Type confirmation phrase |
-
----
-
-### Pattern 3: Contextual Mode Switching
-
-Suggest (never force) mode changes based on context.
-
-| Context | Suggested Mode |
-|---|---|
-| Brainstorming | Oracle acceptable |
-| Drafting | Co-Pilot |
-| Revision | Suggestion only |
-| Final review | Passive/off |
-
-**Never auto-switch without user consent.**
-
----
-
-### Anti-Patterns
-
-### Anti-Pattern 1: Hidden Defaults
-
-**Problem:** Users don't realize AI is in publish mode
-
-**Symptoms:** - Mode not visible in main interface - Settings buried in menus - No onboarding explanation
-
-**Fix:** - Make mode visible always - Explain during onboarding - Require explicit choice for high-risk modes
-
----
-
-### Anti-Pattern 2: Asymmetric Friction
-
-**Problem:** Accepting AI is easy, rejecting is hard
-
-**Symptoms:** - Accept = one click - Reject = multiple steps - No keyboard shortcut for dismiss
-
-**Fix:** - Make acceptance and rejection equally easy - Single action to dismiss - Keyboard shortcuts for both
-
----
-
-### Anti-Pattern 3: Attribution Soup
-
-**Problem:** Can't tell human vs. AI after collaboration
-
-**Symptoms:** - AI text blends with human text - No history of contributions - Export loses attribution
-
-**Fix:** - Mark every AI contribution persistently - Maintain change log - Enable filtering by source - Include attribution in exports
-
----
-
-### Anti-Pattern 4: Forced Dependency
-
-**Problem:** Basic features require AI
-
-**Symptoms:** - Can't use tool without AI enabled - Core workflows assume AI - No AI-free path
-
-**Fix:** - Make AI optional for all features - Provide AI-free paths - Don't gate basic functionality behind AI
-
----
-
-### Anti-Pattern 5: Export Sabotage
-
-**Problem:** Hard to leave with your data
-
-**Symptoms:** - Proprietary formats only - Export buried or broken - Metadata stripped on export
-
-**Fix:** - Free complete export in standard formats - Preserve metadata - Make export prominent - Test export regularly
-
----
-
-### Design Patterns by Context
-
-| Context | Agency Target | Default Mode | AI Can Do | AI Should Not Do |
-|---|---|---|---|---|
-| Academic Writing | 90%+ (L4-L5) | Suggest only | Grammar, citations, research | Generate arguments, claims |
-| Creative Fiction | 40-89% (L2-L3) | Flexible | Ideation, character, world-building | N/A |
-| Professional Comm | 60-75% (L2-L3) | Suggest | Drafting, formatting | Final content decisions |
-| Data Analysis | 15-50% (L1-L2) | Publish with attribution | Pattern detection, visualization | N/A |
-
----
-
-### Measurement KPIs
-
-| Category | Metrics | Red Flags |
-|---|---|---|
-| Adoption | % customizing settings, distribution across levels | <5% customization |
-| Engagement | Acceptance rate, rejection rate | >90% acceptance |
-| Agency Health | Human vs. AI attribution %, user-reported control | Skill decline |
-| Operations | Undo success rate, export completion | High support tickets about control |
-
----
-
-### Troubleshooting
-
-| Problem | Symptoms | Solutions |
-|---|---|---|
-| **Over-reliance** | >90% acceptance, struggle without AI | Adjust defaults, add acceptance friction, implement AI-free periods |
-| **Ignoring AI** | <10% acceptance, AI disabled | Improve AI quality, reduce intrusiveness, simplify UI |
-| **Attribution Confusion** | Can't identify AI contributions | Add visual indicators, filter views, export attribution |
-| **Lock-In Complaints** | Export tickets, churn after failed exports | Prioritize export, test regularly, make prominent |
-
----
-
-### Implementation Checklist
-
-#### Foundation Phase
-
-- [ ] Suggest mode implemented
-- [ ] Attribution visible
-- [ ] Basic undo working
-- [ ] Data export available
-
-#### Refinement Phase
-
-- [ ] Graduated assistance levels
-- [ ] Version control with source tracking
-- [ ] Settings dashboard
-- [ ] Keyboard shortcuts for accept/reject
-
-#### Sophistication Phase
-
-- [ ] Adaptive assistance based on behavior
-- [ ] Analytics on agency distribution
-- [ ] Domain-specific presets
-- [ ] API for third-party integrations
 
 ---
 
