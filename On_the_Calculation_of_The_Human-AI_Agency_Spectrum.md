@@ -324,7 +324,8 @@ The framework so far measures agency at the interaction level—a single prompt 
 Consider a screenwriter who spends 40 hours on a project:
 
 - 8 hours researching and developing the concept (L5)
-- 6 hours outlining structure (L4)
+- 4 hours on dramatic structure (L4)
+- 3 hours outlining scenes (L4)
 - 20 hours writing scenes with occasional AI suggestions (L3)
 - 6 hours using AI to polish dialogue (L2)
 
@@ -350,10 +351,11 @@ For work-level assessment, weight contributions by their creative significance:
 | Contribution Type | Suggested Weight | Rationale |
 |---|---|---|
 | Concept/premise | 25% | Foundational creative decision |
-| Structure/outline | 20% | Architectural framing |
+| Structure | 15% | Dramatic architecture (acts, sequences, turning points) |
+| Outline | 10% | Scene-level planning and sequencing |
 | Character development | 15% | Core creative expression |
 | Plot/scene construction | 15% | Narrative architecture |
-| Dialogue/prose expression | 15% | Surface-level expression |
+| Dialogue/prose expression | 10% | Surface-level expression |
 | Revision/editing | 10% | Refinement and quality control |
 
 **Formula:**
@@ -371,16 +373,17 @@ A feature screenplay developed over 200 hours:
 | Phase | Hours | Agency Level | Weight | Weighted Score |
 |---|---|---|---|---|
 | Research & concept | 20 | L5 (100%) | 25% | 25.0% |
-| Structure/outline | 25 | L4 (95%) | 20% | 19.0% |
+| Structure | 15 | L4 (95%) | 15% | 14.25% |
+| Outline | 10 | L4 (95%) | 10% | 9.5% |
 | Character development | 20 | L5 (100%) | 15% | 15.0% |
 | Scene drafting | 60 | L3 (80%) | 15% | 12.0% |
-| Dialogue polish | 15 | L2 (55%) | 15% | 8.25% |
+| Dialogue polish | 15 | L2 (55%) | 10% | 5.5% |
 | Revision passes | 60 | L4 (95%) | 10% | 9.5% |
-| **Total** | **200** | **—** | **100%** | **88.75%** |
+| **Total** | **200** | **—** | **100%** | **90.75%** |
 
-**Result:** Work Agency = 88.75% (L3-L4 boundary)
+**Result:** Work Agency = 90.75% (L4)
 
-The writer spent 15 hours at L2 for dialogue polish, but this represents only 15% of creative weight. The aggregate work reflects L3-L4 authorship because the high-weight creative decisions (concept, structure, characters) were human-led.
+The writer spent 15 hours at L2 for dialogue polish, but this represents only 10% of creative weight. The aggregate work reflects L4 authorship because the high-weight creative decisions (concept, structure, characters) were human-led.
 
 ---
 
@@ -1193,18 +1196,19 @@ The following demonstrate work-level agency assessment for iterative creative pr
 | Phase | Hours | Agency Level | Weight | Contribution |
 |---|---|---|---|---|
 | Research & concept | 20 | L5 (100%) | 25% | 25.0% |
-| Structure/outline | 25 | L4 (95%) | 20% | 19.0% |
+| Structure | 15 | L4 (95%) | 15% | 14.25% |
+| Outline | 10 | L4 (95%) | 10% | 9.5% |
 | Character development | 20 | L5 (100%) | 15% | 15.0% |
 | Scene drafting (AI suggestions) | 60 | L3 (80%) | 15% | 12.0% |
-| Dialogue polish (AI-assisted) | 15 | L2 (55%) | 15% | 8.25% |
+| Dialogue polish (AI-assisted) | 15 | L2 (55%) | 10% | 5.5% |
 | Revision passes | 60 | L4 (95%) | 10% | 9.5% |
-| **Total** | **200** | **—** | **100%** | **88.75%** |
+| **Total** | **200** | **—** | **100%** | **90.75%** |
 
 **Interaction-level view:** Looking only at AI touchpoints (75 hours of L2-L3 work), this appears to be L2-L3 authorship.
 
-**Work-level view:** Aggregate score of 88.75% reflects L3-L4 authorship. The writer did high-weight creative work (concept, structure, characters) at L4-L5.
+**Work-level view:** Aggregate score of 90.75% reflects L4 authorship. The writer did high-weight creative work (concept, structure, characters) at L4-L5.
 
-**Compliance assessment:** Work-level L3-L4 supports full writing credit with documentation of process.
+**Compliance assessment:** Work-level L4 supports full writing credit with documentation of process.
 
 ---
 
