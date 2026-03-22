@@ -1,4 +1,4 @@
-# On the Calculation of The Human-AI Agency Spectrum
+# Distributed Agency in Human-AI Systems: A Framework for Analyzing Authorship, Control, and Autonomy
 
 ## Investigating Authorship in AI-Participated Creative Work
 
@@ -1285,6 +1285,6 @@ The difference is what the user brings to the interaction.
 > With acknowledgments to Charlotte Cotton, Yair Landau, and Elliot Swan for their contributions through dialogue.
 >
 > **Suggested Citation:**
-> Ghuneim, M. (2026). *On the Calculation of The Human-AI Agency Spectrum*. Narrative.new.
+> Ghuneim, M. (2026). *Distributed Agency in Human-AI Systems: A Framework for Analyzing Authorship, Control, and Autonomy*. Narrative.new.
 >
 > License: CC BY 4.0

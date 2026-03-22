@@ -2,7 +2,7 @@
 
 **Practical resources for building tools with human agency forward.**
 
-These guides translate the [Human-AI Agency Framework](../On_the_Calculation_of_The_Human-AI_Agency_Spectrum.md) into actionable guidance for developers, product teams, and designers working on AI-assisted tools.
+These guides translate the [Human-AI Agency Framework](../Distributed_Agency_in_Human-AI_Systems.md) into actionable guidance for developers, product teams, and designers working on AI-assisted tools.
 
 ---
 

@@ -1,4 +1,4 @@
-# On the Calculation of The Human-AI Agency Spectrum
+# Distributed Agency in Human-AI Systems
 
 **A framework for measuring authorship distribution in AI-participated creative work.**
 
@@ -26,7 +26,7 @@ This framework provides the precision.
 ## The Document
 
 - **[executive-summary.md](executive-summary.md)** — Start here (5-minute read)
-- **[On_the_Calculation_of_The_Human-AI_Agency_Spectrum.md](On_the_Calculation_of_The_Human-AI_Agency_Spectrum.md)** — The full paper
+- **[Distributed_Agency_in_Human-AI_Systems.md](Distributed_Agency_in_Human-AI_Systems.md)** - The full paper
 
 ## Structure
 
@@ -66,5 +66,5 @@ See **[contributing.md](contributing.md)** for how to participate in the RFC pro
 ## Citation
 
 ```
-Ghuneim, M. (2026). On the Calculation of The Human-AI Agency Spectrum. Narrative.new.
+Ghuneim, M. (2026). Distributed Agency in Human-AI Systems: A Framework for Analyzing Authorship, Control, and Autonomy. Narrative.new.
 ```
