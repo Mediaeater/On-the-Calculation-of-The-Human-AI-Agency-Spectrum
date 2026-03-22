@@ -1,6 +1,6 @@
 # Executive Summary
 
-## On the Calculation of The Human-AI Agency Spectrum
+## Distributed Agency in Human-AI Systems
 
 **Author:** Mark Ghuneim | **Organization:** Narrative.new | **Version:** 1.0 | January 2026
 
@@ -90,9 +90,9 @@ AI is writing. The question is: **Where on the spectrum does your system operate
 
 ---
 
-*Read the full paper:* [On_the_Calculation_of_The_Human-AI_Agency_Spectrum.md](On_the_Calculation_of_The_Human-AI_Agency_Spectrum.md)
+*Read the full paper:* [Distributed_Agency_in_Human-AI_Systems.md](Distributed_Agency_in_Human-AI_Systems.md)
 
 **Suggested Citation:**
-Ghuneim, M. (2026). *On the Calculation of The Human-AI Agency Spectrum*. Narrative.new.
+Ghuneim, M. (2026). *Distributed Agency in Human-AI Systems: A Framework for Analyzing Authorship, Control, and Autonomy*. Narrative.new.
 
 License: CC BY 4.0
