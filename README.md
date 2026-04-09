@@ -23,19 +23,25 @@ The existing language ("AI-generated," "AI-assisted," "human-written") fails to 
 
 This framework provides the precision.
 
-## The Document
+## Documents
 
-- **[executive-summary.md](executive-summary.md)** — Start here (5-minute read)
-- **[Distributed_Agency_in_Human-AI_Systems.md](Distributed_Agency_in_Human-AI_Systems.md)** - The full paper
-
-## Structure
-
-| Part | Contents |
+| File | Description |
 |---|---|
-| **Part I: The Framework** | The six layers (L0-L5), the 90% threshold, work-level vs. interaction-level agency |
-| **Part II: Market Structure** | Compliance landscape, four dimensions, three-tier market |
-| **Part III: Mechanisms & Constraints** | Tactical/strategic agency, behavioral constraints, design countermeasures |
-| **Appendices** | Iterative workflow case studies, design principles & patterns for tool builders |
+| **[executive-summary.md](executive-summary.md)** | Start here — 5-minute overview |
+| **[taxonomy.md](taxonomy.md)** | Six-level heuristic model (L0-L5) with legal and professional anchors |
+| **[Distributed_Agency_in_Human-AI_Systems.md](Distributed_Agency_in_Human-AI_Systems.md)** | Full paper — framework, market structure, mechanisms |
+| **[citation.md](citation.md)** | Citation formats (APA, MLA, Chicago, BibTeX) |
+| **[contributing.md](contributing.md)** | RFC process, PR and issue guidance |
+
+## Implementation
+
+Resources for developers and product teams building tools with human agency in mind.
+
+| File | Audience | Description |
+|---|---|---|
+| **[quick-reference.md](implementation/quick-reference.md)** | Everyone | Spectrum, design principles, anti-patterns at a glance |
+| **[best-practices.md](implementation/best-practices.md)** | Developers, PMs | State management, composite agency calculation, phased roadmap |
+| **[agency-mechanisms.md](implementation/agency-mechanisms.md)** | Engineers, Legal | Tactical/strategic mechanisms, legal anchors, compliance checklist |
 
 ## Key Concepts
 
@@ -43,28 +49,3 @@ This framework provides the precision.
 - **The 90% Threshold** — The L4/L3 boundary where legal, professional, cognitive, and economic standards converge
 - **Work Agency vs. Interaction Agency** — Measuring the full creative process, not just the generation moment
 - **The Three-Tier Market** — Premium (L4-L5), Standard (L3), Budget (L2) — shaped by compliance constraints
-
-## Implementation
-
-Building tools with human agency in mind? The `implementation/` directory provides practical resources for developers and product teams:
-
-- **[quick-reference.md](implementation/quick-reference.md)** — The agency spectrum, design principles, anti-patterns, and red flags at a glance
-- **[best-practices.md](implementation/best-practices.md)** — State management patterns, phased roadmap, composite agency calculation, and behavioral constraints to design against
-- **[agency-mechanisms.md](implementation/agency-mechanisms.md)** — Tactical and strategic mechanisms with legal anchors, stakeholder audit matrices, compliance alignment, and implementation checklist
-
-These guides translate the framework into actionable decisions: default to Suggest Mode, track contributions by source, enable granular undo, and minimize lock-in.
-
-## Contributing
-
-See **[contributing.md](contributing.md)** for how to participate in the RFC process.
-
-**Quick guide:**
-- **Typos and formatting** — Submit a PR
-- **Factual corrections** (e.g., contract language, regulatory text) — Submit a PR with sources
-- **Conceptual discussion** (e.g., threshold placement, layer definitions) — Open an Issue
-
-## Citation
-
-```
-Ghuneim, M. (2026). Distributed Agency in Human-AI Systems: A Framework for Analyzing Authorship, Control, and Autonomy. Narrative.new.
-```
