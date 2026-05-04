@@ -46,6 +46,6 @@ Resources for developers and product teams building tools with human agency in m
 ## Key Concepts
 
 - **The Six Layers** — From L0 (Oracle, ~0-14% human) to L5 (Pure Tool, ~100% human)
-- **The 90% Threshold** — The L4/L3 boundary where legal, professional, cognitive, and economic standards converge
+- **The 90% Threshold**: the L4/L3 boundary where professional, cognitive, and economic standards converge (legal copyright floor sits lower at L1↔L2)
 - **Work Agency vs. Interaction Agency** — Measuring the full creative process, not just the generation moment
 - **The Three-Tier Market** — Premium (L4-L5), Standard (L3), Budget (L2) — shaped by compliance constraints

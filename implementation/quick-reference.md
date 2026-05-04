@@ -8,16 +8,18 @@
 
 | Level | Name | Human Agency | Human Role | Machine Role | Authorship Status |
 |-------|------|-------------|------------|--------------|-------------------|
-| **L5** | Pure Tool | ~100% | Full control | Passive instrument | Unambiguous |
-| **L4** | Director | ~90-99% | All decisions | Assists on command | Clean human |
-| | **--- 90% THRESHOLD (Safe Harbor) ---** | | | | |
-| **L3** | Supervisor | ~70-89% | Reviews/modifies | Suggests options | Diluted/defensible |
-| **L2** | Collaborator | ~40-69% | Selects/edits | Produces drafts | Diluted/disclosure required |
-| **L1** | Executor | ~15-39% | Curates output | Generates content | High risk |
-| **L0** | Oracle | ~0-14% | Receives output | Generates everything | No human claim |
+| **L5** | Pure Tool | ~100% | Full control | Passive instrument | Native copyright |
+| **L4** | Director | ~90-99% | All decisions | Assists on command | Native copyright |
+| | **--- 90% THRESHOLD / NATIVE AUTHORSHIP LINE (Safe Harbor) ---** | | | | |
+| **L3** | Supervisor | ~70-89% | Reviews/modifies | Suggests options | Documented copyright (chain of title) |
+| **L2** | Collaborator | ~40-69% | Selects/edits | Produces drafts | Documented copyright (heavier burden) |
+| | **--- AUTHORSHIP FLOOR ---** | | | | |
+| **L1** | Executor | ~15-39% | Curates output | Generates content | No copyright in output |
+| **L0** | Oracle | ~0-14% | Receives output | Generates everything | No copyright in output |
 
-**Above the 90% threshold** (L4-L5): Copyright is clear, guild-compliant, professional markets open.
-**Below the threshold** (L0-L3): Authorship is contested, risk escalates with each level down.
+**Native zone** (L4-L5): Copyright is native, guild-compliant, professional markets open.
+**Documented zone** (L2-L3): Copyright attaches with preserved or contributed authorship; chain of title must be visible.
+**Below the floor** (L0-L1): Output isn't separately protected; consumer/hobbyist use only.
 
 ---
 
@@ -121,7 +123,7 @@ Research shows 20+ percentage point differences in acceptance rates between mode
 
 ## Key Rules
 
-- **The 90% Threshold:** Above 90% human agency (L4-L5), copyright is clear. Below (L3 and under), it's contested.
+- **The 90% Threshold:** L4-L5 yields native copyright; L2-L3 yields documented copyright (chain of title required); L0-L1 produces no separately protectable output.
 - **Ideas vs. Expression:** AI can provide ideas (structure, outlines). Humans must write expression.
 - **The Reversibility Test:** If your users can't do it without the tool, they're dependent — not augmented.
 - **Classification is behavioral:** The level is determined by what users actually do, not what the tool can do.
