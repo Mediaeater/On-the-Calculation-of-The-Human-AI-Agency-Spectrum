@@ -16,7 +16,7 @@ General-purpose automation taxonomies offer structural precedent but not substan
 
 None of these frameworks account for the constraints specific to creative authorship: copyright law requiring demonstrable human control over expression, guild contracts defining who receives credit and compensation, economic valuation tied to chain of title, or the cognitive distinction between generating original expression and selecting from machine-produced options. These are not edge cases. They are the central questions facing professional media production.
 
-This paper presents a six-level heuristic model (L0-L5) that defines human-AI agency configurations through three descriptive dimensions: **Intent** (who originates creative direction), **Oversight** (who evaluates quality and fitness), and **Intervention** (who modifies the output). The levels describe configurations of creative acts, not properties of tools or persons. A professional safe harbor threshold emerges at the L4/L3 boundary, where legal, professional, cognitive, and economic domains converge on a consistent standard: above this threshold, the human generates; below it, the human selects.
+This paper presents a six-level heuristic model (L0-L5) that defines human-AI agency configurations through three descriptive dimensions: **Intent** (who originates creative direction), **Oversight** (who evaluates quality and fitness), and **Intervention** (who modifies the output). The levels describe configurations of creative acts, not properties of tools or persons. Two thresholds organize the spectrum: a copyright **authorship floor** at L1↔L2 (below which the output is not separately protectable) and a **professional safe harbor** at L3↔L4 (where native authorship, guild "human-led" standards, the cognitive shift from generation to curation, and the economic premium for clean chain of title align). Above the safe harbor, the human generates; below it, the human selects.
 
 The framework is scoped to media and content production, the vertical where authorship, compliance, and market access intersect most acutely.
 
@@ -119,7 +119,7 @@ The human makes all creative decisions. The machine executes specific, bounded t
 
 **Human role:** Originates all creative direction. Evaluates all output against their vision. Revises and integrates machine contributions.
 **Machine role:** Generates bounded options on command. Does not initiate.
-**Authorship:** Clean human claim. The machine's contribution is analogous to a research assistant's: useful but subordinate.
+**Authorship:** Native copyright. The machine's contribution is bounded and de minimis, analogous to a research assistant's: useful but subordinate.
 **Example workflow:** A screenwriter prompts AI for three alternative scene transitions, evaluates each against the story's needs, selects one, and rewrites it to match the script's voice and rhythm.
 
 #### L3: Supervisor
@@ -134,7 +134,7 @@ The AI suggests options or produces drafts within human-defined parameters. The 
 
 **Human role:** Sets creative direction. Reviews and substantially modifies machine output. Approves final form.
 **Machine role:** Produces substantive drafts or options within human-set parameters.
-**Authorship:** Diluted but defensible, provided the human can document their creative oversight and substantive modifications.
+**Authorship:** Documented copyright. Defensible when the human can document their creative oversight and substantive modifications; chain of title must be visible.
 **Example workflow:** A writer provides scene parameters (characters, setting, emotional arc) and the AI generates a draft scene. The writer revises dialogue, restructures beats, and rewrites passages; the final scene reflects the writer's judgment, but the AI's draft was the starting point.
 
 #### L2: Collaborator
@@ -149,7 +149,7 @@ The AI produces substantial content. The human's primary role shifts from origin
 
 **Human role:** Provides initial direction. Selects from machine-generated options. Makes editorial (not architectural) changes.
 **Machine role:** Generates complete drafts or substantial passages. Shapes expression.
-**Authorship:** Diluted. Requires disclosure of AI involvement. Copyright claims are thin.
+**Authorship:** Documented copyright when authorship is preserved or contributed (selection, coordination, arrangement, or modification of AI-generated material). Heavier documentation burden than L3. Disclosure of AI involvement still required.
 **Example workflow:** A writer provides a premise and character descriptions. The AI generates full scene drafts. The writer selects the strongest, makes line-level edits, and arranges scenes, but the expression predominantly originates from the machine.
 
 #### L1: Executor
@@ -164,7 +164,7 @@ The AI generates content with minimal human input. The human's role is primarily
 
 **Human role:** Provides a topic or minimal prompt. Selects from generated outputs. Minimal modification.
 **Machine role:** Generates substantially all content. Controls expression.
-**Authorship:** High risk. No defensible human claim under current copyright standards.
+**Authorship:** No copyright in output. Any underlying human-authored source the user brings retains its own copyright, but the AI-produced output is not separately protected.
 **Example workflow:** A user provides a topic ("Write an article about climate change") and selects from multiple AI-generated articles, making minor edits for tone.
 
 #### L0: Oracle
@@ -184,9 +184,9 @@ The AI generates everything. The human receives output without meaningful editor
 
 ### 2.3 The Professional Safe Harbor Threshold
 
-The boundary between L4 (Director) and L3 (Supervisor) is the most significant line on the spectrum. It is not arbitrary. Four independent domains converge on the same point, each arriving from different premises but reaching a consistent conclusion about where defensible human authorship begins.
+The boundary between L4 (Director) and L3 (Supervisor) is the most significant *professional* line on the spectrum. It is not arbitrary: professional, cognitive, and economic standards converge here on the line where authorship is native rather than documented. The legal hard line for copyright sits lower, at L1↔L2 (the authorship floor, below which the output is not separately protectable). This section examines both thresholds and the four domains that establish them.
 
-**Legal (USCO).** The U.S. Copyright Office requires "significant human control" over the specific creative expression for copyright registration. At L4 and above, the human holds both Intent and Oversight; the machine's contribution is bounded, commanded, and subordinate. This configuration satisfies the USCO standard. At L3 and below, the machine's contribution to expression grows substantive enough that "significant human control" becomes a question of documentation rather than a structural feature of the process.
+**Legal (USCO).** The U.S. Copyright Office requires "significant human control" over the specific creative expression. The Office's January 2025 guidance recognizes three pathways to copyright in AI-assisted work: assistive use of AI tools, perceptible human-authored inputs reflected in the output, and creative selection, coordination, arrangement, or modification of AI-generated material. The taxonomy maps these to three zones. At L4-L5, machine contribution is bounded and de minimis, producing native copyright. At L2-L3, copyright attaches to preserved or contributed human authorship if chain of title is documented. At L0-L1, prompts alone do not provide sufficient control over expressive elements, so the output is not separately protected. The legal floor sits at L1↔L2; the L3↔L4 line distinguishes native from documented authorship rather than authorship from no authorship.
 
 **Professional (WGA / SAG-AFTRA).** Guild standards for "human-led" creative work map to configurations where the human directs and the machine assists on command. The WGA's Article 72 does not define a spectrum, but its structure presumes a process where the human is the primary creative agent. Article 72.B establishes that "neither traditional AI nor GAI is a 'writer'" and AI-generated material "shall not be considered literary material." Article 72.C creates a critical asymmetry: when a hired writer uses GAI with company consent, the resulting written material *is* literary material regardless of AI involvement. This protects writer employment (studios cannot replace writers with AI) while preserving writer freedom (writers can use AI as they see fit). The WGA deliberately avoids defining a spectrum of acceptable AI involvement; the contractual protection is binary: writer or not-writer. But this contractual protection does not resolve the copyright question. A writer working at L1 retains WGA credit protections while facing USCO registration challenges. The taxonomy provides the gradient the contract deliberately leaves unspecified.
 
@@ -196,16 +196,16 @@ SAG-AFTRA's four pillars (Transparency, Consent, Compensation, Control) require 
 
 The practical test is direct: "Did I write the words, or choose them?" At L4-L5, the answer is unambiguous: the human writes, and the machine assists on command. At L3, the answer is nuanced: the human directs and substantially modifies, but the machine's contribution to expression is non-trivial. At L2 and below, the answer inverts: the machine writes, and the human selects. This cognitive shift from generation to curation is the experiential marker of crossing the safe harbor threshold.
 
-**Economic.** Clean chain of title (the unbroken record of authorship that underpins licensing, insurance, and market access) requires configurations where authorship claims can withstand scrutiny. At L4 and above, the human's role in the creative process is structurally dominant: Intent is human, Oversight is human, and Intervention is human-led. This produces authorship claims that are insurable and defensible. Below L4, claims require increasingly extensive documentation and carry increasing risk.
+**Economic.** Clean chain of title (the unbroken record of authorship that underpins licensing, insurance, and market access) requires configurations where authorship claims can withstand scrutiny. At L4 and above, the human's role is structurally dominant: Intent is human, Oversight is human, and Intervention is human-led. This produces native-copyright claims that are insurable and defensible. At L2-L3, claims remain defensible but require visible chain of title documenting preserved or contributed human authorship; valuation discounts reflect this added burden. At L0-L1, the output is not separately protected; only any human-authored source the user brings retains its own protection.
 
-| Domain | Standard | Satisfied At | Descriptive Test |
-|--------|----------|-------------|-----------------|
-| Legal (USCO) | "Significant human control" | L4-L5 | Human holds Intent and Oversight |
+| Domain | Standard | Native At | Descriptive Test |
+|--------|----------|-----------|-----------------|
+| Legal (USCO) | "Significant human control" | L4-L5 native; L2-L3 documented (chain of title required); L0-L1 no copyright in output | Three pathways: assistive use, perceptible inputs, or selection / coordination / arrangement / modification |
 | Professional (WGA) | "Human-led" | L4-L5 | Human directs; AI assists on command |
 | Cognitive | Generating vs. selecting | L4-L5 | Human originates expression |
-| Economic | Chain of title | L4-L5 | Authorship claim withstands scrutiny |
+| Economic | Chain of title | L4-L5 native; L2-L3 documented with discount | Authorship claim withstands scrutiny |
 
-The convergence across four independent domains is the argument for treating the L4/L3 boundary as a professional safe harbor: not a legal bright line, but a heuristic threshold below which authorship claims become progressively harder to defend across every relevant domain simultaneously.
+Two thresholds emerge. The **authorship floor** at L1↔L2 is the legal hard line: below it, the output is not separately protectable. The **L3↔L4 boundary** is the professional safe harbor where professional, cognitive, and economic standards converge, and where copyright moves from documented to native. The safe harbor is not a legal bright line for *whether* copyright attaches; that line is lower. It is the heuristic threshold below which authorship claims, though still defensible with documentation, lose the convergence of professional, cognitive, and economic indicators that mark clean creative work.
 
 ### 2.4 Work-Level vs. Interaction-Level Agency
 
