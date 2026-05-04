@@ -182,7 +182,7 @@ The Spectrum Model provides a shared vocabulary for the entire industry:
 
 ### The 90% Threshold
 
-The boundary between L4 and L3 is the critical professional safe harbor. It is where "clean authorship" shifts to "diluted authorship" and where legal, cognitive, and economic evidence converge.
+The boundary between L4 and L3 is the critical professional safe harbor: where native human authorship, guild "human-led" standards, the cognitive shift from generation to curation, and chain-of-title premiums converge. The legal floor for copyright sits lower, at L1↔L2 (see Section 1).
 
 ---
 
@@ -190,7 +190,7 @@ The boundary between L4 and L3 is the critical professional safe harbor. It is w
 
 ---
 
-The boundary between L4 (~90-99%) and L3 (~70-89%) is the most significant line on the spectrum. This threshold emerges from synthesizing qualitative standards across legal, professional, cognitive, and economic domains. While none specify exact percentages, all draw a similar line: above this threshold, humans lead and machines assist; below it, the relationship inverts.
+The boundary between L4 (~90-99%) and L3 (~70-89%) is the most significant professional line on the spectrum. It is the same line Section 1 calls the **native authorship line**: above it, copyright is native; below it (and above the L1↔L2 floor), copyright is documented. Four standards converge at this boundary: native authorship for copyright purposes, professional "human-led" standards from the guilds, the cognitive distinction between generating expression and curating machine output, and the economic premium attached to clean chain of title. Above this threshold, humans lead and machines assist; below it, the relationship inverts.
 
 ---
 
@@ -285,28 +285,28 @@ From a studio and insurance perspective, IP produced at L4-L5 represents a pract
 
 ### The Convergence
 
-Six domains. One proposed threshold.
+Six domains. Two thresholds.
 
 | Domain | Standard Language | Framework Interpretation |
 |---|---|---|
-| Legal (USCO) | "Significant human control" | L4-L5 satisfies; L3 requires disclosure |
+| Legal (USCO) | "Significant human control" | L4-L5 = native copyright; L2-L3 = documented copyright (chain of title required); L0-L1 = no copyright in output |
 | WGA (2023 MBA) | AI output ≠ "literary material" (Art. 72.B); writer with consent retains literary material status (Art. 72.C) | Studios: AI output excluded at all levels. Hired writers: protected at all levels, but L4-L5 carries least copyright risk |
 | SAG-AFTRA (2025) | Four Pillars: Transparency, Consent, Compensation, Control | L4-L5 = pillars satisfied; L3 = enhanced consent |
 | EU AI Act Art. 50 | "Assistive function" exempt; "substantially alter semantics" marked | L3-L5 = exempt; L0-L2 = marking required |
 | Cognitive | Creation vs. curation | L4-L5 = generating; L3 and below = selecting |
-| Economic | Chain of title risk | L4-L5 = clean; L3 and below = diluted |
+| Economic | Chain of title risk | L4-L5 = native, premium valuation; L2-L3 = documented, mid valuation; L0-L1 = unprotected output |
 
-The L4/L3 boundary (approximately 90%) represents the framework's proposed professional safe harbor, synthesized from these qualitative standards.
+Two thresholds emerge. The **authorship floor** at L1↔L2 is the legal hard line: no copyright in output below it. The **L4/L3 boundary** at approximately 90% is the professional safe harbor (also called the native authorship line) where native authorship, guild standards, the cognitive shift from generation to curation, and the economic premium for clean chain of title align.
 
 ---
 
 ### What This Means
 
-**For Creators:** Tools at L4-L5 protect your copyright. Drop below, and your claim dilutes.
+**For Creators:** L4-L5 gives you native copyright in the output. L2-L3 gives you documented copyright when your authorship is preserved or contributed; chain of title must be visible. At L0-L1, the output isn't separately protected, though any underlying human-authored source you bring keeps its own copyright.
 
-**For Studios:** Specify L4-L5 for high-stakes projects. L3 requires documentation. L0-L2 carries calculable risk.
+**For Studios:** L4-L5 is the safe harbor for high-stakes projects. L2-L3 is acquirable but requires documentation that justifies the chain of title. L0-L1 carries authorship risk that affects insurability and licensing.
 
-**For Unions:** The 90% line defines member work. Below it, credit and compensation structures require renegotiation.
+**For Unions:** The 90% line defines guild "human-led" work. The copyright floor sits lower at L1↔L2, so contractual protections and copyright determinations are independent: a writer working below 90% may retain WGA credit (per Article 72.C) while needing L2-L3 documentation to claim copyright. Credit and compensation structures below the 90% line require renegotiation regardless of where copyright attaches.
 
 ---
 
