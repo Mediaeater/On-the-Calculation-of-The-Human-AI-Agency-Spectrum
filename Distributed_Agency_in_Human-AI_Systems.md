@@ -196,14 +196,15 @@ The boundary between L4 (~90-99%) and L3 (~70-89%) is the most significant line 
 
 ### 1. The Legal Line (Copyright & USCO)
 
-The U.S. Copyright Office requires "significant human control" over the specific expression, a qualitative standard without specified percentages. The framework interprets this as follows: at L4-L5, the machine's role resembles "de minimis" assistance (like a spell-checker or thesaurus), satisfying USCO requirements. At L3 and below, authorship becomes "diluted," creating a need to disclose and potentially disclaim AI-generated portions.
+The U.S. Copyright Office requires "significant human control" over the specific expression, a qualitative standard that follows authorship, not operation. A work fully authored by a human at L5 keeps its copyright when later rendered at L0; the script's authorship doesn't vanish when a machine touches it. Conversely, machine-generated output from a thin prompt has no separately protectable expression, regardless of which layer surrounds it. The USCO's January 2025 guidance enumerates three pathways to copyright in AI-assisted work: assistive use of AI tools, perceptible human-authored inputs reflected in the output, and selection / coordination / arrangement / modification of AI-generated material. The framework maps these to three copyright zones across the spectrum:
 
-| Agency Level | Copyright Status |
-|---|---|
-| L4-L5 (90%+) | Clean. Full human authorship claim. |
-| L3 (70-89%) | Diluted. Disclosure required. Defensible with documentation. |
-| L2 (40-69%) | Shared. Significant AI contribution. Thin copyright at best. |
-| L0 (0-14%) / L1 (15-39%) | Absent. No human authorship claim. USCO rejection likely. |
+| Agency Level | Copyright Zone | Basis |
+|---|---|---|
+| L4-L5 (90%+) | Native copyright | Human-authored expression at the moment of creation. AI assists rather than stands in for human creativity, and machine contribution is bounded and de minimis. |
+| L2-L3 (40-89%) | Documented copyright | Copyright attaches to preserved or contributed human authorship: upstream human-authored material perceptible in the output, or creative selection / coordination / arrangement / modification of AI-generated material. Chain of title must be visible. Prompts alone are not sufficient. |
+| L0-L1 (0-39%) | No copyright in output | Pure machine generation from prompts that do not provide sufficient control over expressive elements. Any underlying human-authored source retains its own copyright, but the output is not separately protected. |
+
+The threshold isn't a single wall. It's two lines: the **authorship floor** at L1↔L2 (where any human authorship can be claimed) and the **native authorship line** at L3↔L4 (where authorship is native rather than documented).
 
 > *A note on copyright: the three-zone model reflects current US Copyright Office guidance — the Zarya of the Dawn registration, the March 2023 statement of policy on AI-generated works, and Copyright and Artificial Intelligence, Part 2: Copyrightability (January 2025). The Office assesses authorship in AI-assisted work on a case-by-case basis; the zones describe categories, not automatic outcomes. Copyright law in this area is actively evolving and varies by jurisdiction. This document offers a strategic and operational framework, not legal advice. For specific registration decisions, consult counsel or the published guidance directly.*
 
