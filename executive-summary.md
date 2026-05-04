@@ -18,21 +18,21 @@ This paper proposes a six-layer model (L0-L5) that maps qualitative standards to
 
 | Layer | Name | Human Agency | Human Role | Authorship Status |
 |---|---|---|---|---|
-| **L5** | Pure Tool | ~100% | Full control | Unambiguous |
-| **L4** | Director | ~90-99% | All decisions | Clean human authorship |
-| **L3** | Supervisor | ~70-89% | Review/modify | Diluted, defensible with documentation |
-| **L2** | Collaborator | ~40-69% | Selects/edits | Diluted, disclosure required |
-| **L1** | Executor | ~15-39% | Curates | High risk |
-| **L0** | Oracle | ~0-14% | Receives | No human claim |
+| **L5** | Pure Tool | ~100% | Full control | Native copyright |
+| **L4** | Director | ~90-99% | All decisions | Native copyright |
+| **L3** | Supervisor | ~70-89% | Review/modify | Documented copyright (chain of title required) |
+| **L2** | Collaborator | ~40-69% | Selects/edits | Documented copyright (heavier documentation burden) |
+| **L1** | Executor | ~15-39% | Curates | No copyright in output |
+| **L0** | Oracle | ~0-14% | Receives | No copyright in output |
 
 ## The 90% Threshold
 
-The boundary between L4 and L3 is the most significant line on the spectrum. Four independent domains converge on the same point:
+The boundary between L4 and L3 is the professional safe harbor where professional, cognitive, and economic standards converge. The legal floor for copyright sits lower, at L1↔L2 (below which the output is not separately protectable):
 
-- **Legal (USCO):** "Significant human control" satisfied at L4-L5; diluted at L3 and below
+- **Legal (USCO):** L4-L5 = native copyright; L2-L3 = documented copyright (chain of title required); L0-L1 = no copyright in output
 - **Professional (WGA, SAG-AFTRA, DGA):** "Human-led" work maps to L4-L5; below it, credit and compensation structures change
 - **Cognitive:** Above 90%, humans generate; below it, they select from machine output
-- **Economic:** L4-L5 = clean chain of title, premium valuation; L3 and below = increasing authorship risk
+- **Economic:** L4-L5 = native copyright, premium valuation; L2-L3 = documented copyright with discount; L0-L1 = unprotected output
 
 ## Two Levels of Measurement
 
@@ -64,8 +64,8 @@ Below L2: Consumer/hobbyist only. Locked out of professional markets.
 ## What Each Stakeholder Needs to Know
 
 ### Creators
-- L4-L5 protects your copyright and guild standing
-- Below L3, your authorship claim dilutes regardless of contractual protections
+- L4-L5 yields native copyright; L2-L3 yields documented copyright (chain of title required); below L2 the output isn't separately protected
+- Guild standing and copyright are independent: WGA Article 72.C protections survive even where copyright requires L2-L3 documentation
 - The Reversibility Test: Could you complete this task if the AI vanished tomorrow?
 
 ### Studios
@@ -74,7 +74,7 @@ Below L2: Consumer/hobbyist only. Locked out of professional markets.
 - The WGA distinguishes between what studios and hired writers can do with AI (Article 72.B vs. 72.C)
 
 ### Unions
-- The 90% line defines member work; below it, credit and compensation structures require renegotiation
+- The 90% line defines member work for credit and compensation; the copyright floor sits lower at L1↔L2, so contractual protections and copyright determinations are independent
 - Behavioral constraints (anchoring bias, cognitive friction, homogenization) erode agency even when tools technically offer control
 - Require baseline human-only competency to prevent masked skill loss
 
