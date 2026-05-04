@@ -2,7 +2,7 @@
 
 ## Distributed Agency in Human-AI Systems
 
-**Author:** Mark Ghuneim | **Organization:** Narrative.new | **Version:** 1.0 | January 2026
+**Author:** Mark Ghuneim | **Organization:** Narrative.new | **Version:** 1.1 | January 2026
 
 ---
 

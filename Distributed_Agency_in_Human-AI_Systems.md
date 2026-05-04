@@ -1280,7 +1280,7 @@ The difference is what the user brings to the interaction.
 
 > **Author:** Mark Ghuneim
 > **Organization:** Narrative.new℠
-> **Version:** 1.0 | January 2026
+> **Version:** 1.1 | January 2026
 >
 > With acknowledgments to Charlotte Cotton, Yair Landau, and Elliot Swan for their contributions through dialogue.
 >

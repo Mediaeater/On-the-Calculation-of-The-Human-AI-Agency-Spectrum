@@ -10,15 +10,15 @@ When referencing this framework in academic papers, reports, or other publicatio
 
 ### APA (7th Edition)
 
-Ghuneim, M. (2026). *Distributed agency in human-AI systems: A framework for analyzing authorship, control, and autonomy* (Version 2.1). NARRATIVE.NEW. https://narrativelabs.org/agency-framework
+Ghuneim, M. (2026). *Distributed agency in human-AI systems: A framework for analyzing authorship, control, and autonomy* (Version 1.1). NARRATIVE.NEW. https://narrativelabs.org/agency-framework
 
 ### MLA (9th Edition)
 
-Ghuneim, Mark. "Distributed Agency in Human-AI Systems: A Framework for Analyzing Authorship, Control, and Autonomy." Version 2.1, NARRATIVE.NEW, Jan. 2026, narrativelabs.org/agency-framework.
+Ghuneim, Mark. "Distributed Agency in Human-AI Systems: A Framework for Analyzing Authorship, Control, and Autonomy." Version 1.1, NARRATIVE.NEW, Jan. 2026, narrativelabs.org/agency-framework.
 
 ### Chicago (17th Edition, Author-Date)
 
-Ghuneim, Mark. 2026. "Distributed Agency in Human-AI Systems: A Framework for Analyzing Authorship, Control, and Autonomy." Version 2.1. NARRATIVE.NEW. https://narrativelabs.org/agency-framework.
+Ghuneim, Mark. 2026. "Distributed Agency in Human-AI Systems: A Framework for Analyzing Authorship, Control, and Autonomy." Version 1.1. NARRATIVE.NEW. https://narrativelabs.org/agency-framework.
 
 ### BibTeX
 
@@ -30,7 +30,7 @@ Ghuneim, Mark. 2026. "Distributed Agency in Human-AI Systems: A Framework for An
                   Control, and Autonomy},
   year         = {2026},
   month        = jan,
-  version      = {2.1},
+  version      = {1.1},
   publisher    = {NARRATIVE.NEW},
   url          = {https://narrativelabs.org/agency-framework},
   note         = {Creative Commons Attribution 4.0 International}
@@ -55,7 +55,7 @@ Or with a link:
 
 To cite a specific component of the framework, add the section title:
 
-Ghuneim, M. (2026). The authorship risk model. In *Distributed agency in human-AI systems* (Version 2.1, Section 4). NARRATIVE.NEW.
+Ghuneim, M. (2026). The authorship risk model. In *Distributed agency in human-AI systems* (Version 1.1, Section 4). NARRATIVE.NEW.
 
 Major citable sections include: The Suno Precedent (S1), Agency as Configuration (S3), The Authorship Risk Model (S4), Agency Trajectories (S5), Agency Transfer (S6), Collective Agency (S10).
 
