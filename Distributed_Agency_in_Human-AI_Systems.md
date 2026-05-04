@@ -2,6 +2,12 @@
 
 ## Investigating Authorship in AI-Participated Creative Work
 
+We have arrived at design crossroads where the objective is no longer the capability of the machine, but the preservation of the user. This critical inflection point demands a shift from efficiency-centered design to judgment-centered design.
+
+If our systems are architected to amplify the human capacity for taste, imagination and creativity, AI becomes a catalyst for evolution. If, however, we design for the total removal of friction, we inadvertently design for the obsolescence of human thought and the erosion of our capacity to grow.
+
+This document is a view into how artists (and industry) can navigate the pressures on storytelling in a generated world, by understanding agency at the tool level, and moving past the unsustainable good/bad binary.
+
 This framework emerged from research around creating a human-led storytelling system, requiring us to understand how interaction and design shape creative autonomy and authorship.
 
 At this technological inflection point, creators, studios, and industry professionals find themselves navigating without a shared vocabulary, allowing for a shared feeling of "you're on your own." The existing language ("AI-generated," "AI-assisted," "human-written") fails to capture the spectrum of configurations actually in use. The scaffolding to build from is needed. Guild contracts reference "human-led" processes without defining the threshold. Copyright law requires "significant human control" without specifying what qualifies. Tool interfaces make design choices that shape agency without making those choices visible. Everyone operates from intuition where precision is needed.
