@@ -205,6 +205,8 @@ The U.S. Copyright Office requires "significant human control" over the specific
 | L2 (40-69%) | Shared. Significant AI contribution. Thin copyright at best. |
 | L0 (0-14%) / L1 (15-39%) | Absent. No human authorship claim. USCO rejection likely. |
 
+> *A note on copyright: the three-zone model reflects current US Copyright Office guidance — the Zarya of the Dawn registration, the March 2023 statement of policy on AI-generated works, and the 2025 AI report on copyrightability. Copyright law in this area is actively evolving and varies by jurisdiction. This document offers a strategic and operational framework, not legal advice. For specific registration decisions, consult counsel or the published guidance directly.*
+
 ---
 
 ### 2. The Professional Line (Guild Standards)
