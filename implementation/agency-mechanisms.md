@@ -18,10 +18,12 @@ Agency preservation operates on two levels: what users can do *within* a tool (t
 |---|---|---|
 | **Interruption** | "Meaningful human oversight" (EU AI Act) | Stop generation mid-stream. Prevent runaway output. |
 | **Direction** | "Human-led creative process" (WGA) | Steer what the AI produces. Set constraints before generation. |
-| **Editing** | "Significant human control" (USCO) | Modify AI output before finalization. Transform machine suggestion into human expression. |
+| **Editing** | "Significant human control" (USCO) | Modify, select, coordinate, or arrange AI output before finalization. USCO January 2025 guidance recognizes any of these as creative contribution. |
 | **Configuration** | "Adjustable automation levels" (ISO/IEC) | Control AI involvement level. Scale from L5 to L2 as needed. |
 
-**The USCO Test:** The U.S. Copyright Office requires demonstrable human control over the "specific expression." Editing is the mechanism that transforms AI-generated text into copyrightable human expression. Without editing capability, users are selecting, not authoring.
+**The USCO Test:** The U.S. Copyright Office requires demonstrable human control over the "specific expression." Per the Office's January 2025 guidance, this can be established through assistive use of AI, perceptible human-authored inputs in the output, or creative selection / coordination / arrangement / modification of AI-generated material.
+
+**Best practice (a higher ceiling than legally required):** Offer editing capability in addition to selection. Tools that enable substantive editing produce the cleanest, most defensible authorship claims under registration scrutiny, even when creative selection alone could ground a claim.
 
 **The WGA Standard:** Guild contracts require the creative process to be "human-led." Direction and interruption establish that the human initiates and can halt the process — not merely react to machine output.
 
@@ -60,7 +62,9 @@ User must actively delete if unwanted
 | **Medium** | Sidebar panel | Click to insert | Ignore or close |
 | **High** | On-demand via shortcut | Explicit selection | Never automatic |
 
-**Legal implication:** Publish mode makes "significant human control" harder to demonstrate. If the default is acceptance, the human's role shifts from *author* to *curator*, and curation alone does not satisfy USCO requirements.
+**Legal implication:** Publish mode makes "significant human control" harder to demonstrate. If the default is acceptance, the human's role shifts from *author* toward *passive curator*. USCO January 2025 guidance recognizes creative selection / coordination / arrangement as a copyright pathway, but *passive* acceptance of auto-inserted content is unlikely to qualify; the selection must be deliberate and creative.
+
+**Best practice (a higher ceiling than legally required):** Default to Suggest Mode (Opt-In). Deliberate accept/reject actions strengthen authorship claims and keep users in the creative-selection pathway rather than passive acceptance.
 
 ---
 
@@ -124,10 +128,10 @@ Maps each legal/professional standard to the mechanisms your tool must implement
 
 | Compliance Dimension | Tactical Requirement | Strategic Requirement |
 |---|---|---|
-| USCO Registration | Must demonstrate editing, not just selection | Must own clear chain of title |
+| USCO Registration | Document creative selection, coordination, arrangement, or modification of AI material (editing recommended for cleanest claims) | Must own clear chain of title |
 | Guild Compliance | Human-led process (direction + interruption) | Cannot be locked to non-compliant platform |
 | E&O Insurance | Auditable AI contribution trail | Alternative tools available if platform fails |
-| Chain of Title | L4-L5 for clean copyright | Training opt-out for paid tiers |
+| Chain of Title | L4-L5 for native copyright; L2-L3 acceptable with documentation | Training opt-out for paid tiers |
 
 ### For Unions: Protection Safeguards
 
