@@ -6,6 +6,10 @@
 
 ---
 
+> *A note on copyright: the three-zone model reflects current US Copyright Office guidance — the Zarya of the Dawn registration, the March 2023 statement of policy on AI-generated works, and the 2025 AI report on copyrightability. Copyright law in this area is actively evolving and varies by jurisdiction. This document offers a strategic and operational framework, not legal advice. For specific registration decisions, consult counsel or the published guidance directly.*
+
+---
+
 ## The Problem
 
 The language we use to describe AI-assisted creative work is broken. "AI-generated," "AI-assisted," and "human-written" collapse a complex spectrum into three bins that serve no one. Guild contracts require work to be "human-led" without defining the threshold. Copyright law demands "significant human control" without specifying what qualifies. Tool interfaces make design choices that shape authorship without making those choices visible.

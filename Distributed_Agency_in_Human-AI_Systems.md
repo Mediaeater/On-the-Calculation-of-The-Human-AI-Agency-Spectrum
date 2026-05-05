@@ -2,6 +2,10 @@
 
 ## Investigating Authorship in AI-Participated Creative Work
 
+> *A note on copyright: the three-zone model reflects current US Copyright Office guidance — the Zarya of the Dawn registration, the March 2023 statement of policy on AI-generated works, and the 2025 AI report on copyrightability. Copyright law in this area is actively evolving and varies by jurisdiction. This document offers a strategic and operational framework, not legal advice. For specific registration decisions, consult counsel or the published guidance directly.*
+
+---
+
 We have arrived at design crossroads where the objective is no longer the capability of the machine, but the preservation of the user. This critical inflection point demands a shift from efficiency-centered design to judgment-centered design.
 
 If our systems are architected to amplify the human capacity for taste, imagination and creativity, AI becomes a catalyst for evolution. If, however, we design for the total removal of friction, we inadvertently design for the obsolescence of human thought and the erosion of our capacity to grow.
@@ -206,7 +210,7 @@ The U.S. Copyright Office requires "significant human control" over the specific
 
 The threshold isn't a single wall. It's two lines: the **authorship floor** at L1↔L2 (where any human authorship can be claimed) and the **native authorship line** at L3↔L4 (where authorship is native rather than documented).
 
-> *A note on copyright: the three-zone model reflects current US Copyright Office guidance: the Zarya of the Dawn registration, the March 2023 statement of policy on AI-generated works, and Copyright and Artificial Intelligence, Part 2: Copyrightability (January 2025). The Office assesses authorship in AI-assisted work on a case-by-case basis; the zones describe categories, not automatic outcomes. Copyright law in this area is actively evolving and varies by jurisdiction. This document offers a strategic and operational framework, not legal advice. For specific registration decisions, consult counsel or the published guidance directly.*
+> *A note on copyright: the three-zone model reflects current US Copyright Office guidance — the Zarya of the Dawn registration, the March 2023 statement of policy on AI-generated works, and the 2025 AI report on copyrightability. Copyright law in this area is actively evolving and varies by jurisdiction. This document offers a strategic and operational framework, not legal advice. For specific registration decisions, consult counsel or the published guidance directly.*
 
 ---
 

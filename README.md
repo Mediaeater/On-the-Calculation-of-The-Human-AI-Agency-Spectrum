@@ -30,8 +30,6 @@ This framework provides the precision.
 | **[executive-summary.md](executive-summary.md)** | Start here — 5-minute overview |
 | **[taxonomy.md](taxonomy.md)** | Six-level heuristic model (L0-L5) with legal and professional anchors |
 | **[Distributed_Agency_in_Human-AI_Systems.md](Distributed_Agency_in_Human-AI_Systems.md)** | Full paper — framework, market structure, mechanisms |
-| **[citation.md](citation.md)** | Citation formats (APA, MLA, Chicago, BibTeX) |
-| **[contributing.md](contributing.md)** | RFC process, PR and issue guidance |
 
 ## Implementation
 
@@ -49,3 +47,11 @@ Resources for developers and product teams building tools with human agency in m
 - **The 90% Threshold**: the L4/L3 boundary where professional, cognitive, and economic standards converge (legal copyright floor sits lower at L1↔L2)
 - **Work Agency vs. Interaction Agency** — Measuring the full creative process, not just the generation moment
 - **The Three-Tier Market** — Premium (L4-L5), Standard (L3), Budget (L2) — shaped by compliance constraints
+
+## Citing & Contributing
+
+Use the **Cite this repository** button on GitHub (powered by [`CITATION.cff`](CITATION.cff)) for APA, BibTeX, and other formats. Contribution guidelines, RFC process, and PR/issue conventions live in [`.github/CONTRIBUTING.md`](.github/CONTRIBUTING.md).
+
+---
+
+> *A note on copyright: the three-zone model reflects current US Copyright Office guidance — the Zarya of the Dawn registration, the March 2023 statement of policy on AI-generated works, and the 2025 AI report on copyrightability. Copyright law in this area is actively evolving and varies by jurisdiction. This document offers a strategic and operational framework, not legal advice. For specific registration decisions, consult counsel or the published guidance directly.*
