@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this framework, please cite it as below."
+title: "Distributed Agency in Human-AI Systems: A Framework for Analyzing Authorship, Control, and Autonomy"
+authors:
+  - family-names: Ghuneim
+    given-names: Mark
+    affiliation: NARRATIVE.NEW
+version: "1.1"
+date-released: 2026-01-28
+license: CC-BY-4.0
+url: "https://narrativelabs.org/agency-framework"
+repository-code: "https://github.com/Mediaeater/On_the_Calculation_of_The_Human-AI_Agency_Spectrum"
+abstract: >-
+  A six-layer framework (L0-L5) that maps qualitative standards like
+  "human-led" and "significant human control" to operational configurations,
+  synthesizing legal requirements (USCO, EU AI Act), professional standards
+  (WGA, SAG-AFTRA, DGA), cognitive research on human-AI interaction, and
+  market analysis of compliance-driven tiers.
+keywords:
+  - human-AI agency
+  - authorship
+  - generative AI
+  - copyright
+  - creative industries
+  - AI policy
+preferred-citation:
+  type: generic
+  authors:
+    - family-names: Ghuneim
+      given-names: Mark
+  title: "Distributed Agency in Human-AI Systems: A Framework for Analyzing Authorship, Control, and Autonomy"
+  year: 2026
+  month: 1
+  version: "1.1"
+  publisher:
+    name: NARRATIVE.NEW
+  url: "https://narrativelabs.org/agency-framework"
