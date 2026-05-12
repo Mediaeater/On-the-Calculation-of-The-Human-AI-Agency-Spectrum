@@ -237,16 +237,16 @@ The WGA contract establishes a binary distinction—AI is not a writer—with sp
 
 **The WGA position:** Neither traditional AI (CGI/VFX) nor generative AI (GAI) is a writer. No AI-generated material can be considered literary material. The WGA deliberately takes a binary approach—it does not define a spectrum of acceptable AI involvement. However, Article 72.C creates an asymmetry: when a hired writer uses GAI with company consent, the resulting written material *is* literary material regardless of how much AI was involved. This protects writer employment while preventing studios from replacing writers with AI. The framework provides the gradient the contract deliberately leaves unspecified, mapping where clean authorship (L4-L5) transitions to diluted claims that carry increasing risk even if contractually protected.
 
-### SAG-AFTRA Four Pillars of Ethical AI (2025)
+### SAG-AFTRA Four Pillars of Ethical AI (2025) and 2026 Operationalization
 
-SAG-AFTRA's framework centers on performer agency through four requirements:
+SAG-AFTRA's framework centers on performer agency through four requirements. The 2025 Interactive Media Agreement introduced the four pillars; the 2026 TV/Theatrical Tentative Agreement (Section 39, term July 1, 2026 – June 30, 2030) is the operative source for film and scripted television and gives each pillar concrete provisions.
 
-| Pillar | Right | Framework Mapping |
-|---|---|---|
-| **Transparency** | Know intended use of likeness | Legibility principle (users know where they stand) |
-| **Consent** | Grant or deny permission (written, clear, reasonably specific) | Strategic agency (ability to opt out) |
-| **Compensation** | Fair pay (on-scale with in-person performance) | Economic line protection |
-| **Control** | Set limits on how, when, where, how long | Tactical agency (control within the tool) |
+| Pillar | Right | Framework Mapping | 2026 TV/Theatrical Operationalization (Sec. 39) |
+|---|---|---|---|
+| **Transparency** | Know intended use of likeness | Legibility principle (users know where they stand) | "Articulable business reason" for scan-consent requests (39.J); strict notice/bargaining schedule for Synthetics (39.K); training-data licensing notice (39.L) |
+| **Consent** | Grant or deny permission (written, clear, reasonably specific) | Strategic agency (ability to opt out) | "No scan" replicas brought inside the EBDR consent regime (39.A); consent required for AI dubbing into other languages effective July 1, 2027 (39.D); strike-period consent integrity (39.G) |
+| **Compensation** | Fair pay (on-scale with in-person performance) | Economic line protection | ICDR floor at day-performer rate plus residuals when used as a performance that would qualify a natural performer (39.C) |
+| **Control** | Set limits on how, when, where, how long | Tactical agency (control within the tool) | Producer security obligations (39.H); downstream transfer compliance with 21-day Union approval (39.I); narrow biometric data prohibition for fingerprint, palmprint, iris (39.E); absolute prohibition on nude/simulated-sexual depiction of minors via digital replica, including age-up/de-age (39.F, 43.E) |
 
 ### Guild Compliance by Layer
 
@@ -255,7 +255,7 @@ SAG-AFTRA's framework centers on performer agency through four requirements:
 | WGA (Studios) | Full credit | Not literary material | Not literary material |
 | WGA (Hired Writers)* | Full credit | Literary material | Literary material |
 | DGA | Compliant | Director approval required | Requires consultation |
-| SAG-AFTRA | Compliant with consent (all four pillars satisfied) | Enhanced consent; control provisions | Prohibited for performance |
+| SAG-AFTRA | Compliant with consent (all four pillars satisfied) | Enhanced consent; control provisions | Prohibited for performance; Synthetic in a human role requires "significant additional value" beyond what a Digital Replica could provide (2026 TV/Theatrical §39.K) |
 
 *\*Per Article 72.C: Hired writers with company consent can incorporate GAI content as literary material at any agency level. Studios cannot claim AI-generated content as literary material.*
 
@@ -295,7 +295,7 @@ Six domains. Two thresholds.
 |---|---|---|
 | Legal (USCO) | "Significant human control" | L4-L5 = native copyright; L2-L3 = documented copyright (chain of title required); L0-L1 = no copyright in output |
 | WGA (2023 MBA) | AI output ≠ "literary material" (Art. 72.B); writer with consent retains literary material status (Art. 72.C) | Studios: AI output excluded at all levels. Hired writers: protected at all levels, but L4-L5 carries least copyright risk |
-| SAG-AFTRA (2025) | Four Pillars: Transparency, Consent, Compensation, Control | L4-L5 = pillars satisfied; L3 = enhanced consent |
+| SAG-AFTRA (2026 TV/Theatrical §39; 2025 IMA for interactive) | Four Pillars: Transparency, Consent, Compensation, Control — operationalized with EBDR/ICDR definitions, ICDR scale + residuals floor, dubbing consent (2027), security/transfer/biometric obligations, and a "significant additional value" test for Synthetics in human roles | L4-L5 = pillars satisfied; L3 = enhanced consent; Synthetic in a human role requires bargained justification |
 | EU AI Act Art. 50 | "Assistive function" exempt; "substantially alter semantics" marked | L3-L5 = exempt; L0-L2 = marking required |
 | Cognitive | Creation vs. curation | L4-L5 = generating; L3 and below = selecting |
 | Economic | Chain of title risk | L4-L5 = native, premium valuation; L2-L3 = documented, mid valuation; L0-L1 = unprotected output |
@@ -320,6 +320,7 @@ Two thresholds emerge. The **authorship floor** at L1↔L2 is the legal hard lin
 - WGA Artificial Intelligence Provisions (2023 MBA, Article 72)
 - SAG-AFTRA AI Provisions and Four Pillars of Ethical AI (2025)
 - SAG-AFTRA 2025 Interactive Media Agreement (Digital Replica Definitions)
+- SAG-AFTRA 2026 TV/Theatrical Tentative Agreement, Section 39 (May 11, 2026), term July 1, 2026 – June 30, 2030
 - EU AI Act, Article 50: Transparency Obligations (Regulation 2024/1689)
 - EU Code of Practice on Marking and Labelling AI-Generated Content (2025-2026)
 
@@ -467,9 +468,10 @@ Four dimensions (data protection, talent rights, guild requirements, and interna
 | **Data Protection** | Enterprise IT / Legal | What can the AI see? | Infrastructure requirements |
 | **Talent Rights** | SAG-AFTRA / Performers | Whose likeness can it use? | Consent protocols |
 | **Guild Compliance** | WGA / DGA / IATSE | Who gets credit and compensation? | Agency level permitted |
+| **Training Data Licensing** | WGA (2026 MBA, Art. 72) / SAG-AFTRA (2026 TV/Theatrical §39.L) | When can covered material or performances be licensed to train commercial GAI? | Notice and bargaining obligations to the relevant guild |
 | **International (EU AI Act)** | European Commission | Is output marked as AI-generated? | Disclosure and labeling requirements |
 
-Each dimension independently constrains which agency levels (L0-L5) are permissible. The intersection of all four determines what's actually allowed for any given project.
+Each dimension independently constrains which agency levels (L0-L5) are permissible. The intersection of all five determines what's actually allowed for any given project. The training-data axis is structurally parallel to production-authorship compliance but governs a separate workflow: any license of covered literary material (WGA) or covered performances (SAG-AFTRA) to non-affiliated third parties for the purpose of training a public-facing, commercially available GAI system triggers written notice to the union and an obligation to meet and discuss remuneration on request.
 
 ---
 
@@ -500,22 +502,32 @@ Performer likeness triggers consent requirements that constrain agency levels.
 | **Tier 0** | No likeness involved | None | Any level |
 | **Tier 1** | Background/unrecognizable | Notification only | L2-L5 |
 | **Tier 2** | Recognizable alterations | Standard SAG-AFTRA consent | L3-L5 |
-| **Tier 3** | Digital replicas | Enhanced consent + legal review | L4-L5 only |
+| **Tier 3** | Digital replicas (EBDR or ICDR) | Enhanced consent + legal review; ICDR carries day-performer scale floor + residuals; security and transfer-compliance obligations attach | L4-L5 only |
 
-**Tier 3 examples:** De-aging, voice cloning, posthumous performance, deepfakes, digital doubles.
+**Tier 3 examples:** De-aging, voice cloning, posthumous performance, deepfakes, digital doubles. "No scan" replicas built from on-set photography qualify as Employment-Based Digital Replicas and carry the full EBDR consent regime (2026 TV/Theatrical §39.A).
 
-### SAG-AFTRA Digital Replica Definitions (2025 Interactive Media Agreement)
+### SAG-AFTRA Digital Replica and Synthetic Definitions
 
-| Term | Definition | Consent Requirement |
+For film and scripted television, the 2026 TV/Theatrical Tentative Agreement (Section 39) is the operative source; the 2025 Interactive Media Agreement remains operative for interactive scope.
+
+| Term | Definition | Consent / Compensation Requirement |
 |---|---|---|
-| **Digital Replica** | Created using digital technology, primarily from covered performances, can generate new performances independently | Written, clear, conspicuous, reasonably specific |
-| **Vocal Digital Replica** | Algorithmically generates new vocal performances of a performer | Separate consent per use category |
-| **Visual Digital Replica** | Algorithmically generates new visual performances of a performer | Separate consent per use category |
-| **Objectively Identifiable** | Replica must be recognizable as the performer, including in character roles | Usage reports required |
+| **Employment-Based Digital Replica (EBDR)** | Digital replica created from a performer's or background actor's engagement, including where the replica is built from on-set photography without a separate scan | Written, clear, conspicuous, reasonably specific consent; producer must have an "articulable business reason" before requesting scan consent (§39.J) |
+| **Independently Created Digital Replica (ICDR)** | Replica the producer did not create themselves (for example, one created by the performer or a third party and licensed in) | Consent + benefit-fund contributions, with day-performer rate as the minimum payment and residuals when the ICDR is used in a way that would qualify a natural performer for residuals (§39.C) |
+| **Vocal / Visual Digital Replica (IMA)** | Algorithmically generates new vocal or visual performances of a performer (operative for interactive media) | Separate consent per use category |
+| **Synthetic** (formerly "Synthetic Performer") | A GAI-generated digital asset used in a role for which no natural performer is hired, intended to and creating the clear impression of a natural performer, but not recognizable as any identifiable performer and not voiced by a natural person (§39.K) | Notice and bargaining; usable in a human role only on a showing of "significant additional value" beyond what a Digital Replica of a real performer could provide, with strict scheduling and arbitration remedies |
+| **Digital Replication** | Use of a Digital Replica of a real performer; counts as human performance for the §39.K "significant additional value" comparison | Inherits the consent regime of the underlying EBDR or ICDR |
+| **Objectively Identifiable** | Replica must be recognizable as the performer, including in character roles (IMA) | Usage reports required |
 
-**2025 consent architecture:** Consent is invalidated if use no longer fits the "reasonably specific description" provided at consent time. Performers can suspend consent for new material generation during a strike. This maps directly to the *strategic agency* concept: the ability to withdraw participation entirely.
+**Consent architecture (2026 TV/Theatrical):** Consent must fit a "reasonably specific description" and is invalidated when use exceeds it. Consent is structurally suspended during a strike: producers may not use a performer or background actor's digital replica in any circumstance where consent would be required and the worker could refuse to render services (§39.G). Use of a digital replica to dub a performance into another language now requires consent for motion pictures commencing principal photography on or after July 1, 2027 (§39.D), reversing the prior default.
 
-**The constraint:** Digital replicas require L4-L5 AND full SAG-AFTRA compliance with all four pillars (Transparency, Consent, Compensation, Control). The performer must remain in control of how their likeness is used. Lower agency levels (where the AI generates autonomously) are prohibited for any recognizable likeness work.
+**Operational obligations on producers:**
+- *Security* (§39.H): limit access to digital replicas to persons with a legitimate business need; use commercially reasonable efforts to prevent unauthorized access, use, or copying.
+- *Transfer compliance* (§39.I): producer remains responsible for contractual digital-replica protections even after transferring the replica, unless the Union approves the transferee's financial responsibility and the transferee commits in writing to comply, including a right to arbitrate. Union must respond within 21 days and not unreasonably withhold approval.
+- *Biometric data* (§39.E): performer or background actor fingerprints, palmprints, and iris scans may not be used for any purpose unrelated to the picture (set-security technologies excepted).
+- *Minor protection* (§39.F, §43.E): no use of a minor's digital replica to depict the minor as nude or engaged in simulated sexual activity, including by age-up or de-age.
+
+**The constraint:** Digital replicas require L4-L5 AND full SAG-AFTRA compliance with all four pillars (Transparency, Consent, Compensation, Control). The performer must remain in control of how their likeness is used. Lower agency levels (where the AI generates autonomously) are prohibited for any recognizable likeness work, and the use of a Synthetic in a human role is constrained by the §39.K "significant additional value" test.
 
 ---
 
@@ -523,13 +535,13 @@ Performer likeness triggers consent requirements that constrain agency levels.
 
 Who gets credit and compensation depends on who did the creative work.
 
-| Layer | WGA: Studios | WGA: Hired Writers (with consent) | SAG-AFTRA | DGA | IATSE |
+| Layer | WGA: Studios | WGA: Hired Writers (with consent) | SAG-AFTRA (2026 TV/Theatrical §39) | DGA | IATSE |
 |---|---|---|---|---|---|
 | **L5** | Full credit | Full credit | Unrestricted | Compliant | Compliant |
-| **L4** | Full credit | Full credit | Compliant with consent | Compliant | Compliant |
+| **L4** | Full credit | Full credit | Compliant with consent; EBDR / ICDR permitted with §39 protections | Compliant | Compliant |
 | **L3** | Not literary material | Literary material | Enhanced consent | Director approval | Monitored |
-| **L2** | Not literary material | Literary material | Prohibited | Consultation required | Prohibited |
-| **L0-L1** | Not literary material | Literary material per 72.C | Prohibited | Prohibited | Prohibited |
+| **L2** | Not literary material | Literary material | Prohibited for performance | Consultation required | Prohibited |
+| **L0-L1** | Not literary material | Literary material per 72.C | Prohibited for performance; Synthetic in a human role requires "significant additional value" beyond what a Digital Replica could provide (§39.K) | Prohibited | Prohibited |
 
 **The pattern:** 90%+ (L4-L5) is the safe zone across all guilds for studio-produced content.
 
@@ -552,7 +564,7 @@ Note: The WGA deliberately avoids defining a spectrum of acceptable AI involveme
 
 **Other guild constraints:**
 
-- SAG-AFTRA: Cannot replace performance with generation
+- SAG-AFTRA: Cannot replace performance with generation; under 2026 TV/Theatrical §39.K, a Synthetic in a human role requires a demonstrable "significant additional value" beyond what a Digital Replica of a real performer could provide, with notice, bargaining, and arbitration remedies attached
 - DGA: Cannot automate directorial decisions
 - IATSE: Cannot displace craft work with AI output
 
@@ -677,7 +689,10 @@ Know which tier you're building for, or which tier you're locked out of.
 
 **References:**
 - SAG-AFTRA TV/Theatrical Contract, AI Provisions (2023)
+- SAG-AFTRA 2025 Interactive Media Agreement (Digital Replica definitions; Four Pillars)
+- SAG-AFTRA 2026 TV/Theatrical Tentative Agreement, Section 39 (May 11, 2026), term July 1, 2026 – June 30, 2030
 - WGA Minimum Basic Agreement, AI Provisions (2023)
+- 2026 WGA–AMPTP Theatrical and Television Basic Agreement (Memorandum of Agreement, April 4, 2026), Item 15
 - GDPR Article 32: Security of Processing
 - SOC 2 Type II Compliance Standards (AICPA)
 
@@ -739,8 +754,8 @@ The rules create the tiers. The tiers create the competition.
 
 | Guild | Current Position | Next Negotiation | Stakes |
 |---|---|---|---|
-| WGA | L4-L5 safe zone established | 2026 | Defining L3 boundaries |
-| SAG-AFTRA | Digital replica consent required | 2026 | Voice/likeness AI rights |
+| WGA | 2026 MBA: Article 72 preserved; training-data licensing notice added | 2030 | Spectrum for "human-led"; expanded training-data remuneration |
+| SAG-AFTRA | 2026 TV/Theatrical Tentative Agreement (§39): EBDR/ICDR distinction, ICDR scale floor + residuals, dubbing consent (2027), security/transfer/biometric obligations, "significant additional value" test for Synthetics in human roles, training-data licensing notice | 2030 | Spectrum for human-led performance; Synthetic scope; training-data remuneration |
 | DGA | Director approval for AI use | 2026 | Automation of pre-viz, editing |
 | IATSE | Monitoring displacement | 2027 | Craft work preservation |
 
@@ -871,7 +886,8 @@ Market stratification is accelerating through new standards and commercial tiers
 ---
 
 **References:**
-- WGA Minimum Basic Agreement (2023) / SAG-AFTRA TV/Theatrical Contract (2023)
+- WGA Minimum Basic Agreement (2023); 2026 WGA–AMPTP MBA (Memorandum of Agreement, April 4, 2026)
+- SAG-AFTRA TV/Theatrical Contract (2023); 2025 Interactive Media Agreement; 2026 TV/Theatrical Tentative Agreement (May 11, 2026, term July 1, 2026 – June 30, 2030)
 - OpenAI-News Corp Partnership (2024) / OpenAI-AP Agreement (2024)
 - Suno-Warner Music Partnership (2024)
 
@@ -996,7 +1012,7 @@ Same AI. Same user. Different defaults. Different agency.
 | USCO "significant human control" | Editing + Direction | Ownership clarity |
 | WGA "human-led creative process" | Direction + Interruption | Platform alternatives |
 | EU AI Act "meaningful oversight" | Interruption + Configuration | Data portability |
-| SAG-AFTRA consent requirements | N/A | Contract negotiation leverage |
+| SAG-AFTRA 2026 TV/Theatrical §39 (EBDR scan consent; ICDR scale floor + residuals; dubbing consent eff. 2027; strike; security; transfer; biometric; Synthetic "significant additional value" test; training-data licensing notice) | Consent management + scan flow + replica security and access controls | Transferability of consent terms; ability to migrate without violating §39.I transfer compliance |
 | GDPR data subject rights | N/A | Export + Data control |
 
 ---

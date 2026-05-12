@@ -105,7 +105,7 @@ Maps each legal/professional standard to the mechanisms your tool must implement
 | USCO "significant human control" | Editing + Direction | Ownership clarity |
 | WGA "human-led creative process" | Direction + Interruption | Platform alternatives |
 | EU AI Act "meaningful oversight" | Interruption + Configuration | Data portability |
-| SAG-AFTRA consent requirements | N/A | Contract negotiation leverage |
+| SAG-AFTRA 2026 TV/Theatrical §39 (EBDR scan consent; ICDR scale + residuals; dubbing consent eff. 2027; strike; security; transfer; biometric; Synthetic "significant additional value" test; training-data licensing notice) | Consent management UI + scan flow; replica security and access controls; per-use-category consent records | Consent transferability + ability to migrate without violating §39.I transfer-compliance |
 | GDPR data subject rights | N/A | Export + Data control |
 
 ---
