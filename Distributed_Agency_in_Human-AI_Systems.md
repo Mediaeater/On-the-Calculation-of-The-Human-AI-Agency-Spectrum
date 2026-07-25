@@ -48,6 +48,7 @@ To accurately apply this framework, three distinctions regarding creative realit
 - [Part III: Mechanisms & Constraints](#part-iii-mechanisms--constraints)
   - [Mechanisms of Control](#mechanisms-of-control)
   - [Behavioral Constraints](#behavioral-constraints)
+- [Subsequent Empirical Evidence](#subsequent-empirical-evidence)
 - [Appendices](#appendices)
   - [Iterative Workflow Case Studies](#iterative-workflow-case-studies)
 
@@ -1206,6 +1207,29 @@ The third defense is practice: deliberate work without AI, maintaining the capab
 
 ---
 
+# Subsequent Empirical Evidence
+
+This framework was published in January 2026 as a structural argument: that human-AI creative work distributes across measurable configurations, and that existing vocabulary fails to describe them. In June 2026, independent empirical work documented the behavior this taxonomy anticipated, at scale, without reference to it.
+
+Gupta, Antoniak, and Walsh analyzed 573,000 English-language ChatGPT conversations from the public WildChat corpus and found that over a third involved fiction generation. The dominant pattern they describe corresponds precisely to the L0–L1 band of this framework: users supply large-scale choices — characters, relationships, scenario premises — while the model authors all expression, and outputs are regenerated in near-identical permutations. The authors frame this through Ted Chiang's distinction between large-scale and small-scale creative choices; in this framework's terms, they observed a population holding human contribution at Oracle/Executor levels across thousands of sessions. Fiction generation was heavily concentrated: roughly two percent of users produced over eighty percent of fiction conversations. The distribution is a spectrum with a dense low-agency tail — not a binary of "AI-written" versus "human-written" — which is the empirical shape this framework predicted.
+
+Two of their findings warrant specific note.
+
+First, their acknowledged measurement gap corresponds to this framework's central distinction. WildChat records only the generation moment: prompts submitted, completions returned. The authors note they cannot observe how the resulting fiction circulates, whether it is edited, shared, or abandoned, and call for ethnographic follow-up. That gap has a name here: they measured Interaction Agency and could not see Work Agency, because conversation logs structurally cannot capture the surrounding creative process. Traces of Work Agency nonetheless leak into their data — most visibly in what they call re-rolling, where a user regenerates a scenario repeatedly and then folds a preferred output back into an extended prompt. That is a human selection decision: curation, the constitutive act of the L2–L3 band. It occurs in their corpus with no apparatus to record what was selected or why. A half-million-conversation archive of curation without documentation is the strongest available evidence for this framework's claim that agency must be measured across the full creative process, and that the measurement infrastructure does not yet exist in general-purpose tools.
+
+Second, the economic consequence of the low-agency band is now measurable. Drawing on McGurl's account of fiction's commoditization, Gupta, Antoniak, and Walsh cite NBER findings (Reimers and Waldfogel) documenting a surge of LLM-generated self-published books that accumulate essentially no readership. This is the Budget tier of the three-tier market structure described above, observed in the wild: output produced at L0–L2 without documented human authorship pools into an interchangeable class of goods that fails simultaneously as protectable property and as valued product. The tier boundaries this framework derived from compliance constraints are materializing as market behavior.
+
+The chronology matters. These findings postdate this framework and were produced independently of it. They are offered here not as sources the framework was built upon, but as subsequent confirmation that its categories describe real populations, its measurement distinction names a real methodological gap, and its market structure is emerging as predicted.
+
+---
+
+**References:**
+- Gupta, N., Antoniak, M., & Walsh, M. (2026). AI Fiction in the Wild. arXiv:2606.22748. Forthcoming in *MFS: Modern Fiction Studies*.
+- Reimers, I., & Waldfogel, J. (2026). AI and the Quantity and Quality of Creative Products: Have LLMs Boosted Creation of Valuable Books? NBER Working Paper 34777.
+- McGurl, M. (2021). *Everything and Less: The Novel in the Age of Amazon*. Verso.
+
+---
+
 # Reference Material
 
 ## Appendices
@@ -1311,7 +1335,7 @@ The difference is what the user brings to the interaction.
 
 > **Author:** Mark Ghuneim
 > **Organization:** Narrative.new℠
-> **Version:** 1.1 | January 2026
+> **Version:** 1.2 | July 2026
 >
 > With acknowledgments to Charlotte Cotton, Yair Landau, and Elliot Swan for their contributions through dialogue.
 >

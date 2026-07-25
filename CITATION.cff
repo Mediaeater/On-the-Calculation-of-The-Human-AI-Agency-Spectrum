@@ -5,8 +5,8 @@ authors:
   - family-names: Ghuneim
     given-names: Mark
     affiliation: NARRATIVE.NEW
-version: "1.1"
-date-released: 2026-01-28
+version: "1.2"
+date-released: 2026-07-25
 license: CC-BY-4.0
 url: "https://narrativelabs.org/agency-framework"
 repository-code: "https://github.com/narrativenew/On-the-Calculation-of-The-Human-AI-Agency-Spectrum"
@@ -30,8 +30,8 @@ preferred-citation:
       given-names: Mark
   title: "Distributed Agency in Human-AI Systems: A Framework for Analyzing Authorship, Control, and Autonomy"
   year: 2026
-  month: 1
-  version: "1.1"
+  month: 7
+  version: "1.2"
   publisher:
     name: NARRATIVE.NEW
   url: "https://narrativelabs.org/agency-framework"
