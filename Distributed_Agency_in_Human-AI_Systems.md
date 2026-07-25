@@ -609,6 +609,25 @@ For professional creative work at L4-L5, disclosure requirements are non-intrusi
 
 Article 50 transparency obligations become enforceable **August 2, 2026**. Tools serving European markets must implement marking systems for L0-L2 outputs while L3-L5 assistive tools remain exempt.
 
+### Who Carries Which Obligation
+
+Article 50 splits its burden by role, and the split matters for productions:
+
+| Role | Obligation | What It Means in Production |
+|---|---|---|
+| **Provider** (tool vendor) | 50(2): machine-readable marking of synthetic output | The watermarking burden lands on tool builders, not studios |
+| **Deployer** (production) | 50(4): disclose deep fakes | Digital replicas, de-aging, and voice clones of real performers meet the Act's deep-fake definition even with performer consent |
+
+For content within the artistic/creative carve-out, deployer disclosure is satisfied "in an appropriate manner that does not hamper the display or enjoyment of the work" — end-credits disclosure, not on-screen watermarks. SAG-AFTRA consent (Dimension 2) and EU statutory disclosure are separate, stacking obligations: consent does not remove the disclosure duty, and disclosure does not substitute for consent.
+
+Three boundary clarifications from the regulation's text:
+
+- **The Act regulates AI systems, not content.** A film made with non-compliant tools is not itself barred from EU distribution. The exposure is administrative fines under Article 99 — up to €15 million or 3% of worldwide turnover for Article 50 breaches (the €35 million / 7% tier is reserved for Article 5 prohibited practices) — plus market-surveillance action against the AI system.
+- **Reach is extraterritorial.** The Act applies to providers and deployers outside the EU when a system's output is used in the Union. US production workflows serving European audiences are in scope.
+- **The model layer is regulated separately.** Since August 2, 2025, general-purpose AI model providers must maintain a copyright-compliance policy honoring text-and-data-mining opt-out reservations (Article 53(1)(c)) and publish a "sufficiently detailed summary" of training content (Article 53(1)(d)). This is a summary obligation, not source-level disclosure — it parallels the WGA and SAG-AFTRA training-data notice provisions as a compliance track governing what goes *into* models, independent of the agency configuration of what comes out.
+
+Adjacent but distinct: the Act's emotion-recognition prohibition in the workplace (Article 5(1)(f), in force February 2025) and its high-risk classification of recruitment and selection AI (Annex III 4(a), from August 2026) reach casting and audition screening tools. Those provisions govern employment decisions about people, not authorship of creative work; they sit outside this framework's scope and are noted here so the two compliance conversations are not conflated.
+
 ---
 
 ### How Compliance Creates Market Structure
