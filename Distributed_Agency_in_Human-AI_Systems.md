@@ -52,6 +52,7 @@ To accurately apply this framework, three distinctions regarding creative realit
   - [The Six Layers of Agency](#the-six-layers-of-agency)
   - [The 90% Threshold: The Professional Safe Harbor](#the-90-threshold-the-professional-safe-harbor)
   - [Work-Level Agency: The Iterative Dimension](#work-level-agency-the-iterative-dimension)
+  - [Iterative Workflow Case Studies](#iterative-workflow-case-studies)
   - [The Framework's Propositions](#the-frameworks-propositions)
 - [Part II: Market Structure](#part-ii-market-structure)
   - [The Compliance Landscape](#the-compliance-landscape)
@@ -60,8 +61,6 @@ To accurately apply this framework, three distinctions regarding creative realit
   - [Mechanisms of Control](#mechanisms-of-control)
   - [Behavioral Constraints](#behavioral-constraints)
 - [Subsequent Empirical Evidence](#subsequent-empirical-evidence)
-- [Appendices](#appendices)
-  - [Iterative Workflow Case Studies](#iterative-workflow-case-studies)
 
 ---
 
@@ -525,6 +524,117 @@ Work-level agency claims require process evidence:
 | Session logs | Cumulative time investment |
 
 Without documentation, only interaction-level assessment is possible. The burden is on the creator to demonstrate aggregate contribution.
+
+---
+
+### Iterative Workflow Case Studies
+
+*These case studies are hypothetical illustrations, constructed to demonstrate how the framework applies. They exercise the model; they do not validate it (see Limitations).*
+
+#### Case Study A: Feature Screenplay Development (Hypothetical)
+
+Case A is the feature-screenplay calculation worked above (see The Weighted Contribution Model): 200 hours, aggregate 90.75%.
+
+**Interaction-level view:** AI touchpoints alone (75 hours at L2-L3) suggest L2-L3 authorship.
+
+**Work-level view:** 90.75% — within perturbation range of the 90% line (see Sensitivity), so an L4/L3 boundary case that resolves to L4 on the strength of process documentation: the high-weight creative decisions (concept, structure, characters) were human-led.
+
+**Compliance assessment:** Work-level L4 supports full writing credit with documented process.
+
+---
+
+#### Case Study B: TV Episode "Writers Room" Simulation (Hypothetical)
+
+**Context:** Solo writer using AI as brainstorming partner for 1-hour pilot (80 hours total).
+
+| Phase | Hours | Agency Level | Weight | Contribution |
+|---|---|---|---|---|
+| Series bible creation | 10 | L5 (100%) | 20% | 20.0% |
+| Episode concept | 5 | L4 (90%) | 15% | 13.5% |
+| Beat sheet development | 8 | L3 (75%) | 15% | 11.25% |
+| Scene outlining | 12 | L3 (70%) | 15% | 10.5% |
+| First draft (AI drafts from outlines) | 25 | L2 (50%) | 20% | 10.0% |
+| Dialogue passes | 10 | L2 (55%) | 10% | 5.5% |
+| Polish & proof | 10 | L4 (95%) | 5% | 4.75% |
+| **Total** | **80** | **—** | **100%** | **75.5%** |
+
+**Interaction-level view:** 62% average at AI touchpoints—appears L2.
+
+**Work-level view:** 75.5% aggregate—L3 territory.
+
+**Compliance assessment:** Conditional compliance. L3 requires documentation demonstrating human creative leadership. The series bible and beat sheet evidence becomes critical.
+
+---
+
+#### Case Study C: The Misleading "Quick Prompt" (Hypothetical)
+
+**Context:** Novelist adapting their own published work into screenplay format.
+
+**The session:** 30 minutes. User pastes novel excerpt, prompts: "Convert to screenplay format with cinematic dialogue." AI generates 2 pages. User makes minor edits.
+
+**Interaction-level view:** 35% (L1). AI generated most output; user primarily accepted.
+
+**But consider the full context:**
+
+| Prior Work | Agency Level | Weight |
+|---|---|---|
+| Novel writing (source scene) | L5 (100%) | 40% |
+| Character development (series) | L5 (100%) | 25% |
+| World-building (series) | L5 (100%) | 15% |
+| Story structure (series arc) | L5 (100%) | 10% |
+| This adaptation session | L1 (35%) | 10% |
+
+**Work-level calculation:** 93.5% (L4)
+
+**The insight:** The user is adapting material they fully authored. The AI is a format conversion tool operating on human-created content. Scoring only the session misses years of creative work being leveraged.
+
+**Comparison:**
+
+| Scenario | Interaction Agency | Work Agency |
+|---|---|---|
+| Novelist adapting own work | 35% (L1) | 93.5% (L4) |
+| Random user with same prompt | 35% (L1) | 35% (L1) |
+
+The difference is what the user brings to the interaction.
+
+---
+
+#### Case Study D (Integrated): Guild-Covered Streaming Pilot on an L3 Toolchain (Hypothetical)
+
+This case exercises four framework components end to end: mechanism audit → layer classification → work-level calculation → compliance dimensions → market tier.
+
+**Context:** A production company develops a one-hour streaming drama pilot for EU-inclusive distribution. The staffed writer (WGA member) has company consent under Article 72.C to use an embedded-suggestion writing tool during drafting, plus a chatbot for research. Recognizable actors are attached; no digital replicas. Development IP sits on dedicated cloud instances.
+
+**Step 1 — Classify the toolchain (Part III → Part I).** The writing tool defaults to suggest mode with one-click rejection, full editing, and standard-format export: tactical mechanisms present, strategic exit possible. Its configuration is L3 — the writer drafts, the machine proposes within human-drafted material. The research chatbot is used on command and none of its text enters the script: L4 use. Nothing drafts from specification, so no phase operates at L2.
+
+**Step 2 — Score the work (Part I).** 120 hours total:
+
+| Phase | Agency Level | Weight | Contribution |
+|---|---|---|---|
+| Series bible & premise | L5 (100%) | 20% | 20.0% |
+| Structure & beats | L4 (95%) | 15% | 14.25% |
+| Outline | L3 (80%) | 10% | 8.0% |
+| Character development | L4 (95%) | 15% | 14.25% |
+| Scene drafting | L3 (75%) | 20% | 15.0% |
+| Dialogue passes | L3 (75%) | 10% | 7.5% |
+| Revision & polish | L4 (95%) | 10% | 9.5% |
+| **Total** | **—** | **100%** | **88.5%** |
+
+88.5% is a boundary case under the Sensitivity rule: within a few points of the 90% line, classification turns on process evidence. The writer's series bible, beat sheets, and the tool's suggestion logs document human creative leadership; the work is treated as high-L3 with an L4 documentation argument available.
+
+**Step 3 — Run the compliance dimensions (Part II).** WGA: the writer incorporated GAI with company consent → literary material (Art. 72.C); credit intact; the company provided no AI-generated material, so no disclosure trigger. SAG-AFTRA: recognizable actors but no digital replicas → Tier 2 standard consent; §39 replica obligations not triggered. Data protection: development IP on dedicated instances satisfies the Enhanced tier that L3 work requires. EU AI Act: an L3 assistive configuration falls under the Article 50(2) exemption (Proposition P3) — no output marking, and no deep-fake disclosure absent replicas. Training-data axis: no covered material licensed for training → no notice obligation.
+
+**Step 4 — Read off the market position (Part II).** Work-level high-L3 with documentation lands in the Standard tier: streaming distribution, standard E&O coverage, documented (not native) copyright with chain of title running through the writer's retained drafts. Premium positioning was available at the cost of a toolchain change — suggestion features off during scene drafting would have held drafting at L4. That is the point this case is built to show: **tier position is a tool-configuration decision made before writing begins, not a property discovered after delivery.**
+
+---
+
+#### Observations Across Iterative Cases
+
+1. **In these constructed cases, work-level scores run 15-25 points higher** than interaction-level views when the creator does substantial pre-work. Whether real workflows show the same gap is an empirical question (see Limitations).
+2. **Weight distribution matters more than time distribution.** 15% of time on concept at L5 contributes more than 50% of time on drafting at L2.
+3. **Prior work counts.** Users adapting their own material have legitimate authorship claims even when the adaptation session is low-agency.
+4. **Documentation becomes essential at L3.** The difference between conditional compliance and non-compliance often depends on whether the user can demonstrate their process.
+5. **Both views are valid.** Interaction-level for tool evaluation; work-level for authorship claims.
 
 ---
 
@@ -1358,109 +1468,6 @@ The chronology matters. These findings postdate this framework and were produced
 - Gupta, N., Antoniak, M., & Walsh, M. (2026). AI Fiction in the Wild. arXiv:2606.22748. Forthcoming in *MFS: Modern Fiction Studies*.
 - Reimers, I., & Waldfogel, J. (2026). AI and the Quantity and Quality of Creative Products: Have LLMs Boosted Creation of Valuable Books? NBER Working Paper 34777.
 - McGurl, M. (2021). *Everything and Less: The Novel in the Age of Amazon*. Verso.
-
----
-
-# Reference Material
-
-## Appendices
-
----
-
-## Iterative Workflow Case Studies
-
-*The following case studies are hypothetical illustrations designed to demonstrate how the framework applies in practice.*
-
-The following demonstrate work-level agency assessment for iterative creative processes, showing how aggregate scores differ from interaction-level measurements.
-
----
-
-### Case Study A: Feature Screenplay Development (Hypothetical)
-
-**Context:** Professional screenwriter developing original feature over 6 weeks (200 hours total).
-
-| Phase | Hours | Agency Level | Weight | Contribution |
-|---|---|---|---|---|
-| Research & concept | 20 | L5 (100%) | 25% | 25.0% |
-| Structure | 15 | L4 (95%) | 15% | 14.25% |
-| Outline | 10 | L4 (95%) | 10% | 9.5% |
-| Character development | 20 | L5 (100%) | 15% | 15.0% |
-| Scene drafting (AI suggestions) | 60 | L3 (80%) | 15% | 12.0% |
-| Dialogue polish (AI-assisted) | 15 | L2 (55%) | 10% | 5.5% |
-| Revision passes | 60 | L4 (95%) | 10% | 9.5% |
-| **Total** | **200** | **—** | **100%** | **90.75%** |
-
-**Interaction-level view:** Looking only at AI touchpoints (75 hours of L2-L3 work), this appears to be L2-L3 authorship.
-
-**Work-level view:** Aggregate score of 90.75% reflects L4 authorship. The writer did high-weight creative work (concept, structure, characters) at L4-L5.
-
-**Compliance assessment:** Work-level L4 supports full writing credit with documentation of process.
-
----
-
-### Case Study B: TV Episode "Writers Room" Simulation (Hypothetical)
-
-**Context:** Solo writer using AI as brainstorming partner for 1-hour pilot (80 hours total).
-
-| Phase | Hours | Agency Level | Weight | Contribution |
-|---|---|---|---|---|
-| Series bible creation | 10 | L5 (100%) | 20% | 20.0% |
-| Episode concept | 5 | L4 (90%) | 15% | 13.5% |
-| Beat sheet development | 8 | L3 (75%) | 15% | 11.25% |
-| Scene outlining | 12 | L3 (70%) | 15% | 10.5% |
-| First draft (AI drafts from outlines) | 25 | L2 (50%) | 20% | 10.0% |
-| Dialogue passes | 10 | L2 (55%) | 10% | 5.5% |
-| Polish & proof | 10 | L4 (95%) | 5% | 4.75% |
-| **Total** | **80** | **—** | **100%** | **75.5%** |
-
-**Interaction-level view:** 62% average at AI touchpoints—appears L2.
-
-**Work-level view:** 75.5% aggregate—L3 territory.
-
-**Compliance assessment:** Conditional compliance. L3 requires documentation demonstrating human creative leadership. The series bible and beat sheet evidence becomes critical.
-
----
-
-### Case Study C: The Misleading "Quick Prompt" (Hypothetical)
-
-**Context:** Novelist adapting their own published work into screenplay format.
-
-**The session:** 30 minutes. User pastes novel excerpt, prompts: "Convert to screenplay format with cinematic dialogue." AI generates 2 pages. User makes minor edits.
-
-**Interaction-level view:** 35% (L1). AI generated most output; user primarily accepted.
-
-**But consider the full context:**
-
-| Prior Work | Agency Level | Weight |
-|---|---|---|
-| Novel writing (source scene) | L5 (100%) | 40% |
-| Character development (series) | L5 (100%) | 25% |
-| World-building (series) | L5 (100%) | 15% |
-| Story structure (series arc) | L5 (100%) | 10% |
-| This adaptation session | L1 (35%) | 10% |
-
-**Work-level calculation:** 93.5% (L4)
-
-**The insight:** The user is adapting material they fully authored. The AI is a format conversion tool operating on human-created content. Scoring only the session misses years of creative work being leveraged.
-
-**Comparison:**
-
-| Scenario | Interaction Agency | Work Agency |
-|---|---|---|
-| Novelist adapting own work | 35% (L1) | 93.5% (L4) |
-| Random user with same prompt | 35% (L1) | 35% (L1) |
-
-The difference is what the user brings to the interaction.
-
----
-
-### Observations Across Iterative Cases
-
-1. **Work-level scores are typically 15-25% higher** than interaction-level when users do substantial pre-work.
-2. **Weight distribution matters more than time distribution.** 15% of time on concept at L5 contributes more than 50% of time on drafting at L2.
-3. **Prior work counts.** Users adapting their own material have legitimate authorship claims even when the adaptation session is low-agency.
-4. **Documentation becomes essential at L3.** The difference between conditional compliance and non-compliance often depends on whether the user can demonstrate their process.
-5. **Both views are valid.** Interaction-level for tool evaluation; work-level for authorship claims.
 
 ---
 
