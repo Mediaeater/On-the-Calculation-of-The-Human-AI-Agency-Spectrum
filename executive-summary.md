@@ -2,7 +2,7 @@
 
 ## Distributed Agency in Human-AI Systems
 
-**Author:** Mark Ghuneim | **Organization:** Narrative.new | **Version:** 1.2 | July 2026
+**Author:** Mark Ghuneim | **Organization:** Narrative.new | **Version:** 1.3 | August 2026
 
 ---
 
@@ -29,6 +29,8 @@ This paper proposes a six-layer model (L0-L5) that maps qualitative standards to
 | **L1** | Executor | ~15-39% | Curates | No copyright in output |
 | **L0** | Oracle | ~0-14% | Receives | No copyright in output |
 
+Every layer is defined by the same three questions: who initiates, who produces expression, who selects and approves. The framework states its epistemic status plainly: layer ranges and contribution weights are labeled design choices, the 90% threshold is a proposed operationalization of a convergence argument, and six numbered propositions (P1-P6) specify how the claims can be tested. The full paper adds a Related Work section situating the framework in five research literatures, main-body case studies including an integrated end-to-end case, and a Limitations section stating what has and has not been validated.
+
 ## The 90% Threshold
 
 The boundary between L4 and L3 is the professional safe harbor where professional, cognitive, and economic standards converge. The legal floor for copyright sits lower, at L1↔L2 (below which the output is not separately protectable):
@@ -44,14 +46,15 @@ The framework distinguishes between **interaction agency** (a single prompt-resp
 
 ## The Compliance Landscape
 
-Four dimensions operate simultaneously on every professional AI-assisted production:
+Five dimensions operate simultaneously on every professional AI-assisted production:
 
 1. **Data Protection** — What can the AI see? Gates infrastructure requirements.
 2. **Talent Rights** — Whose likeness is involved? Gates consent protocols.
 3. **Guild Compliance** — Who gets credit? Gates permissible agency levels.
-4. **International Regulation (EU AI Act)** — Is output marked? Gates disclosure requirements.
+4. **Training-Data Licensing** — Is covered material training commercial GAI? Gates notice and bargaining obligations (WGA 2026 MBA; SAG-AFTRA §39.L).
+5. **International Regulation (EU AI Act)** — Is output marked? Gates disclosure requirements.
 
-The intersection of all four determines what's actually allowed for any given project.
+The intersection of all five determines what's actually allowed for any given project.
 
 ## The Three-Tier Market
 
@@ -86,7 +89,7 @@ Below L2: Consumer/hobbyist only. Locked out of professional markets.
 - Your compliance capability is your market map
 - L4-L5 support with enterprise infrastructure = access to all tiers
 - L0-L1 only = locked out of professional markets entirely
-- The EU AI Act's Article 50 transparency obligations become enforceable August 2, 2026
+- The EU AI Act's Article 50 transparency obligations became enforceable August 2, 2026
 
 ## Key Insight
 

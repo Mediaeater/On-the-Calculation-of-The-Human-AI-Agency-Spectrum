@@ -270,7 +270,7 @@ The Spectrum Model provides a shared vocabulary for the entire industry:
 
 ### The 90% Threshold
 
-The boundary between L4 and L3 is the critical professional safe harbor: where native human authorship, guild "human-led" standards, the cognitive shift from generation to curation, and chain-of-title premiums converge. The legal floor for copyright sits lower, at L1↔L2 (see Section 1).
+The boundary between L4 and L3 is the critical professional safe harbor: where native human authorship, guild "human-led" standards, the cognitive shift from generation to curation, and chain-of-title premiums converge. The legal floor for copyright sits lower, at L1↔L2 (see The Legal Line in the next section).
 
 ---
 
@@ -278,7 +278,7 @@ The boundary between L4 and L3 is the critical professional safe harbor: where n
 
 ---
 
-The boundary between L4 (~90-99%) and L3 (~70-89%) is the most significant professional line on the spectrum. It is the same line Section 1 calls the **native authorship line**: above it, copyright is native; below it (and above the L1↔L2 floor), copyright is documented. Four standards converge at this boundary: native authorship for copyright purposes, professional "human-led" standards from the guilds, the cognitive distinction between generating expression and curating machine output, and the economic premium attached to clean chain of title. Above this threshold, humans lead and machines assist; below it, the relationship inverts.
+The boundary between L4 (~90-99%) and L3 (~70-89%) is the most significant professional line on the spectrum. It is the same line The Legal Line (below) calls the **native authorship line**: above it, copyright is native; below it (and above the L1↔L2 floor), copyright is documented. Four standards converge at this boundary: native authorship for copyright purposes, professional "human-led" standards from the guilds, the cognitive distinction between generating expression and curating machine output, and the economic premium attached to clean chain of title. Above this threshold, humans lead and machines assist; below it, the relationship inverts.
 
 The status of this claim: the threshold is a proposed operationalization, argued from the convergence of four independently developed standards, not a measured constant. "90%" is the mnemonic for the L4/L3 boundary; the argument concerns the boundary and would survive relabeling the numeral.
 
@@ -829,7 +829,7 @@ For professional creative work at L4-L5, disclosure requirements are non-intrusi
 
 ### Timeline
 
-Article 50 transparency obligations become enforceable **August 2, 2026**. Tools serving European markets must implement marking systems for L0-L2 outputs while L3-L5 assistive tools remain exempt.
+Article 50 transparency obligations became enforceable **August 2, 2026**. Tools serving European markets must implement marking systems for L0-L2 outputs while L3-L5 assistive tools remain exempt.
 
 ### Who Carries Which Obligation
 
@@ -1559,7 +1559,7 @@ Stated plainly, so the framework's claims can be weighed at their actual strengt
 
 > **Author:** Mark Ghuneim
 > **Organization:** Narrative.new℠
-> **Version:** 1.2 | July 2026
+> **Version:** 1.3 | August 2026
 >
 > With acknowledgments to Charlotte Cotton, Yair Landau, and Elliot Swan for their contributions through dialogue.
 >
