@@ -680,7 +680,7 @@ Where later sections speak definitively for readability ("L3-L5 = exempt"), the 
 
 Compliance requirements aren't bureaucratic obstacles. They're market architecture.
 
-Four dimensions (data protection, talent rights, guild requirements, and international regulation via EU AI Act) operate simultaneously on every professional AI-assisted production. Together, they define which agency levels are permissible for which work. This naturally segments the market into tiers that tools must serve or be locked out of.
+Five dimensions (data protection, talent rights, guild requirements, training-data licensing, and international regulation via the EU AI Act) operate simultaneously on every professional AI-assisted production. Together, they define which agency levels are permissible for which work. This naturally segments the market into tiers that tools must serve or be locked out of.
 
 ---
 
@@ -854,7 +854,7 @@ Adjacent but distinct: the Act's emotion-recognition prohibition in the workplac
 
 ### How Compliance Creates Market Structure
 
-The four dimensions don't just constrain; they define where different content can be made:
+The compliance dimensions don't just constrain; they define where different content can be made:
 
 | Project Profile | Data Requirement | Talent Requirement | Guild Requirement | Result |
 |---|---|---|---|---|
