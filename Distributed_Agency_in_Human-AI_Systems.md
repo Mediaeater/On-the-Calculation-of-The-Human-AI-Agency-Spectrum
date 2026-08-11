@@ -1363,7 +1363,7 @@ Stated plainly, so the framework's claims can be weighed at their actual strengt
 
 > **Author:** Mark Ghuneim
 > **Organization:** Narrative.new℠
-> **Version:** 1.3 | August 2026
+> **Version:** 1.4 | August 2026
 >
 > With acknowledgments to Charlotte Cotton, Yair Landau, and Elliot Swan for their contributions through dialogue.
 >
