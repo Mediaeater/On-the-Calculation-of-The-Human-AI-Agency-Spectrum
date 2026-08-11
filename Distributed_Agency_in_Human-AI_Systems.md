@@ -22,7 +22,7 @@ To address this gap, this document proposes a six-layer model (L0-L5) that maps 
 
 **Objective and contributions.** The objective is a shared, operational vocabulary for how creative agency and authorship distribute between humans and AI. Four contributions, each marked by status so it is clear what is proposed here versus summarized from public sources:
 
-1. **The six-layer taxonomy (L0–L5)** — new. A classification of human-AI configurations defined on consistent axes (who initiates, who produces expression, who selects and approves), with boundaries anchored to breakpoints that already exist in law and professional standards rather than to an invented scale.
+1. **The six-layer taxonomy (L0–L5)** — new. A classification of human-AI configurations defined on consistent axes (who initiates, who produces expression, who selects and approves), with boundaries anchored to breakpoints that already exist in law and professional standards rather than to an invented scale. Leveled scales of AI use exist in adjacent domains (educational assessment, agent autonomy; see Related Work); the novelty is grading authorship distribution in completed creative works, and the anchoring itself.
 2. **The two-level assessment model** — new. The distinction between interaction agency (a single exchange) and work agency (a completed work), with a weighted contribution model for the latter. This distinction names a measurement gap later documented independently at corpus scale (see Subsequent Empirical Evidence).
 3. **The two-threshold interpretation** — new interpretation of synthesized material. The claim that four independent standards (copyright, guild, cognitive, economic) converge near the L3/L4 boundary, while the legal floor sits separately at L1/L2.
 4. **The compliance-to-market mapping** — synthesis with new structure. The legal and guild material summarizes public sources; the contribution is the mapping from compliance dimensions to a three-tier market structure, and the mechanism and behavioral analysis of how interface design preserves or erodes agency.
@@ -60,6 +60,7 @@ To accurately apply this framework, three distinctions regarding creative realit
 - [Part III: Mechanisms & Constraints](#part-iii-mechanisms--constraints)
   - [Mechanisms of Control](#mechanisms-of-control)
   - [Behavioral Constraints](#behavioral-constraints)
+- [Related Work](#related-work)
 - [Subsequent Empirical Evidence](#subsequent-empirical-evidence)
 
 ---
@@ -1445,6 +1446,72 @@ The third defense is practice: deliberate work without AI, maintaining the capab
 **References:**
 - Tversky, A. & Kahneman, D. (1974). Judgment under Uncertainty: Heuristics and Biases. *Science*, 185(4157), 1124-1131.
 - Thaler, R. & Sunstein, C. (2008). *Nudge: Improving Decisions About Health, Wealth, and Happiness*. Yale University Press.
+
+---
+
+# Related Work
+
+This framework sits at the intersection of five literatures. This section situates it in each and states what it takes from them and where it departs. (In a formatted research paper this section belongs directly after the introduction; here it sits beside the empirical postscript so the practitioner path through Parts I-III stays unbroken.)
+
+### Levels of Automation
+
+Leveled description of human-machine task allocation begins with Sheridan and Verplank's (1978) ten-point scale from fully manual control to full machine autonomy, generalized by Parasuraman, Sheridan and Wickens (2000) into levels applied separately to four information-processing stages. The most publicly successful leveled taxonomy is SAE J3016's six driving-automation levels, L0-L5 — the explicit structural precedent for this framework's six-level legibility. The levels tradition has serious critics: Bradshaw et al. (2013) argue that "levels of autonomy" mislead because autonomy is relational and context-bound, not a quantity a machine possesses; Jamieson and Skraaning (2018) show LOA frameworks predicting poorly in complex work settings.
+
+This framework accepts both critiques rather than contesting them. Its levels grade the *relation* between two parties — the distribution of authorship — not machine capability, and they are used for description, attribution, and disclosure, where legibility is the goal, not for performance prediction, where LOA demonstrably struggles. Parasuraman et al.'s insight that automation level varies per processing stage recurs here as per-phase scoring in the weighted contribution model. Recent leveled taxonomies for AI at large — Morris et al.'s (2024) Levels of AGI, and Feng, McDonald and Zhang's (2025) levels of autonomy for AI agents, defined like this framework's by the human's role — confirm the pattern's currency. This framework is the creative-authorship instance, with the legal and professional-standard anchoring those schemes do not attempt.
+
+### Mixed-Initiative Interaction
+
+Horvitz (1999) set the principles for coupling automated services with direct manipulation; Allen, Guinn and Horvitz (1999) defined levels of initiative in dialog — a direct ancestor of leveled human-AI schemes, grading control of task-oriented dialog rather than authorship of creative expression. Yannakakis, Liapis and Alexopoulos (2014) brought mixed initiative to co-creativity, showing machine suggestions reshape the human's own creative process — a mechanism this document's Behavioral Constraints section develops in detail. Deterding et al. (2017) consolidated "mixed-initiative creative interfaces" as a research agenda. The middle of this framework's spectrum (roughly L2-L4) is that paradigm; the framework contributes the assessment machinery — who ends up the author, with what legal consequence — that the agenda called for but did not supply.
+
+### Human-AI Co-Creativity
+
+Kantosalo and Toivonen (2016) distinguish alternating from task-divided co-creativity; Davis et al. (2016) model creativity as participatory sense-making that emerges in interaction; Guzdial and Riedl (2019) frame co-creation as turn-taking over a shared artifact; Rezwana and Maher's COFI (2023) maps the design space of co-creative interaction. These are typologies of interaction configuration: they describe *how* human and machine interleave. This framework grades *how much* creative agency each party ends up holding, ordinally, and attaches legal consequences to the grades. The two are complementary: COFI's dimensions are design-time inputs whose runtime outcomes the L0-L5 taxonomy classifies. Lee, Liang and Yang's CoAuthor dataset (2022) — keystroke-level logs of 1,445 human-GPT-3 writing sessions, in which self-reported ownership tracks the proportion of user-written text — is exactly the interaction-level evidence the two-level assessment model consumes. Lee, Gero, Chung et al.'s (2024) design space for intelligent writing assistants, a systematic review of 115 papers, is the field's current map of these systems; this framework's taxonomy is orthogonal to it, grading agency outcomes rather than cataloguing design options, and supplies the legal depth that the design space's ecosystem aspect gestures at.
+
+### Human Agency and Control
+
+Shneiderman (2020) rejects the one-dimensional automation-versus-control trade-off: control and automation are independent axes, and good design often maximizes both. That is the formal reason a single scale cannot represent a writer who uses heavy automation while retaining full creative control — and why this framework separates interaction agency from work agency instead of assigning one global number. Santoni de Sio and van den Hoven's (2018) account of meaningful human control requires outcomes be *traceable* to a responsible human; authorship attribution is the creative-work instance of tracing, and the weighted contribution model is an operationalization of it. Heer (2019) argues shared, inspectable representations keep human agency intact under automation — the mechanism that makes interaction-level assessment possible at all. Bennett et al.'s (2023) systematic review finds HCI's agency concepts ambiguous and organizes them partly by time-scale; the interaction/work distinction is a time-scale separation in their sense, made operational.
+
+### Authorship Attribution and AI Authorship
+
+On the doctrinal side, Ginsburg and Budiardjo (2019) partition machine-involved works among designer-authored, user-authored, and authorless — a coarse three-way legal taxonomy of the same space L0-L5 refines into actionable gradations; Samuelson (2023) maps the unsettled litigation landscape this framework's USCO anchoring must live in. On the empirical side, Epstein et al. (2023) name attribution as an open research program; Draxler et al.'s AI Ghostwriter Effect (2024) shows declared authorship and felt ownership diverge as a function of the human's influence on the text; Joshi and Vogel (2025) measure a dose-response between prompt share and psychological ownership. Both findings are what the framework predicts when work sits in the L1-L2 band: authorship claimed, ownership not felt, because expression was not human-produced. Hoque et al.'s HaLLMark (2024) demonstrates provenance visualization for writer-LLM interaction — an implementation substrate for the documentation requirements the work-level model imposes.
+
+### Near-Neighbor Taxonomies
+
+Honesty requires stating plainly: leveled scales of AI involvement in writing already exist. The closest is Perkins, Furze, Roe and MacVaugh's AI Assessment Scale (2024), a widely adopted five-level scale of permitted AI use in educational assessment. Dhillon et al. (2024) experimentally manipulate scaffolding levels (none / sentence / paragraph) in co-writing and find ownership falls as scaffolding rises. Graduated disclosure schemes circulate in scholarly publishing (Weaver's AID Framework, 2024) and industry commentary. None of these grades authorship distribution in completed creative works; AIAS is prospective and prescriptive (what use is permitted), disclosure schemes are checklists (what use is declared), and the experimental work manipulates single sessions. This framework's combination — an ordinal taxonomy of authorship distribution, a two-level interaction/work assessment with weighted contribution scoring, and per-level anchoring to USCO copyrightability pathways, EU AI Act Article 50, and WGA/SAG-AFTRA standards — is, to our knowledge, not attempted by any near neighbor. That combination, not the existence of levels, is the claim to novelty.
+
+---
+
+**References:**
+- Sheridan, T.B. & Verplank, W.L. (1978). Human and Computer Control of Undersea Teleoperators. MIT Man-Machine Systems Laboratory.
+- Parasuraman, R., Sheridan, T.B., & Wickens, C.D. (2000). A Model for Types and Levels of Human Interaction with Automation. *IEEE Trans. SMC-A*, 30(3), 286-297.
+- SAE International (2021). J3016_202104: Taxonomy and Definitions for Terms Related to Driving Automation Systems.
+- Bradshaw, J.M., Hoffman, R.R., Woods, D.D., & Johnson, M. (2013). The Seven Deadly Myths of Autonomous Systems. *IEEE Intelligent Systems*, 28(3), 54-61.
+- Jamieson, G.A. & Skraaning, G. (2018). Levels of Automation in Human Factors Models for Automation Design. *J. Cognitive Engineering and Decision Making*, 12(1), 42-49.
+- Morris, M.R., et al. (2024). Position: Levels of AGI for Operationalizing Progress on the Path to AGI. *ICML 2024*. arXiv:2311.02462.
+- Feng, K.J.K., McDonald, D.W., & Zhang, A.X. (2025). Levels of Autonomy for AI Agents. arXiv:2506.12469.
+- Horvitz, E. (1999). Principles of Mixed-Initiative User Interfaces. *CHI '99*, 159-166.
+- Allen, J.E., Guinn, C.I., & Horvitz, E. (1999). Mixed-Initiative Interaction. *IEEE Intelligent Systems*, 14(5), 14-23.
+- Yannakakis, G.N., Liapis, A., & Alexopoulos, C. (2014). Mixed-Initiative Co-Creativity. *FDG 2014*.
+- Deterding, S., et al. (2017). Mixed-Initiative Creative Interfaces. *CHI EA '17*, 628-635.
+- Kantosalo, A. & Toivonen, H. (2016). Modes for Creative Human-Computer Collaboration: Alternating and Task-Divided Co-Creativity. *ICCC 2016*, 77-84.
+- Davis, N., Hsiao, C.-P., Yashraj Singh, K., Li, L., & Magerko, B. (2016). Empirically Studying Participatory Sense-Making in Abstract Drawing with a Co-Creative Cognitive Agent. *IUI '16*, 196-207.
+- Guzdial, M. & Riedl, M. (2019). An Interaction Framework for Studying Co-Creative AI. *CHI 2019 HCML Workshop*. arXiv:1903.09709.
+- Rezwana, J. & Maher, M.L. (2023). Designing Creative AI Partners with COFI. *ACM TOCHI*, 30(5), Article 67.
+- Lee, M., Liang, P., & Yang, Q. (2022). CoAuthor: Designing a Human-AI Collaborative Writing Dataset. *CHI '22*.
+- Shneiderman, B. (2020). Human-Centered Artificial Intelligence: Reliable, Safe & Trustworthy. *Int. J. Human-Computer Interaction*, 36(6), 495-504.
+- Santoni de Sio, F. & van den Hoven, J. (2018). Meaningful Human Control over Autonomous Systems. *Frontiers in Robotics and AI*, 5:15.
+- Heer, J. (2019). Agency plus Automation: Designing Artificial Intelligence into Interactive Systems. *PNAS*, 116(6), 1844-1850.
+- Bennett, D., Metatla, O., Roudaut, A., & Mekler, E.D. (2023). How does HCI Understand Human Agency and Autonomy? *CHI '23*, Article 375.
+- Ginsburg, J.C. & Budiardjo, L.A. (2019). Authors and Machines. *Berkeley Technology Law Journal*, 34(2), 343-448.
+- Samuelson, P. (2023). Generative AI Meets Copyright. *Science*, 381(6654), 158-161.
+- Epstein, Z., Hertzmann, A., et al. (2023). Art and the Science of Generative AI. *Science*, 380(6650), 1110-1111.
+- Draxler, F., et al. (2024). The AI Ghostwriter Effect. *ACM TOCHI*, 31(2), Article 25.
+- Joshi, N. & Vogel, D. (2025). Writing with AI Lowers Psychological Ownership, but Longer Prompts Can Help. *CUI '25*.
+- Hoque, M.N., et al. (2024). The HaLLMark Effect: Supporting Provenance and Transparent Use of Large Language Models in Writing. *CHI '24*.
+- Perkins, M., Furze, L., Roe, J., & MacVaugh, J. (2024). The Artificial Intelligence Assessment Scale (AIAS). *J. University Teaching and Learning Practice*, 21(6).
+- Dhillon, P.S., et al. (2024). Shaping Human-AI Collaboration: Varied Scaffolding Levels in Co-writing with Language Models. *CHI '24*.
+- Weaver, K.D. (2024). The Artificial Intelligence Disclosure (AID) Framework. *College & Research Libraries News*, 85(10).
+- Lee, M., Gero, K.I., Chung, J.J.Y., et al. (2024). A Design Space for Intelligent and Interactive Writing Assistants. *CHI '24*.
 
 ---
 
