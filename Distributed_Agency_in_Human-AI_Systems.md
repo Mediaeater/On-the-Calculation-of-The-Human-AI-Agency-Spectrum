@@ -62,6 +62,7 @@ To accurately apply this framework, three distinctions regarding creative realit
   - [Behavioral Constraints](#behavioral-constraints)
 - [Related Work](#related-work)
 - [Subsequent Empirical Evidence](#subsequent-empirical-evidence)
+- [Limitations](#limitations)
 
 ---
 
@@ -1535,6 +1536,24 @@ The chronology matters. These findings postdate this framework and were produced
 - Gupta, N., Antoniak, M., & Walsh, M. (2026). AI Fiction in the Wild. arXiv:2606.22748. Forthcoming in *MFS: Modern Fiction Studies*.
 - Reimers, I., & Waldfogel, J. (2026). AI and the Quantity and Quality of Creative Products: Have LLMs Boosted Creation of Valuable Books? NBER Working Paper 34777.
 - McGurl, M. (2021). *Everything and Less: The Novel in the Age of Amazon*. Verso.
+
+---
+
+# Limitations
+
+Stated plainly, so the framework's claims can be weighed at their actual strength:
+
+**The case studies are constructed.** Cases A-D are hypothetical illustrations built to exercise the model. They demonstrate mechanics, not validity. No real workflow has yet been scored with the weighted contribution model by independent raters.
+
+**The numeric apparatus is designed, not measured.** The layer ranges are communication devices; the 90% threshold is a proposed operationalization of a convergence argument; the contribution weights are defaults encoding a stated principle. Each is labeled as such where it appears. None has been validated against registration outcomes, arbitration decisions, or controlled studies. The propositions (P1-P6) specify what such validation would test.
+
+**The legal analysis is US-centric and time-bound.** The copyright zones track USCO guidance through the January 2025 report; guild mappings track the 2023 MBA and the 2026 agreements; the EU AI Act mapping tracks Article 50's text, with enforcement practice only now accumulating (obligations enforceable from August 2, 2026). Other jurisdictions draw different lines. The framework's structure is designed to survive doctrinal drift — layers can be re-anchored when standards move — but every specific mapping carries a date.
+
+**Scope is text-based generation, pre-visualization.** Voice, likeness, and visual generation enter only where they intersect writing. The three axes (who initiates, who produces expression, who selects and approves) should transfer to other modalities; the legal anchors will not transfer unchanged.
+
+**Layer classification is self-documented in practice.** Absent provenance infrastructure in general-purpose tools, work-level scores rest on creator-kept evidence. Documentation is simultaneously the framework's compliance mechanism and its weakest evidentiary link — a gap the WildChat findings above make concrete at population scale.
+
+**Expert evaluation is pending.** The validation path — inter-rater classification exercises, expert walkthroughs with writers, attorneys, and guild-side reviewers, and scoring of documented real workflows — is future work. Until it is executed, the framework's standing is that of an argued proposal: internally consistent, externally anchored, and empirically corroborated only at the population level described in Subsequent Empirical Evidence.
 
 ---
 
