@@ -51,6 +51,7 @@ To accurately apply this framework, three distinctions regarding creative realit
   - [The Six Layers of Agency](#the-six-layers-of-agency)
   - [The 90% Threshold: The Professional Safe Harbor](#the-90-threshold-the-professional-safe-harbor)
   - [Work-Level Agency: The Iterative Dimension](#work-level-agency-the-iterative-dimension)
+  - [The Framework's Propositions](#the-frameworks-propositions)
 - [Part II: Market Structure](#part-ii-market-structure)
   - [The Compliance Landscape](#the-compliance-landscape)
   - [The Three-Tier Market](#the-three-tier-market)
@@ -165,6 +166,8 @@ To operationalize qualitative standards like "human-led" and "significant contro
 
 These ranges are directional, not precise measurements. Avoiding potentially false precision on top of inherently vague standards. A tool classified as L3 operates in the 70-89% range conceptually; practitioners need not calculate exact percentages. The value is in consistent layer classification that maps to legal and professional standards.
 
+The percentages are design choices, not measurements: no instrument returns "82% human," and none is claimed. They are a communication device that makes ordinal positions comparable across tools, contracts, and jurisdictions. The framework's claims ride on the boundaries between layers (see Why Six Layers), not on the numerals inside them.
+
 Every layer is defined by the same three questions: **who initiates** the work, **who produces its expression**, and **who selects and approves** what enters it. The layer names describe the human's stance at that configuration.
 
 | Layer | Name | Indicative Range | Who Initiates | Who Produces Expression | Who Selects / Approves | Authorship Status |
@@ -231,6 +234,8 @@ The boundary between L4 and L3 is the critical professional safe harbor: where n
 ---
 
 The boundary between L4 (~90-99%) and L3 (~70-89%) is the most significant professional line on the spectrum. It is the same line Section 1 calls the **native authorship line**: above it, copyright is native; below it (and above the L1↔L2 floor), copyright is documented. Four standards converge at this boundary: native authorship for copyright purposes, professional "human-led" standards from the guilds, the cognitive distinction between generating expression and curating machine output, and the economic premium attached to clean chain of title. Above this threshold, humans lead and machines assist; below it, the relationship inverts.
+
+The status of this claim: the threshold is a proposed operationalization, argued from the convergence of four independently developed standards, not a measured constant. "90%" is the mnemonic for the L4/L3 boundary; the argument concerns the boundary and would survive relabeling the numeral.
 
 ---
 
@@ -397,7 +402,7 @@ Both are valid. Neither replaces the other. The distinction matters when evaluat
 
 ### The Weighted Contribution Model
 
-For work-level assessment, weight contributions by their creative significance:
+For work-level assessment, weight contributions by their creative significance. The weights below are suggested defaults, not measured constants: a design choice encoding one defensible principle — upstream decisions constrain everything downstream, so concept, structure, and character carry more authorship weight per hour than surface expression or cleanup. The defaults suit feature-length narrative; other forms (poetry, songwriting, interactive) would re-weight. What matters procedurally is that parties agree on weights before assessment and document that agreement, and that conclusions are checked against reasonable alternative weightings (see Sensitivity, below).
 
 | Contribution Type | Suggested Weight | Rationale |
 |---|---|---|
@@ -435,6 +440,12 @@ A feature screenplay developed over 200 hours:
 **Result:** Work Agency = 90.75% (L4)
 
 The writer spent 15 hours at L2 for dialogue polish, but this represents only 10% of creative weight. The aggregate work reflects L4 authorship because the high-weight creative decisions (concept, structure, characters) were human-led.
+
+---
+
+### Sensitivity
+
+How much do conclusions depend on the default weights? For the example above, reallocating five weight points between any two phases shifts the aggregate by at most 2.25 points (five points moved across the table's largest agency gap: concept at 100% to dialogue polish at 55%). The example's 90.75% therefore sits within perturbation range of the 90% line — and that is the correct reading, not a defect. Scores within a few points of a boundary are boundary cases and should be treated as such: argued with process documentation, not settled by decimals. The layer, not the decimal, is the unit of claim. A work scoring 88-92 under reasonable weightings is an L4/L3 boundary case whose classification turns on the evidence, exactly where the burden should sit.
 
 ---
 
@@ -480,6 +491,26 @@ Interaction-level scoring answers: "What happened at this moment?"
 Work-level scoring answers: "Who authored this work?"
 
 Both are valid questions. The framework now provides tools for both. For authorship claims, copyright assessment, and professional credit—work-level analysis is what matters.
+
+---
+
+## The Framework's Propositions
+
+The mappings this document argues are interpretive claims, not settled facts. Stated as propositions so they can be tested, contested, and falsified:
+
+**P1 — Copyright zones.** Work produced at L4-L5 supports native copyright; L2-L3 supports documented copyright through the USCO selection, coordination, arrangement, and modification pathways; L0-L1 output is not separately protectable. *Testable against registration outcomes and litigation as they accumulate.*
+
+**P2 — Guild alignment.** Guild "human-led" standards, as operationalized in the WGA and SAG-AFTRA agreements, are satisfied at L4-L5 and contested in the L3 band. *Testable against arbitration and credit determinations.*
+
+**P3 — EU marking exemption.** The Article 50(2) assistive-function exemption maps to L3-L5; L0-L2 output requires marking. *Testable against Commission guidance and enforcement practice from August 2026.*
+
+**P4 — Cognitive shift.** The shift from generating expression to curating machine output occurs near the L4/L3 boundary. *Testable in controlled studies of writers across interface configurations.*
+
+**P5 — Market stratification.** Professional markets stratify into three tiers whose boundaries track the L3/L4 and L2/L3 lines. *Testable against contract terms, insurer requirements, and deal structures through 2028.*
+
+**P6 — Work-level dominance.** For authorship assessment, weighted work-level agency predicts legal and professional outcomes better than interaction-level scoring. *Testable against registration and credit cases where process documentation exists.*
+
+Where later sections speak definitively for readability ("L3-L5 = exempt"), the shorthand should be read through these propositions.
 
 ---
 
@@ -904,15 +935,17 @@ Beyond ToS, active dealmaking is setting precedents:
 
 ---
 
-### The Probability Assessment
+### The Scenario Assessment
 
-| Scenario | Probability | Description |
+Three candidate futures for the 2025-2028 window, assessed qualitatively. These are reasoned judgments stated so they can be argued with — not probabilities derived from data.
+
+| Scenario | Assessment | Reasoning |
 |---|---|---|
-| Polarized Market | 20% | Premium (human-only) vs. Budget (AI-heavy), Standard collapses |
-| Full Automation | 15% | L0-L2 dominates, Premium becomes niche luxury |
-| **Hybrid Co-Creation** | **65%** | Three-tier structure stabilizes, each tier finds equilibrium |
+| **Hybrid Co-Creation** | Most likely | Every operative constraint documented above — copyright zones, guild lines, EU marking, insurance requirements — already presupposes tiered coexistence, and the tiers are visible in current contracts and deals |
+| Polarized Market | Possible | Premium (human-only) vs. Budget (AI-heavy) with Standard collapsing requires the L3 gray zone to fail in negotiation; current guild bargaining trends the other way |
+| Full Automation | Least likely in this window | L0-L2 dominance is blocked by the compliance architecture itself: guild contracts, USCO doctrine, and EU marking each independently penalize low-agency output in professional markets |
 
-The three-tier structure is the most likely outcome. Plan accordingly.
+The three-tier structure is the most likely outcome (Proposition P5). Plan accordingly.
 
 ---
 
