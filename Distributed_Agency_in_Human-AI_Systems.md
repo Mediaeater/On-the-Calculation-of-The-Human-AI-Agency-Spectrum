@@ -12,13 +12,22 @@ If our systems are architected to amplify the human capacity for taste, imaginat
 
 This document is a view into how artists (and industry) can navigate the pressures on storytelling in a generated world, by understanding agency at the tool level, and moving past the unsustainable good/bad binary.
 
-This framework emerged from research around creating a human-led storytelling system, requiring us to understand how interaction and design shape creative autonomy and authorship.
+This framework emerged from building a human-led storytelling system (Narrative.new): a narrative development environment designed so that AI supports planning, structure, and suggestion while expression remains the writer's. Designing it meant deciding, interface choice by interface choice, where control sits between writer and machine. Those decisions required a way to describe how interaction and design shape creative autonomy and authorship — the vocabulary this document generalizes.
 
 At this technological inflection point, creators, studios, and industry professionals find themselves navigating without a shared vocabulary, allowing for a shared feeling of "you're on your own." The existing language ("AI-generated," "AI-assisted," "human-written") fails to capture the spectrum of configurations actually in use. The scaffolding to build from is needed. Guild contracts reference "human-led" processes without defining the threshold. Copyright law requires "significant human control" without specifying what qualifies. Tool interfaces make design choices that shape agency without making those choices visible. Everyone operates from intuition where precision is needed.
 
 ## Defining the Framework
 
 To address this gap, this document proposes a six-layer model (L0-L5) that maps qualitative standards to operational configurations. It synthesizes legal requirements (USCO, EU AI Act), professional standards (WGA, SAG-AFTRA, DGA), cognitive research on human-AI interaction, and market analysis of compliance constraints. The result is a vocabulary for discussing agency that connects to the rules already governing professional work.
+
+**Objective and contributions.** The objective is a shared, operational vocabulary for how creative agency and authorship distribute between humans and AI. Four contributions, each marked by status so it is clear what is proposed here versus summarized from public sources:
+
+1. **The six-layer taxonomy (L0–L5)** — new. A classification of human-AI configurations defined on consistent axes (who initiates, who produces expression, who selects and approves), with boundaries anchored to breakpoints that already exist in law and professional standards rather than to an invented scale.
+2. **The two-level assessment model** — new. The distinction between interaction agency (a single exchange) and work agency (a completed work), with a weighted contribution model for the latter. This distinction names a measurement gap later documented independently at corpus scale (see Subsequent Empirical Evidence).
+3. **The two-threshold interpretation** — new interpretation of synthesized material. The claim that four independent standards (copyright, guild, cognitive, economic) converge near the L3/L4 boundary, while the legal floor sits separately at L1/L2.
+4. **The compliance-to-market mapping** — synthesis with new structure. The legal and guild material summarizes public sources; the contribution is the mapping from compliance dimensions to a three-tier market structure, and the mechanism and behavioral analysis of how interface design preserves or erodes agency.
+
+What this document is not: a formal empirical study. The framework is a conceptual and design-research contribution. Its development process is described in The Approach, the status of its numeric values is stated where each appears, and its validation path is discussed in Limitations.
 
 ## Framing - Essential Context
 
@@ -124,9 +133,17 @@ All three need the same thing: a way to measure and specify how authorship gets 
 
 ### The Approach
 
-This framework emerged from direct engagement with AI-powered creative systems. The core concepts: **a two-level distributional model, authorship risk metric, and six interaction modes** developed through empirical examination of how different system architectures distribute control in practice.
+This framework is a conceptual and design-research contribution, not a formal empirical study. No dataset, participant pool, or statistical analysis stands behind it, and this document does not claim otherwise. Its method combines three things:
 
-A way to map authorship allocation across interaction architectures and introduce "authorship risk" as the central metric. Essentially mapping out a "you are here."
+**Design research.** The framework emerged from building Narrative.new, a storytelling system intended to keep the writer the primary author. Every interface decision — suggest or publish defaults, where drafts originate, what the AI may touch — forced the same question: where does this put control? The six layers began as the working answers.
+
+**Conceptual analysis.** The same foundation model behind different interfaces (chatbot, embedded suggestion, structural assistance) produces different authorship distributions. Examining tool architectures in professional use showed that the configurations cluster, and that the clusters differ on three recurring axes: who initiates, who produces expression, who selects and approves.
+
+**Standards synthesis.** Copyright guidance, guild agreements, and the EU AI Act each draw qualitative lines ("significant human control," "human-led," "assistive function"). Reading them against the clustered configurations showed the lines land at consistent places on the spectrum — the anchoring argument developed in the sections that follow.
+
+The result: **a two-level distributional model, authorship risk as the central metric, and six interaction layers.** A map of authorship allocation across interaction architectures. Essentially a "you are here."
+
+The derivation of the layer count and boundaries is taken up in The Six Layers of Agency. The status of every numeric value in this document — design choice versus evidence-anchored — is stated where it appears.
 
 ---
 
