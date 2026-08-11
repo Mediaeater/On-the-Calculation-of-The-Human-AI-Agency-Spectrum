@@ -6,16 +6,18 @@
 
 ## The Agency Spectrum
 
-| Level | Name | Human Agency | Human Role | Machine Role | Authorship Status |
-|-------|------|-------------|------------|--------------|-------------------|
-| **L5** | Pure Tool | ~100% | Full control | Passive instrument | Native copyright |
-| **L4** | Director | ~90-99% | All decisions | Assists on command | Native copyright |
-| | **--- 90% THRESHOLD / NATIVE AUTHORSHIP LINE (Safe Harbor) ---** | | | | |
-| **L3** | Supervisor | ~70-89% | Reviews/modifies | Suggests options | Documented copyright (chain of title) |
-| **L2** | Collaborator | ~40-69% | Selects/edits | Produces drafts | Documented copyright (heavier burden) |
-| | **--- AUTHORSHIP FLOOR ---** | | | | |
-| **L1** | Executor | ~15-39% | Curates output | Generates content | No copyright in output |
-| **L0** | Oracle | ~0-14% | Receives output | Generates everything | No copyright in output |
+Every level is defined by the same three questions: **who initiates**, **who produces expression**, and **who selects and approves**.
+
+| Level | Name | Human Agency | Who Initiates | Who Produces Expression | Who Selects / Approves | Authorship Status |
+|-------|------|-------------|---------------|-------------------------|------------------------|-------------------|
+| **L5** | Pure Tool | ~100% | Human | Human; machine performs mechanical operations only | Human; nothing expressive to review | Native copyright |
+| **L4** | Director | ~90-99% | Human | Human; machine contributes bounded assistance on command | Human reviews every machine contribution | Native copyright |
+| | **--- 90% THRESHOLD / NATIVE AUTHORSHIP LINE (Safe Harbor) ---** | | | | | |
+| **L3** | Supervisor | ~70-89% | Human, who drafts | Human, with machine proposing options within human-drafted material | Human selects, modifies, or rejects each suggestion | Documented copyright (chain of title) |
+| **L2** | Collaborator | ~40-69% | Human, who specifies (outlines, beats) | Machine drafts at passage scale from human specification | Human selects, edits, arranges | Documented copyright (heavier burden) |
+| | **--- AUTHORSHIP FLOOR ---** | | | | | |
+| **L1** | Executor | ~15-39% | Human, who prompts | Machine produces essentially all expression | Human curates: accept, regenerate, light edit | No copyright in output |
+| **L0** | Oracle | ~0-14% | Human, who requests | Machine produces everything | None meaningful; human receives | No copyright in output |
 
 **Native zone** (L4-L5): Copyright is native, guild-compliant, professional markets open.
 **Documented zone** (L2-L3): Copyright attaches with preserved or contributed authorship; chain of title must be visible.
@@ -155,4 +157,4 @@ Track these over time to evaluate whether your tool preserves or erodes agency:
 
 ---
 
-Human-AI Agency Framework | Mark Ghuneim / NARRATIVE.NEW | January 2026 | CC BY 4.0
+Human-AI Agency Framework | Mark Ghuneim / NARRATIVE.NEW | August 2026 | CC BY 4.0
