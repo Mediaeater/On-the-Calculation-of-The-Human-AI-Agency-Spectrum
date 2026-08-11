@@ -165,16 +165,34 @@ To operationalize qualitative standards like "human-led" and "significant contro
 
 These ranges are directional, not precise measurements. Avoiding potentially false precision on top of inherently vague standards. A tool classified as L3 operates in the 70-89% range conceptually; practitioners need not calculate exact percentages. The value is in consistent layer classification that maps to legal and professional standards.
 
-| Layer | Name | Indicative Range | Human Role | Machine Role | Authorship Status |
-|---|---|---|---|---|---|
-| L5 | Pure Tool | ~100% | Full Control | Passive Instrument | Unambiguous |
-| L4 | Director | ~90-99% | All Decisions | Assists on Command | Clean Human |
-| L3 | Supervisor | ~70-89% | Review/Modify | Suggests Options | Diluted/Defensible |
-| L2 | Collaborator | ~40-69% | Selects/Edits | Produces Drafts | Diluted/Disclosure |
-| L1 | Executor | ~15-39% | Curates | Generates Content | High Risk |
-| L0 | Oracle | ~0-14% | Receives | Generates Everything | No Human Claim |
+Every layer is defined by the same three questions: **who initiates** the work, **who produces its expression**, and **who selects and approves** what enters it. The layer names describe the human's stance at that configuration.
+
+| Layer | Name | Indicative Range | Who Initiates | Who Produces Expression | Who Selects / Approves | Authorship Status |
+|---|---|---|---|---|---|---|
+| L5 | Pure Tool | ~100% | Human | Human; machine performs mechanical operations only (correction, formatting) | Human; nothing expressive to review | Unambiguous |
+| L4 | Director | ~90-99% | Human | Human; machine contributes bounded assistance on command | Human reviews every machine contribution before it enters the work | Clean human |
+| L3 | Supervisor | ~70-89% | Human, who drafts | Human, with machine proposing options within human-drafted material | Human selects, modifies, or rejects each suggestion | Diluted / defensible |
+| L2 | Collaborator | ~40-69% | Human, who specifies (outlines, beats) | Machine drafts at passage scale from human specification | Human selects, edits, arranges | Diluted / disclosure |
+| L1 | Executor | ~15-39% | Human, who prompts | Machine produces essentially all expression | Human curates: accept, regenerate, light edit | High risk |
+| L0 | Oracle | ~0-14% | Human, who requests | Machine produces everything | None meaningful; human receives | No human claim |
 
 *L3-L5 collectively constitute the "assistive function" range under EU AI Act Article 50, exempt from mandatory AI-generated content marking.*
+
+---
+
+### Why Six Layers
+
+The layer count was not assumed in advance, and it is not the output of a dataset. It follows from the boundaries: five distinct breakpoints recur across the legal, professional, cognitive, and economic standards this framework synthesizes, and five breakpoints partition the spectrum into six layers.
+
+| Boundary | What changes there | External anchor |
+|---|---|---|
+| L5 ↔ L4 | Machine contribution begins to touch content at all | De minimis line: purely mechanical assistance (correction, formatting) is authorship-neutral under USCO guidance |
+| L4 ↔ L3 | Human stops producing all expression; machine begins proposing expression for human review | Native authorship line: USCO assistive-use pathway vs. selection/arrangement pathways; guild "human-led" standards; the cognitive shift from generating to reacting |
+| L3 ↔ L2 | Machine moves from suggesting within human-drafted material to drafting from human specification | EU AI Act Art. 50(2): "assistive function" that does not "substantially alter" semantics (L3-L5, exempt) vs. marked generation (L2 and below) |
+| L2 ↔ L1 | Human contribution stops qualifying as creative selection, coordination, arrangement, or modification | Authorship floor: USCO's line between documentable contribution and prompts alone |
+| L1 ↔ L0 | Meaningful curation drops away; the human receives rather than selects | Conceptual endpoint: the last point at which interaction-level human choice exists at all. This boundary has no external legal anchor; both layers sit below the authorship floor, and the distinction is behavioral |
+
+Six is a consequence, not a design target. If the governing standards drew their lines elsewhere, or a future standard added a new one, the layer count would change with them. The claim this framework makes is that these five breakpoints exist independently of it and recur across domains; the contribution is aligning them on a single spectrum. Two of the five carry most of the weight — the authorship floor at L1↔L2 and the native authorship line at L3↔L4 — and the 90% Threshold section develops why.
 
 ---
 
