@@ -2,7 +2,7 @@
 
 ## A Heuristic Framework for Classifying Authorship Configurations in Media and Content Production
 
-**Author:** Mark Ghuneim | **Organization:** Narrative.new | **Version:** 1.2 | 2026
+**Author:** Mark Ghuneim | **Organization:** Narrative.new | **Version:** 1.3 | 2026
 
 **License:** CC BY 4.0
 
@@ -608,7 +608,7 @@ Authors Guild v. OpenAI. (Ongoing). Litigation over fair use boundaries for trai
 
 > **Author:** Mark Ghuneim
 > **Organization:** Narrative.new
-> **Version:** 1.2 | 2026
+> **Version:** 1.3 | 2026
 >
 > **Suggested Citation:**
 > Ghuneim, M. (2026). *A Taxonomy of Human-AI Agency in Creative Work: A Heuristic Framework for Classifying Authorship Configurations in Media and Content Production.* Narrative.new.
