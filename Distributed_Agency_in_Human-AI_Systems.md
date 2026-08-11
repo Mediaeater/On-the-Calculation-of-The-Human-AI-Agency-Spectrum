@@ -602,7 +602,7 @@ The difference is what the user brings to the interaction.
 
 #### Case Study D (Integrated): Guild-Covered Streaming Pilot on an L3 Toolchain (Hypothetical)
 
-This case exercises four framework components end to end: mechanism audit → layer classification → work-level calculation → compliance dimensions → market tier.
+This case exercises four framework components end to end: mechanism audit → layer classification → work-level calculation → compliance dimensions → market position.
 
 **Context:** A production company develops a one-hour streaming drama pilot for EU-inclusive distribution. The staffed writer (WGA member) has company consent under Article 72.C to use an embedded-suggestion writing tool during drafting, plus a chatbot for research. Recognizable actors are attached; no digital replicas. Development IP sits on dedicated cloud instances.
 
