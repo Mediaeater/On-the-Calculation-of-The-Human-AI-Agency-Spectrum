@@ -45,6 +45,7 @@ To accurately apply this framework, three distinctions regarding creative realit
 
 ## Contents
 
+- [The Shape of the Argument](#the-shape-of-the-argument)
 - [The Human-AI Agency Spectrum](#the-human-ai-agency-spectrum)
 - [Part I: The Framework](#part-i-the-framework)
   - [Is There a Problem with the Problem](#is-there-a-problem-with-the-problem)
@@ -61,6 +62,49 @@ To accurately apply this framework, three distinctions regarding creative realit
 - [Subsequent Empirical Evidence](#subsequent-empirical-evidence)
 - [Appendices](#appendices)
   - [Iterative Workflow Case Studies](#iterative-workflow-case-studies)
+
+---
+
+## The Shape of the Argument
+
+The framework has three moving parts, and they stack:
+
+```mermaid
+flowchart TD
+    subgraph PIII["Part III — Mechanisms & Constraints"]
+        B["Behavioral constraints<br/>anchoring · selection · friction · Overton window · homogenization"]
+        G["Control mechanisms<br/>tactical (within the tool) · strategic (ability to leave)"]
+        B --> G
+    end
+    subgraph PI["Part I — The Framework"]
+        L["Six-layer spectrum L0–L5<br/>who initiates · who produces expression · who selects/approves"]
+        T["Two thresholds<br/>authorship floor L1↔L2 · native authorship line L3↔L4"]
+        W["Two assessment scopes<br/>interaction agency (one exchange) · work agency (whole process, weighted)"]
+        P["Propositions P1–P6"]
+        L --> T
+        L --> W
+        T --> P
+        W --> P
+    end
+    subgraph PII["Part II — Market Structure"]
+        C["Five compliance dimensions<br/>data · talent · guild · training-data · EU AI Act"]
+        M["Three-tier market<br/>Premium L4–L5 · Standard L3 · Budget L2"]
+        C --> M
+    end
+    G -->|"design sets a tool's layer"| L
+    T -->|"layers gate what compliance permits"| C
+    E["Subsequent empirical evidence<br/>WildChat corpus findings (2026)"] -.->|"independent support"| P
+```
+
+**Part I** defines the vocabulary: six layers on three consistent axes, two thresholds anchored in external standards, and two assessment scopes — a single interaction versus a completed work. Its output is a set of testable propositions (P1-P6).
+
+**Part II** consumes the layer classifications: five compliance dimensions gate which layers are permissible for which work, and their intersection stratifies the market into three tiers.
+
+**Part III** explains what moves a configuration along the spectrum: control mechanisms within and across tools, and the behavioral constraints operating beneath apparent choice.
+
+A closing section reports independent empirical findings that postdate the framework's publication.
+
+Readers deciding tool policy can stop after Part I. Readers positioning productions or products need Part II. Readers designing tools need Part III.
 
 ---
 
