@@ -51,7 +51,7 @@ Unlike driving automation (SAE J3016) or general workforce task automation (Stan
 
 **Guild contracts specify "human-led" processes without measurement.** The WGA's Minimum Basic Agreement (Article 72), as established in 2023 and preserved in the 2026 MBA, holds that AI is not a writer and AI-generated material is not "literary material," but creates an asymmetry where hired writers with company consent can incorporate AI-generated material while retaining literary material status. The 2026 MBA adds a training data licensing layer: studios must give written notice to the Guild when licensing covered literary material to non-affiliated third parties to train commercial GAI systems, and must meet with the Guild upon request to discuss remuneration. Neither guild defines a gradient of acceptable involvement in production. SAG-AFTRA's four pillars (Transparency, Consent, Compensation, Control) protect performer agency; the 2026 TV/Theatrical Tentative Agreement (Section 39) operationalizes them with concrete obligations and adds a parallel training-data notice for licensing performances to third-party commercial GAI systems.
 
-**Economic valuation depends on authorship clarity.** Chain of title (the unbroken record of who owns what) is the foundation of content licensing, E&O insurance, and market access. Ambiguous authorship creates uninsurable risk. The premium content market requires clean authorship claims; the standard market requires documented claims; the budget market tolerates thin claims. These tiers exist whether or not anyone names them.
+**Economic valuation depends on authorship clarity.** Chain of title (the unbroken record of who owns what) is the foundation of content licensing, E&O insurance, and market access. Ambiguous authorship creates uninsurable risk. Premium content requires clean authorship claims; standard professional work requires documented claims; low-cost volume content tolerates thin claims. This stratification exists whether or not anyone names it.
 
 **The cognitive distinction between generating and selecting is unique to creative work.** A driver who monitors an autonomous vehicle is performing a safety task. A writer who selects from AI-generated options is performing a curatorial task. Only the latter raises questions of authorship, because authorship requires originating expression, not merely choosing among expressions originated by another.
 
@@ -388,35 +388,9 @@ The decision flowchart for any project follows three questions in sequence:
 
 The most restrictive answer wins. A project that is L5-safe on data protection but L4-minimum on guild compliance and L4-minimum on talent consent operates at L4 minimum. One dimension at L5 does not offset another at L4.
 
-### 4.2 The Three-Tier Market
+### 4.2 Market Access
 
-Compliance constraints do not merely restrict; they stratify. The intersection of data protection, talent rights, guild requirements, and international regulation creates a market with three distinct tiers, each defined by the agency configurations it permits and the content it produces. This structure is not imposed by any single authority; it emerges from the convergence of independent constraints.
-
-| Constraint | Premium Requirement | Standard Requirement | Budget Tolerance |
-|-----------|-------------------|---------------------|-----------------|
-| Copyright | Clean (L4-L5) | Diluted acceptable (L3) | Thin acceptable (L2) |
-| Guild compliance | Required (all unions) | Required | Not applicable |
-| Talent consent | Tier 3 protocols | Tier 1-2 protocols | Tier 0-1 |
-| Data protection | Maximum or enhanced | Enhanced | Standard |
-| E&O insurance | Full coverage | Standard coverage | Minimal |
-
-**Premium (L4-L5).** Theatrical releases, prestige television, awards-track content. Clean authorship is required: full chain of title, insurable copyright claims, guild compliance across all unions. A-list talent participation triggers the highest consent requirements. Data protection demands maximum or enhanced infrastructure. Tools serving this tier must support L4-L5 modes with enterprise-grade security, consent management integration, and guild-compliant audit trails.
-
-**Standard (L3).** Network television, streaming originals, mid-budget productions. Authorship is diluted but defensible with documentation. Disclosure of AI involvement is required. Guild compliance is necessary but operates in the negotiated gray zone where human creative leadership must be demonstrated through process evidence. Tools serving this tier must support L3-L5 modes with dedicated cloud infrastructure and contribution tracking.
-
-**Budget (L2).** Digital-first content, non-guild productions, volume content. Thin margins, speed prioritized over authorship clarity. Copyright claims are thin; IP value is limited. Tools serving this tier can operate on standard cloud infrastructure with basic attribution. Licensing complications are accepted as a cost of speed.
-
-**Below L2 (L0-L1):** Locked out of professional markets entirely. Tools that only support L0-L2 configurations cannot serve premium or standard tiers. Their addressable market is budget-tier and non-professional use cases.
-
-The implication for tool builders: compliance capability is competitive positioning. A tool's addressable market is determined not by its AI capability but by the agency configurations it supports and the infrastructure it provides. Tools that support the full L2-L5 range with appropriate infrastructure options can serve all three tiers. Tools that only support L0-L2 are excluded from premium and standard markets entirely; their addressable market is budget-tier and non-professional use cases. The compliance capability becomes the competitive moat.
-
-| To Serve This Market | Tool Must Support |
-|---------------------|-------------------|
-| **Premium** | L4-L5 modes, enterprise-grade security, consent management, guild-compliant audit trails |
-| **Standard** | L3-L5 modes, dedicated cloud instances, disclosure generation, contribution tracking |
-| **Budget** | L2-L5 modes, standard cloud acceptable, basic attribution |
-
-The three-tier structure is the most probable market outcome. An alternative scenario (polarization between Premium/human-only and Budget/AI-heavy, with the Standard tier collapsing) is possible but less likely, because the economics of mid-budget content (streaming series, network television) depend on efficient production processes that L3 configurations enable. Full automation (L0-L2 domination across all tiers) is the least probable outcome, constrained by copyright law, guild contracts, and the economic premium that defensible authorship commands. The three-tier equilibrium represents the intersection of what is legally permissible, professionally acceptable, and economically viable at each level.
+Compliance constraints do not merely restrict; they stratify. Their intersection determines which agency configurations can serve which work: guild-covered production requires L3 minimum with documentation (L4-L5 for clean compliance), heightened consent and data-protection requirements concentrate high-stakes work at L4-L5, and configurations below L2 are excluded from professional production entirely. For tool builders the implication is direct: a tool's addressable professional market is determined not by its AI capability but by the agency configurations it supports and the infrastructure it provides. Tools supporting the L2-L5 range with appropriate infrastructure can serve the full professional spectrum; tools limited to L0-L2 cannot serve guild-covered or high-stakes work at all. Compliance capability is competitive positioning.
 
 ### 4.3 Qualitative Case Studies
 
@@ -483,7 +457,7 @@ These cases demonstrate that the taxonomy serves different stakeholders in diffe
 - **For creators:** The framework provides a diagnostic: where does my process sit, and is my authorship claim defensible? Creators operating at L4-L5 across high-weight phases can use AI freely at low-weight phases without jeopardizing their authorship. Creators operating at L3 must invest in documentation.
 - **For studios:** The framework provides a specification language. Rather than "no AI" or "AI is fine," studios can require "L4 minimum for concept and character development; L3 acceptable for scene drafting with documentation." This precision reduces ambiguity in production agreements.
 - **For unions:** The framework provides a measurement basis. "Human-led" can be defined operationally as "Intent and Oversight held by the human across high-weight creative phases." This gives guild negotiators specific language for contract provisions.
-- **For tool builders:** The framework provides market segmentation. A tool that supports L4-L5 configurations with audit trails can serve premium markets. A tool that only supports L1-L2 configurations is confined to budget and non-professional use.
+- **For tool builders:** The framework maps addressable markets. A tool that supports L4-L5 configurations with audit trails can serve the most demanding professional work. A tool that only supports L1-L2 configurations is confined to non-professional use.
 
 #### Observations Across Cases
 
@@ -505,7 +479,7 @@ The professional safe harbor at the L4/L3 boundary emerges from the convergence 
 
 The distinction between interaction-level and work-level agency addresses the iterative nature of creative work. A single AI-assisted interaction does not determine authorship of a completed work; the cumulative configuration across all creative phases, weighted by their significance to authorship, is what matters for copyright, credit, and compliance.
 
-The compliance landscape (data protection, talent rights, guild contracts, and international regulation) creates a market structure with three tiers (Premium, Standard, Budget) defined by the agency configurations each permits. Tools and productions position themselves within this structure based on their compliance capability, not their AI capability. The framework provides the vocabulary for each stakeholder to navigate this structure: creators can assess their authorship risk, studios can specify contractual requirements, unions can define member work, and tool builders can identify their addressable market.
+The compliance landscape (data protection, talent rights, guild contracts, training-data licensing, and international regulation) determines market access: which agency configurations can serve which work. Tools and productions position themselves based on their compliance capability, not their AI capability. The framework provides the vocabulary for each stakeholder to navigate this landscape: creators can assess their authorship risk, studios can specify contractual requirements, unions can define member work, and tool builders can identify their addressable market.
 
 ### 5.2 Relationship to Existing Frameworks
 

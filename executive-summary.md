@@ -54,19 +54,7 @@ Five dimensions operate simultaneously on every professional AI-assisted product
 4. **Training-Data Licensing** — Is covered material training commercial GAI? Gates notice and bargaining obligations (WGA 2026 MBA; SAG-AFTRA §39.L).
 5. **International Regulation (EU AI Act)** — Is output marked? Gates disclosure requirements.
 
-The intersection of all five determines what's actually allowed for any given project.
-
-## The Three-Tier Market
-
-These compliance constraints naturally segment the market:
-
-| Tier | Agency Range | Content | Who Operates Here |
-|---|---|---|---|
-| **Premium** | L4-L5 (90%+) | Theatrical, prestige TV, awards-track | Major studios, A-list talent, guild productions |
-| **Standard** | L3 (70-89%) | Network TV, streaming, mid-budget | Production companies, working professionals |
-| **Budget** | L2 (40-69%) | Digital-first, non-guild, volume content | Independent, corporate, social |
-
-Below L2: Consumer/hobbyist only. Locked out of professional markets.
+The intersection of all five determines what's actually allowed for any given project — and what it permits is market access: professional work concentrates at L3-L5, and configurations below L2 are locked out of professional markets entirely.
 
 ## What Each Stakeholder Needs to Know
 
@@ -76,7 +64,7 @@ Below L2: Consumer/hobbyist only. Locked out of professional markets.
 - The Reversibility Test: Could you complete this task if the AI vanished tomorrow?
 
 ### Studios
-- Premium positioning requires L4-L5 capability across the production pipeline
+- High-stakes work requires L4-L5 capability across the production pipeline
 - Compliance determines market access, architecture matters
 - The WGA distinguishes between what studios and hired writers can do with AI (Article 72.B vs. 72.C)
 
@@ -87,7 +75,7 @@ Below L2: Consumer/hobbyist only. Locked out of professional markets.
 
 ### Tool Builders
 - Your compliance capability is your market map
-- L4-L5 support with enterprise infrastructure = access to all tiers
+- L4-L5 support with enterprise infrastructure = access to the full professional market
 - L0-L1 only = locked out of professional markets entirely
 - The EU AI Act's Article 50 transparency obligations became enforceable August 2, 2026
 

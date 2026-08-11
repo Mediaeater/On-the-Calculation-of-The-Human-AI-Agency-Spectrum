@@ -25,7 +25,7 @@ To address this gap, this document proposes a six-layer model (L0-L5) that maps 
 1. **The six-layer taxonomy (L0–L5)** — new. A classification of human-AI configurations defined on consistent axes (who initiates, who produces expression, who selects and approves), with boundaries anchored to breakpoints that already exist in law and professional standards rather than to an invented scale. Leveled scales of AI use exist in adjacent domains (educational assessment, agent autonomy; see Related Work); the novelty is grading authorship distribution in completed creative works, and the anchoring itself.
 2. **The two-level assessment model** — new. The distinction between interaction agency (a single exchange) and work agency (a completed work), with a weighted contribution model for the latter. This distinction names a measurement gap later documented independently at corpus scale (see Subsequent Empirical Evidence).
 3. **The two-threshold interpretation** — new interpretation of synthesized material. The claim that four independent standards (copyright, guild, cognitive, economic) converge near the L3/L4 boundary, while the legal floor sits separately at L1/L2.
-4. **The compliance-to-market mapping** — synthesis with new structure. The legal and guild material summarizes public sources; the contribution is the mapping from compliance dimensions to a three-tier market structure, and the mechanism and behavioral analysis of how interface design preserves or erodes agency.
+4. **The compliance-to-market-access mapping** — synthesis with new structure. The legal and guild material summarizes public sources; the contribution is the mapping from compliance dimensions to market access — which agency configurations can lawfully serve which work — and the mechanism and behavioral analysis of how interface design preserves or erodes agency.
 
 What this document is not: a formal empirical study. The framework is a conceptual and design-research contribution. Its development process is described in The Approach, the status of its numeric values is stated where each appears, and its validation path is discussed in Limitations.
 
@@ -54,9 +54,8 @@ To accurately apply this framework, three distinctions regarding creative realit
   - [Work-Level Agency: The Iterative Dimension](#work-level-agency-the-iterative-dimension)
   - [Iterative Workflow Case Studies](#iterative-workflow-case-studies)
   - [The Framework's Propositions](#the-frameworks-propositions)
-- [Part II: Market Structure](#part-ii-market-structure)
+- [Part II: Compliance and Market Access](#part-ii-compliance-and-market-access)
   - [The Compliance Landscape](#the-compliance-landscape)
-  - [The Three-Tier Market](#the-three-tier-market)
 - [Part III: Mechanisms & Constraints](#part-iii-mechanisms--constraints)
   - [Mechanisms of Control](#mechanisms-of-control)
   - [Behavioral Constraints](#behavioral-constraints)
@@ -87,9 +86,9 @@ flowchart TD
         T --> P
         W --> P
     end
-    subgraph PII["Part II — Market Structure"]
+    subgraph PII["Part II — Compliance and Market Access"]
         C["Five compliance dimensions<br/>data · talent · guild · training-data · EU AI Act"]
-        M["Three-tier market<br/>Premium L4–L5 · Standard L3 · Budget L2"]
+        M["Market access<br/>professional work gates at L3+ · below L2 excluded"]
         C --> M
     end
     G -->|"design sets a tool's layer"| L
@@ -99,7 +98,7 @@ flowchart TD
 
 **Part I** defines the vocabulary: six layers on three consistent axes, two thresholds anchored in external standards, and two assessment scopes — a single interaction versus a completed work. Its output is a set of testable propositions (P1-P6).
 
-**Part II** consumes the layer classifications: five compliance dimensions gate which layers are permissible for which work, and their intersection stratifies the market into three tiers.
+**Part II** consumes the layer classifications: five compliance dimensions gate which layers are permissible for which work, and their intersection determines which configurations can serve which markets.
 
 **Part III** explains what moves a configuration along the spectrum: control mechanisms within and across tools, and the behavioral constraints operating beneath apparent choice.
 
@@ -626,7 +625,7 @@ This case exercises four framework components end to end: mechanism audit → la
 
 **Step 3 — Run the compliance dimensions (Part II).** WGA: the writer incorporated GAI with company consent → literary material (Art. 72.C); credit intact; the company provided no AI-generated material, so no disclosure trigger. SAG-AFTRA: recognizable actors but no digital replicas → Tier 2 standard consent; §39 replica obligations not triggered. Data protection: development IP on dedicated instances satisfies the Enhanced tier that L3 work requires. EU AI Act: an L3 assistive configuration falls under the Article 50(2) exemption (Proposition P3) — no output marking, and no deep-fake disclosure absent replicas. Training-data axis: no covered material licensed for training → no notice obligation.
 
-**Step 4 — Read off the market position (Part II).** Work-level high-L3 with documentation lands in the Standard tier: streaming distribution, standard E&O coverage, documented (not native) copyright with chain of title running through the writer's retained drafts. Premium positioning was available at the cost of a toolchain change — suggestion features off during scene drafting would have held drafting at L4. That is the point this case is built to show: **tier position is a tool-configuration decision made before writing begins, not a property discovered after delivery.**
+**Step 4 — Read off the market position (Part II).** Work-level high-L3 with documentation supports streaming distribution with standard E&O coverage and documented (not native) copyright, chain of title running through the writer's retained drafts. Native copyright and the premium valuation that follows it were available at the cost of a toolchain change — suggestion features off during scene drafting would have held drafting at L4. That is the point this case is built to show: **market position is a tool-configuration decision made before writing begins, not a property discovered after delivery.**
 
 ---
 
@@ -662,7 +661,7 @@ The mappings this document argues are interpretive claims, not settled facts. St
 
 **P4 — Cognitive shift.** The shift from generating expression to curating machine output occurs near the L4/L3 boundary. *Testable in controlled studies of writers across interface configurations.*
 
-**P5 — Market stratification.** Professional markets stratify into three tiers whose boundaries track the L3/L4 and L2/L3 lines. *Testable against contract terms, insurer requirements, and deal structures through 2028.*
+**P5 — Compliance stratification.** Professional market access stratifies along the L3/L4 and L2/L3 boundaries: high-stakes guild-covered work requires L4-L5, documented L3 serves standard professional production, and configurations below L2 are excluded from professional markets. *Testable against contract terms, insurer requirements, and deal structures through 2028.*
 
 **P6 — Work-level dominance.** For authorship assessment, weighted work-level agency predicts legal and professional outcomes better than interaction-level scoring. *Testable against registration and credit cases where process documentation exists.*
 
@@ -670,7 +669,7 @@ Where later sections speak definitively for readability ("L3-L5 = exempt"), the 
 
 ---
 
-# Part II: Market Structure
+# Part II: Compliance and Market Access
 
 ---
 
@@ -680,7 +679,7 @@ Where later sections speak definitively for readability ("L3-L5 = exempt"), the 
 
 Compliance requirements aren't bureaucratic obstacles. They're market architecture.
 
-Five dimensions (data protection, talent rights, guild requirements, training-data licensing, and international regulation via the EU AI Act) operate simultaneously on every professional AI-assisted production. Together, they define which agency levels are permissible for which work. This naturally segments the market into tiers that tools must serve or be locked out of.
+Five dimensions (data protection, talent rights, guild requirements, training-data licensing, and international regulation via the EU AI Act) operate simultaneously on every professional AI-assisted production. Together, they define which agency levels are permissible for which work — and lock some configurations out of professional markets entirely.
 
 ---
 
@@ -863,29 +862,15 @@ The compliance dimensions don't just constrain; they define where different cont
 | Independent film, no stars, non-guild | Standard | Tier 0-1 | N/A | L2-L5, standard cloud |
 | Social content, stock footage, no talent | Standard | Tier 0 | N/A | Any level |
 
-**The market tiers emerge naturally:**
-
-| Tier | Typical Content | Agency Range | Infrastructure | Price Point |
-|---|---|---|---|---|
-| **Premium** | Theatrical, prestige TV, A-list | L4-L5 | Maximum/Enhanced | Highest |
-| **Standard** | Network TV, streaming, mid-budget | L3-L5 | Enhanced | Standard |
-| **Budget** | Digital-first, non-guild, independent | L2-L5 | Standard | Value |
-
 ---
 
-### The Tool Builder's Matrix
+### What This Means for Tools
 
-Compliance requirements become product positioning:
+Compliance requirements become product positioning. Serving guild-covered professional work requires L3-L5 modes, dedicated infrastructure, disclosure generation, and contribution tracking; high-stakes production adds enterprise-grade security, consent-management integration, and audit trails.
 
-| To Serve This Market... | Your Tool Must Support... |
-|---|---|
-| **Premium** | L4-L5 modes, enterprise-grade security, consent management integration, guild-compliant audit trails, content audit trails |
-| **Standard** | L3-L5 modes, dedicated cloud instances, disclosure generation, contribution tracking |
-| **Budget** | L2-L5 modes, standard cloud acceptable, basic attribution |
+**The lockout:** tools that only support L0-L2 are excluded from professional production entirely.
 
-**The lockout:** Tools that only support L0-L2 are excluded from premium and standard markets entirely. They can only serve budget tier and non-professional use cases.
-
-**The opportunity:** Tools that support the full L2-L5 range with appropriate infrastructure options can serve all three tiers. The compliance capability becomes competitive differentiation.
+**The opportunity:** tools that support the full L2-L5 range with appropriate infrastructure options can serve the whole professional spectrum. The compliance capability becomes competitive differentiation.
 
 ---
 
@@ -911,21 +896,37 @@ Know where your work falls: - Guild member working on covered production? L4-L5 
 
 #### For Studios
 
-Compliance determines market access: - Premium positioning requires L4-L5 capability across the production pipeline - Standard positioning requires L3+ with documentation - Budget positioning accepts L2+ but forfeits premium market access
+Compliance determines market access: - High-stakes prestige work requires L4-L5 capability across the production pipeline - Guild-covered standard production requires L3+ with documentation - Non-guild volume work accepts L2+, at the cost of access to guild-covered markets
 
 #### For Tool Builders
 
-Your compliance capability is your market map: - Support L4-L5 with enterprise infrastructure → access to all tiers - Support only L2-L3 with shared cloud → locked to budget tier - Support only L0-L1 → locked out of professional market entirely
+Your compliance capability is your market map: - Support L4-L5 with enterprise infrastructure → access to the full professional market - Support only L2-L3 with shared cloud → non-guild work only - Support only L0-L1 → locked out of the professional market entirely
 
 ---
 
 ### Insight
 
-The rules define the tiers. The tiers define the competition.
+The rules define the market.
 
 Compliance isn't something you satisfy after building your product or producing your content. It's the architecture that determines which markets exist and who can access them.
 
-Know which tier you're building for, or which tier you're locked out of.
+Know what you're building for, or what you're locked out of.
+
+---
+
+### Conclusion
+
+The question was never "Does AI write?"
+
+The question is: **where on the spectrum does your system operate, and what does that configuration permit?**
+
+| If You Know... | You Can... |
+|---|---|
+| Your agency level (L0-L5) | Assess your authorship risk |
+| Your compliance position | Know which work you can serve |
+| The behavioral constraints | Defend against invisible erosion |
+
+Agency is a dial, not a switch. The dial setting determines everything else.
 
 ---
 
@@ -937,203 +938,6 @@ Know which tier you're building for, or which tier you're locked out of.
 - 2026 WGA–AMPTP Theatrical and Television Basic Agreement (Memorandum of Agreement, April 4, 2026), Item 15
 - GDPR Article 32: Security of Processing
 - SOC 2 Type II Compliance Standards (AICPA)
-
----
-
-## The Three-Tier Market
-
----
-
-The previous sections established the components: agency as configuration, six layers with the 90% threshold, mechanisms that preserve or erode control, behavioral constraints underneath "choice," and compliance dimensions that gate market access.
-
-These forces converge into a market structure that's already emerging. This is where the market is headed. Position yourself accordingly.
-
----
-
-### The Three Tiers
-
-| Tier | Agency Range | Content Type | Economics | Who Operates Here |
-|---|---|---|---|---|
-| **Premium** | L4-L5 (90%+) | Theatrical, prestige TV, awards-track | Highest margins, clean chain of title | Major studios, A-list talent, guild productions |
-| **Standard** | L3 (70-89%) | Network TV, streaming, mid-budget | Standard margins, disclosure required | Production companies, working professionals |
-| **Budget** | L2 (40-69%) | Digital-first, non-guild, volume content | Thin margins, speed prioritized | Independent, corporate, social content |
-
-Below L2 (L0-L1): Consumer/hobbyist only. Locked out of professional markets entirely.
-
----
-
-### Why This Structure Emerges
-
-Not by choice, but by constraint intersection:
-
-| Constraint | Premium Requirement | Standard Requirement | Budget Tolerance |
-|---|---|---|---|
-| Copyright | Native (L4-L5) | Documented (L3) | Documented (L2, heavier burden) |
-| Guild compliance | Required | Required | Not applicable |
-| Talent consent | Tier 3 protocols | Tier 1-2 protocols | Tier 0-1 |
-| Data protection | Maximum/Enhanced | Enhanced | Standard |
-| E&O insurance | Full coverage | Standard coverage | Minimal |
-
-The rules create the tiers. The tiers create the competition.
-
----
-
-### Tier Economics
-
-| Tier | Cost Structure | Revenue Model | Margin Profile |
-|---|---|---|---|
-| **Premium** | High talent, high compliance, high infrastructure | Premium licensing, theatrical, awards prestige | High margin per unit |
-| **Standard** | Moderate talent, moderate compliance | Volume licensing, streaming, advertising | Moderate margin, volume dependent |
-| **Budget** | Low talent, minimal compliance | High volume, low price, platform-dependent | Thin margin, scale required |
-
----
-
-### What This Means Now
-
-**The window is 2025-2027.** The structure is being negotiated across five fronts simultaneously:
-
-### 1. Guild Contracts
-
-| Guild | Current Position | Next Negotiation | Stakes |
-|---|---|---|---|
-| WGA | 2026 MBA: Article 72 preserved; training-data licensing notice added | 2030 | Spectrum for "human-led"; expanded training-data remuneration |
-| SAG-AFTRA | 2026 TV/Theatrical Tentative Agreement (§39): EBDR/ICDR distinction, ICDR scale floor + residuals, dubbing consent (2027), security/transfer/biometric obligations, "significant additional value" test for Synthetics in human roles, training-data licensing notice | 2030 | Spectrum for human-led performance; Synthetic scope; training-data remuneration |
-| DGA | Director approval for AI use | 2026 | Automation of pre-viz, editing |
-| IATSE | Monitoring displacement | 2027 | Craft work preservation |
-
-### 2. Studio Policies
-
-Internal AI guidelines are becoming competitive positioning. Studios across the market are developing varied internal approaches: premium studios are generally emphasizing L4-L5, though some are selectively exploring generative tools under controlled conditions. Mid-market studios are testing L3 with documentation, and volume producers are exploring L2 for non-guild content. These positions remain fluid as studios refine their strategies.
-
-What studios permit internally becomes what the market expects externally.
-
-### 3. Platform Terms of Service
-
-| Issue | Current State | Direction |
-|---|---|---|
-| Training opt-out | Inconsistent, often buried | Moving toward explicit choice |
-| Output ownership | Platform-favorable | Pressure for creator ownership |
-| Data portability | Limited | Regulatory pressure increasing |
-| Export formats | Often proprietary | Interoperability demands growing |
-
-### 4. Tech-IP Holder Deals
-
-The marketplace is being shaped by licensing agreements between AI companies and content owners:
-
-| Deal Type | Examples | What It Establishes |
-|---|---|---|
-| **News/Publishing** | OpenAI-News Corp, OpenAI-AP, Google-Reddit | Compensation for training data, citation requirements |
-| **Music** | Suno-Warner Music, YouTube-Universal | Commercial use rights without ownership transfer |
-| **Visual** | Shutterstock-OpenAI, Getty lawsuits | Licensed vs. scraped training data precedents |
-| **Books** | Ongoing litigation (Authors Guild) | Fair use boundaries for text corpora |
-
-**What these deals signal:** - Training on unlicensed content carries legal risk - Licensed relationships create defensible moats - Compensation flows are being established (even if small) - "Commercial use without ownership" emerging as L0-L1 model
-
-**The consolidation pattern:** Major AI providers are locking up content licenses. Smaller players without licensed training data face legal exposure. This advantages incumbents and raises barriers.
-
-### 5. Regulatory Frameworks
-
-| Jurisdiction | Framework | Timeline | Impact |
-|---|---|---|---|
-| EU | AI Act implementation | 2025-2026 | Mandatory human oversight, transparency requirements |
-| US | Disclosure rules (state-level) | Ongoing | California, others requiring AI content labeling |
-| US | Copyright Office guidance | Evolving | Registration requirements for AI-assisted work |
-| UK | Pro-innovation approach | 2025 | Lighter touch, potential safe harbors |
-
----
-
-### The Deal Landscape
-
-Beyond ToS, active dealmaking is setting precedents:
-
-| Deal Category | What's Being Negotiated | Who Benefits |
-|---|---|---|
-| Training licenses | Payment for corpus inclusion | IP holders, creates moat for licensees |
-| Output rights | Who owns AI-generated content | Varies by deal; read the fine print |
-| API access tiers | Premium features for enterprise | Large players with budget |
-| Exclusivity | First-look or exclusive training rights | Major studios, publishers |
-| Indemnification | Who bears infringement risk | Shifts liability, affects insurance |
-
-**For creators:** These deals happen above you. Your leverage is collective (guilds) or exit (platform choice).
-
-**For studios:** Negotiate AI terms into production agreements now. Waiting means accepting defaults.
-
-**For tool builders:** Licensed training data is becoming table stakes for enterprise sales.
-
----
-
-### Stakeholder Positioning
-
-#### For Creators
-
-| Your Goal | Your Tier | Your Agency Floor | Your Negotiating Lever |
-|---|---|---|---|
-| Awards, prestige, full credit | Premium | L4-L5 only | Guild membership, reputation |
-| Steady work, professional rates | Standard | L3 minimum | Guild protections, skill scarcity |
-| Volume, speed, portfolio building | Budget | L2 acceptable | Speed, cost efficiency |
-
-#### For Studios
-
-| Your Brand Position | Your Tier | Your Tool Requirements | Your Deal Priority |
-|---|---|---|---|
-| Prestige, talent relationships, awards | Premium | L4-L5 tools, maximum data protection | Clean chain of title, guild relationships |
-| Reliable, professional, efficient | Standard | L3-L5 tools, enhanced data protection | Flexible workflows, defensible disclosure |
-| Fast, cheap, volume | Budget | L2-L5 tools, standard acceptable | Cost minimization, speed |
-
-#### For Tool Builders
-
-| Your Target Market | Must Support | Must Secure | Locked Out Of |
-|---|---|---|---|
-| Premium | L4-L5, enterprise-grade security, consent management, audit trails | Licensed training data, enterprise compliance | Nothing: full access |
-| Standard | L3-L5, dedicated cloud, disclosure tools | Defensible training, SOC 2 | Premium (missing infrastructure) |
-| Budget only | L2-L5, shared cloud | Basic indemnification | Premium + Standard |
-| L0-L1 only | N/A | N/A | All professional tiers |
-
----
-
-### The Scenario Assessment
-
-Three candidate futures for the 2025-2028 window, assessed qualitatively. These are reasoned judgments stated so they can be argued with — not probabilities derived from data.
-
-| Scenario | Assessment | Reasoning |
-|---|---|---|
-| **Hybrid Co-Creation** | Most likely | Every operative constraint documented above — copyright zones, guild lines, EU marking, insurance requirements — already presupposes tiered coexistence, and the tiers are visible in current contracts and deals |
-| Polarized Market | Possible | Premium (human-only) vs. Budget (AI-heavy) with Standard collapsing requires the L3 gray zone to fail in negotiation; current guild bargaining trends the other way |
-| Full Automation | Least likely in this window | L0-L2 dominance is blocked by the compliance architecture itself: guild contracts, USCO doctrine, and EU marking each independently penalize low-agency output in professional markets |
-
-The three-tier structure is the most likely outcome (Proposition P5). Plan accordingly.
-
----
-
-### Conclusion
-
-The question was never "Does AI write?"
-
-The question is: **Where on the spectrum does your system operate, and which market tier does that give you access to?**
-
-| If You Know... | You Can... |
-|---|---|
-| Your agency level (L0-L5) | Assess your authorship risk |
-| Your compliance position | Know which tiers you can access |
-| Your market tier | Position competitively |
-| The behavioral constraints | Defend against invisible erosion |
-| The deal landscape | Anticipate where leverage lies |
-
-Agency is a dial, not a switch. The dial setting determines everything else.
-
----
-
-### Insight
-
-Market stratification is accelerating through new standards and commercial tiers. Early adaptation to this structural shift yields competitive advantage.
-
----
-
-**References:**
-- WGA Minimum Basic Agreement (2023); 2026 WGA–AMPTP MBA (Memorandum of Agreement, April 4, 2026)
-- SAG-AFTRA TV/Theatrical Contract (2023); 2025 Interactive Media Agreement; 2026 TV/Theatrical Tentative Agreement (May 11, 2026, term July 1, 2026 – June 30, 2030)
-- OpenAI-News Corp Partnership (2024) / OpenAI-AP Agreement (2024)
-- Suno-Warner Music Partnership (2024)
 
 ---
 
@@ -1526,7 +1330,7 @@ Two of their findings warrant specific note.
 
 First, their acknowledged measurement gap corresponds to this framework's central distinction. WildChat records only the generation moment: prompts submitted, completions returned. The authors note they cannot observe how the resulting fiction circulates, whether it is edited, shared, or abandoned, and call for ethnographic follow-up. That gap has a name here: they measured Interaction Agency and could not see Work Agency, because conversation logs structurally cannot capture the surrounding creative process. Traces of Work Agency nonetheless leak into their data — most visibly in what they call re-rolling, where a user regenerates a scenario repeatedly and then folds a preferred output back into an extended prompt. That is a human selection decision: curation, the constitutive act of the L2–L3 band. It occurs in their corpus with no apparatus to record what was selected or why. A half-million-conversation archive of curation without documentation is the strongest available evidence for this framework's claim that agency must be measured across the full creative process, and that the measurement infrastructure does not yet exist in general-purpose tools.
 
-Second, the economic consequence of the low-agency band is now measurable. Drawing on McGurl's account of fiction's commoditization, Gupta, Antoniak, and Walsh cite NBER findings (Reimers and Waldfogel) documenting a surge of LLM-generated self-published books that accumulate essentially no readership. This is the Budget tier of the three-tier market structure described above, observed in the wild: output produced at L0–L2 without documented human authorship pools into an interchangeable class of goods that fails simultaneously as protectable property and as valued product. The tier boundaries this framework derived from compliance constraints are materializing as market behavior.
+Second, the economic consequence of the low-agency band is now measurable. Drawing on McGurl's account of fiction's commoditization, Gupta, Antoniak, and Walsh cite NBER findings (Reimers and Waldfogel) documenting a surge of LLM-generated self-published books that accumulate essentially no readership. This is the market consequence the compliance analysis above predicts, observed in the wild: output produced at L0–L2 without documented human authorship pools into an interchangeable class of goods that fails simultaneously as protectable property and as valued product. The stratification this framework derived from compliance constraints is materializing as market behavior.
 
 The chronology matters. These findings postdate this framework and were produced independently of it. They are offered here not as sources the framework was built upon, but as subsequent confirmation that its categories describe real populations, its measurement distinction names a real methodological gap, and its market structure is emerging as predicted.
 
