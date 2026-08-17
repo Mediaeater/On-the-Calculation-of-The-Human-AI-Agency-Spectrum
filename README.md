@@ -13,7 +13,7 @@ A six-layer model (L0-L5) that maps qualitative standards like "human-led" and "
 - **Legal requirements** — USCO, EU AI Act Article 50
 - **Professional standards** — WGA, SAG-AFTRA, DGA
 - **Cognitive research** — on human-AI interaction and creative intent
-- **Market analysis** — compliance constraints that create market tiers
+- **Market access** — the compliance constraints that determine which work a configuration can serve
 
 The result is a shared vocabulary for discussing agency that connects to the rules already governing professional work.
 

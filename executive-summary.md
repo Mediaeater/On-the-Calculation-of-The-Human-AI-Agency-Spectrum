@@ -81,7 +81,7 @@ The intersection of all five determines what's actually allowed for any given pr
 
 ## Key Insight
 
-AI is writing. The question is: **Where on the spectrum does your system operate, and which market tier does that give you access to?**
+AI is writing. The question is: **where on the spectrum does your system operate, and what does that configuration permit?**
 
 ---
 
