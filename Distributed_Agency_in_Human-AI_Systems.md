@@ -851,6 +851,14 @@ Adjacent but distinct: the Act's emotion-recognition prohibition in the workplac
 
 ---
 
+### Private Ordering on the Model Layer
+
+The model-layer track described above is not governed by statute alone. On August 17, 2026, the Motion Picture Association and ByteDance signed a memorandum of understanding covering the Seedance video and Seedream image models and their outputs on TikTok, CapCut, and Dreamina, the first agreement between the MPA and an AI developer. It followed a February 2026 cease-and-desist over Seedance 2.0 outputs that reproduced recognizable performers. Its published mechanisms are provenance and filtering measures — watermarking, C2PA content credentials, face-blocking, and output filters — shipped in Seedance 2.5 and Seedream 5.0 Pro. Commercial terms were not disclosed.
+
+The MOU is neither a licensing regime nor a standard, and it is noted here for two structural reasons rather than as an anchor. First, it is the earliest instance of the input-and-output provenance track being governed by negotiated private agreement rather than by statute or collective bargaining. Second, no guild was party to it: the MPA represents studios, and the likeness protections it secured guard studio-controlled IP, leaving performer consent, compensation, and control where SAG-AFTRA's Section 39 puts them. A rightsholder agreement covering likeness-adjacent output is not a substitute for Dimension 2 compliance, and neither party has claimed it is.
+
+---
+
 ### How Compliance Creates Market Structure
 
 The compliance dimensions don't just constrain; they define where different content can be made:
@@ -871,6 +879,8 @@ Compliance requirements become product positioning. Serving guild-covered profes
 **The lockout:** tools that only support L0-L2 are excluded from professional production entirely.
 
 **The opportunity:** tools that support the full L2-L5 range with appropriate infrastructure options can serve the whole professional spectrum. The compliance capability becomes competitive differentiation.
+
+**The two gates.** The lockout has two independent conditions, and clearing one does not clear the other. *Agency capability* is the first: a tool that supports only L0-L2 cannot produce guild-compliant or natively copyrightable work, whatever else it offers. *IP posture* is the second: a tool can be excluded for what its model was trained on and what it will generate on request, independent of the configurations it supports. The MPA-ByteDance MOU is the first case of a consumer generator addressing the second condition without touching the first. Seedance with watermarking, content credentials, and likeness filters is a better-behaved model; it remains an L0-L1 tool, and its outputs still fail USCO's significant-human-control standard, still are not literary material under WGA 72.B, and still cannot stand in for a performance under Section 39.K. Rightsholder tolerance at the provenance layer does not create authorship at the agency layer.
 
 ---
 
@@ -936,6 +946,7 @@ Agency is a dial, not a switch. The dial setting determines everything else.
 - SAG-AFTRA 2026 TV/Theatrical Tentative Agreement, Section 39 (May 11, 2026), term July 1, 2026 – June 30, 2030
 - WGA Minimum Basic Agreement, AI Provisions (2023)
 - 2026 WGA–AMPTP Theatrical and Television Basic Agreement (Memorandum of Agreement, April 4, 2026), Item 15
+- Motion Picture Association & ByteDance, Memorandum of Understanding on IP protection for AI video and image generation models (announced August 17, 2026; terms not publicly disclosed)
 - GDPR Article 32: Security of Processing
 - SOC 2 Type II Compliance Standards (AICPA)
 
