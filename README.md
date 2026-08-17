@@ -2,7 +2,7 @@
 
 **A framework for measuring authorship distribution in AI-participated creative work.**
 
-By Mark Ghuneim | [Narrative.new](https://narrative.new) | Version 1.4 | August 2026 | License: CC BY 4.0
+By Mark Ghuneim | [Narrative.new](https://narrative.new) | Version 1.5 | August 2026 | License: CC BY 4.0
 
 ---
 
