@@ -683,7 +683,7 @@ Five dimensions (data protection, talent rights, guild requirements, training-da
 
 ---
 
-### The Four Compliance Dimensions
+### The Five Compliance Dimensions
 
 | Dimension | Governing Body | Core Question | What It Gates |
 |---|---|---|---|
@@ -796,7 +796,7 @@ Note: The WGA deliberately avoids defining a spectrum of acceptable AI involveme
 
 ### EU AI Act: International Compliance Layer
 
-The EU AI Act (Regulation 2024/1689) adds a fourth compliance dimension for any content distributed in European markets. Article 50 establishes transparency obligations that align with (and validate) the framework's layer distinctions.
+The EU AI Act (Regulation 2024/1689) adds a fifth compliance dimension for any content distributed in European markets. Article 50 establishes transparency obligations that align with (and validate) the framework's layer distinctions.
 
 ### Article 50 Key Provisions
 
