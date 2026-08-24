@@ -25,7 +25,7 @@ Agency preservation operates on two levels: what users can do *within* a tool (t
 
 **Best practice (a higher ceiling than legally required):** Offer editing capability in addition to selection. Tools that enable substantive editing produce the cleanest, most defensible authorship claims under registration scrutiny, even when creative selection alone could ground a claim.
 
-**The WGA Standard:** Guild contracts require the creative process to be "human-led." Direction and interruption establish that the human initiates and can halt the process — not merely react to machine output.
+**The WGA Standard:** Guild contracts require the creative process to be "human-led." Direction and interruption establish that the human initiates and can halt the process, not merely react to machine output.
 
 ---
 
@@ -79,7 +79,7 @@ User must actively delete if unwanted
 | **Data Control** | Training opt-out (contractual) | Prevent work from training future models |
 | **Alternatives** | Competition law principles | Meaningful choice between different architectures |
 
-**The Lock-In Problem:** Three foundation models dominate the market with similar ToS. "Choice" between identical constraints isn't strategic agency — it's the illusion of choice.
+**The Lock-In Problem:** Three foundation models dominate the market with similar ToS. Choosing among options that impose identical constraints exercises no strategic agency.
 
 **The Training Trap:** Free-tier platforms extract user work into training data. The user's style becomes part of the model. The model competes with the user using their own patterns. Paid relationships with training opt-out partially mitigate this, but only partially.
 

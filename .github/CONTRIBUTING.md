@@ -37,10 +37,10 @@ Examples of good issues:
 
 Use **Pull Requests (PRs)** for direct improvements to the text:
 
-- **Typos and formatting fixes** — Submit directly.
-- **Factual corrections** — Contract language, regulatory text, case law updates. Include the source (link to official document, statute, or ruling).
-- **Table/data corrections** — If a compliance mapping is wrong, show what it should be and why.
-- **Adding references** — New research, rulings, or standards that strengthen or challenge existing analysis.
+- **Typos and formatting fixes:** Submit directly.
+- **Factual corrections:** Contract language, regulatory text, case law updates. Include the source (link to official document, statute, or ruling).
+- **Table/data corrections:** If a compliance mapping is wrong, show what it should be and why.
+- **Adding references:** New research, rulings, or standards that strengthen or challenge existing analysis.
 
 **PR requirements:**
 1. Target the `main` branch

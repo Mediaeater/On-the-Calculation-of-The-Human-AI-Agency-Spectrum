@@ -48,11 +48,11 @@ The framework distinguishes between **interaction agency** (a single prompt-resp
 
 Five dimensions operate simultaneously on every professional AI-assisted production:
 
-1. **Data Protection** — What can the AI see? Gates infrastructure requirements.
-2. **Talent Rights** — Whose likeness is involved? Gates consent protocols.
-3. **Guild Compliance** — Who gets credit? Gates permissible agency levels.
-4. **Training-Data Licensing** — Is covered material training commercial GAI? Gates notice and bargaining obligations (WGA 2026 MBA; SAG-AFTRA §39.L).
-5. **International Regulation (EU AI Act)** — Is output marked? Gates disclosure requirements.
+1. **Data Protection:** What can the AI see? Gates infrastructure requirements.
+2. **Talent Rights:** Whose likeness is involved? Gates consent protocols.
+3. **Guild Compliance:** Who gets credit? Gates permissible agency levels.
+4. **Training-Data Licensing:** Is covered material training commercial GAI? Gates notice and bargaining obligations (WGA 2026 MBA; SAG-AFTRA §39.L).
+5. **International Regulation (EU AI Act):** Is output marked? Gates disclosure requirements.
 
 The intersection of all five determines what's actually allowed for any given project — and what it permits is market access: professional work concentrates at L3-L5, and configurations below L2 are locked out of professional markets entirely.
 

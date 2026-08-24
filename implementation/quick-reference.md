@@ -127,7 +127,7 @@ Research shows 20+ percentage point differences in acceptance rates between mode
 
 - **The 90% Threshold:** L4-L5 yields native copyright; L2-L3 yields documented copyright (chain of title required); L0-L1 produces no separately protectable output.
 - **Ideas vs. Expression:** AI can provide ideas (structure, outlines). Humans must write expression.
-- **The Reversibility Test:** If your users can't do it without the tool, they're dependent — not augmented.
+- **The Reversibility Test:** If your users can't do it without the tool, they're dependent, not augmented.
 - **Classification is behavioral:** The level is determined by what users actually do, not what the tool can do.
 - **Composite Agency:** An L5 wrapper cannot "launder" an L1 generation layer. Effective agency = min(Surface Layer, Generation Layer).
 
@@ -137,11 +137,11 @@ Research shows 20+ percentage point differences in acceptance rates between mode
 
 Track these over time to evaluate whether your tool preserves or erodes agency:
 
-- **Suggestion acceptance rate** — >90% is a red flag
-- **Skill trajectory** — Are users developing or atrophying skills?
-- **Mode distribution** — What percentage of users stay in default mode?
-- **Export frequency** — Are users able and willing to move their work?
-- **Recovery usage** — How often do users undo or revert AI contributions?
+- **Suggestion acceptance rate:** >90% is a red flag
+- **Skill trajectory:** Are users developing or atrophying skills?
+- **Mode distribution:** What percentage of users stay in default mode?
+- **Export frequency:** Are users able and willing to move their work?
+- **Recovery usage:** How often do users undo or revert AI contributions?
 
 ---
 

@@ -22,10 +22,10 @@ To address this gap, this document proposes a six-layer model (L0-L5) that maps 
 
 **Objective and contributions.** The objective is a shared, operational vocabulary for how creative agency and authorship distribute between humans and AI. Four contributions, each marked by status so it is clear what is proposed here versus summarized from public sources:
 
-1. **The six-layer taxonomy (L0–L5)** — new. A classification of human-AI configurations defined on consistent axes (who initiates, who produces expression, who selects and approves), with boundaries anchored to breakpoints that already exist in law and professional standards rather than to an invented scale. Leveled scales of AI use exist in adjacent domains (educational assessment, agent autonomy; see Related Work); the novelty is grading authorship distribution in completed creative works, and the anchoring itself.
-2. **The two-level assessment model** — new. The distinction between interaction agency (a single exchange) and work agency (a completed work), with a weighted contribution model for the latter. This distinction names a measurement gap later documented independently at corpus scale (see Subsequent Empirical Evidence).
-3. **The two-threshold interpretation** — new interpretation of synthesized material. The claim that four independent standards (copyright, guild, cognitive, economic) converge near the L3/L4 boundary, while the legal floor sits separately at L1/L2.
-4. **The compliance-to-market-access mapping** — synthesis with new structure. The legal and guild material summarizes public sources; the contribution is the mapping from compliance dimensions to market access — which agency configurations can lawfully serve which work — and the mechanism and behavioral analysis of how interface design preserves or erodes agency.
+1. **The six-layer taxonomy (L0–L5):** new. A classification of human-AI configurations defined on consistent axes (who initiates, who produces expression, who selects and approves), with boundaries anchored to breakpoints that already exist in law and professional standards rather than to an invented scale. Leveled scales of AI use exist in adjacent domains (educational assessment, agent autonomy; see Related Work); the novelty is grading authorship distribution in completed creative works, and the anchoring itself.
+2. **The two-level assessment model:** new. The distinction between interaction agency (a single exchange) and work agency (a completed work), with a weighted contribution model for the latter. This distinction names a measurement gap later documented independently at corpus scale (see Subsequent Empirical Evidence).
+3. **The two-threshold interpretation:** new interpretation of synthesized material. The claim that four independent standards (copyright, guild, cognitive, economic) converge near the L3/L4 boundary, while the legal floor sits separately at L1/L2.
+4. **The compliance-to-market-access mapping:** synthesis with new structure. The legal and guild material summarizes public sources; the contribution is the mapping from compliance dimensions to market access — which agency configurations can lawfully serve which work — and the mechanism and behavioral analysis of how interface design preserves or erodes agency.
 
 What this document is not: a formal empirical study. The framework is a conceptual and design-research contribution. Its development process is described in The Approach, the status of its numeric values is stated where each appears, and its validation path is discussed in Limitations.
 
@@ -37,7 +37,7 @@ To accurately apply this framework, three distinctions regarding creative realit
 
 **Creative vs. Legal Timelines:** While legal standards regarding AI output remain in development and often lag behind technological capabilities, this framework addresses the immediate creative conversation. This document attempts to define a creative standard for authorship that posits where the legal frameworks will eventually align.
 
-**Agency as a Spectrum:** The levels presented here are not binary audits. They are a qualitative map of gradients. It should be acknowledged that the threshold for ownership is often deeply personal; this map identifies where human leverage is maximized to ensure the creator remains the architect of the narrative.
+**Agency as a Spectrum:** The levels presented here are a qualitative map of gradients rather than binary audits. It should be acknowledged that the threshold for ownership is often deeply personal; this map identifies where human leverage is maximized to ensure the creator remains the architect of the narrative.
 
 > *Scope of Analysis: This work centers on authorship and agency within text-based generative processes. Multimodal concerns (voice, likeness, and visual generation) are addressed only where they intersect with writing; full treatment of these areas is reserved for future study. The analysis specifically targets the pre-rendering/pre-visualization phase rather than final output.*
 
@@ -293,7 +293,7 @@ The U.S. Copyright Office requires "significant human control" over the specific
 | L2-L3 (40-89%) | Documented copyright | Copyright attaches to preserved or contributed human authorship: upstream human-authored material perceptible in the output, or creative selection / coordination / arrangement / modification of AI-generated material. Chain of title must be visible. Prompts alone are not sufficient. |
 | L0-L1 (0-39%) | No copyright in output | Pure machine generation from prompts that do not provide sufficient control over expressive elements. Any underlying human-authored source retains its own copyright, but the output is not separately protected. |
 
-The threshold isn't a single wall. It's two lines: the **authorship floor** at L1↔L2 (where any human authorship can be claimed) and the **native authorship line** at L3↔L4 (where authorship is native rather than documented).
+The threshold is two lines rather than a single wall: the **authorship floor** at L1↔L2 (where any human authorship can be claimed) and the **native authorship line** at L3↔L4 (where authorship is native rather than documented).
 
 > *A note on copyright: the three-zone model reflects current US Copyright Office guidance — the Zarya of the Dawn registration, the March 2023 statement of policy on AI-generated works, and the 2025 AI report on copyrightability. Copyright law in this area is actively evolving and varies by jurisdiction. This document offers a strategic and operational framework, not legal advice. For specific registration decisions, consult counsel or the published guidance directly.*
 
@@ -606,9 +606,9 @@ This case exercises four framework components end to end: mechanism audit → la
 
 **Context:** A production company develops a one-hour streaming drama pilot for EU-inclusive distribution. The staffed writer (WGA member) has company consent under Article 72.C to use an embedded-suggestion writing tool during drafting, plus a chatbot for research. Recognizable actors are attached; no digital replicas. Development IP sits on dedicated cloud instances.
 
-**Step 1 — Classify the toolchain (Part III → Part I).** The writing tool defaults to suggest mode with one-click rejection, full editing, and standard-format export: tactical mechanisms present, strategic exit possible. Its configuration is L3 — the writer drafts, the machine proposes within human-drafted material. The research chatbot is used on command and none of its text enters the script: L4 use. Nothing drafts from specification, so no phase operates at L2.
+**Step 1: Classify the toolchain (Part III → Part I).** The writing tool defaults to suggest mode with one-click rejection, full editing, and standard-format export: tactical mechanisms present, strategic exit possible. Its configuration is L3 — the writer drafts, the machine proposes within human-drafted material. The research chatbot is used on command and none of its text enters the script: L4 use. Nothing drafts from specification, so no phase operates at L2.
 
-**Step 2 — Score the work (Part I).** 120 hours total:
+**Step 2: Score the work (Part I).** 120 hours total:
 
 | Phase | Agency Level | Weight | Contribution |
 |---|---|---|---|
@@ -623,9 +623,9 @@ This case exercises four framework components end to end: mechanism audit → la
 
 88.5% is a boundary case under the Sensitivity rule: within a few points of the 90% line, classification turns on process evidence. The writer's series bible, beat sheets, and the tool's suggestion logs document human creative leadership; the work is treated as high-L3 with an L4 documentation argument available.
 
-**Step 3 — Run the compliance dimensions (Part II).** WGA: the writer incorporated GAI with company consent → literary material (Art. 72.C); credit intact; the company provided no AI-generated material, so no disclosure trigger. SAG-AFTRA: recognizable actors but no digital replicas → Tier 2 standard consent; §39 replica obligations not triggered. Data protection: development IP on dedicated instances satisfies the Enhanced tier that L3 work requires. EU AI Act: an L3 assistive configuration falls under the Article 50(2) exemption (Proposition P3) — no output marking, and no deep-fake disclosure absent replicas. Training-data axis: no covered material licensed for training → no notice obligation.
+**Step 3: Run the compliance dimensions (Part II).** WGA: the writer incorporated GAI with company consent → literary material (Art. 72.C); credit intact; the company provided no AI-generated material, so no disclosure trigger. SAG-AFTRA: recognizable actors but no digital replicas → Tier 2 standard consent; §39 replica obligations not triggered. Data protection: development IP on dedicated instances satisfies the Enhanced tier that L3 work requires. EU AI Act: an L3 assistive configuration falls under the Article 50(2) exemption (Proposition P3) — no output marking, and no deep-fake disclosure absent replicas. Training-data axis: no covered material licensed for training → no notice obligation.
 
-**Step 4 — Read off the market position (Part II).** Work-level high-L3 with documentation supports streaming distribution with standard E&O coverage and documented (not native) copyright, chain of title running through the writer's retained drafts. Native copyright and the premium valuation that follows it were available at the cost of a toolchain change — suggestion features off during scene drafting would have held drafting at L4. That is the point this case is built to show: **market position is a tool-configuration decision made before writing begins, not a property discovered after delivery.**
+**Step 4: Read off the market position (Part II).** Work-level high-L3 with documentation supports streaming distribution with standard E&O coverage and documented (not native) copyright, chain of title running through the writer's retained drafts. Native copyright and the premium valuation that follows it were available at the cost of a toolchain change — suggestion features off during scene drafting would have held drafting at L4. That is the point this case is built to show: **market position is a tool-configuration decision made before writing begins, not a property discovered after delivery.**
 
 ---
 
@@ -653,17 +653,17 @@ Both are valid questions. The framework now provides tools for both. For authors
 
 The mappings this document argues are interpretive claims, not settled facts. Stated as propositions so they can be tested, contested, and falsified:
 
-**P1 — Copyright zones.** Work produced at L4-L5 supports native copyright; L2-L3 supports documented copyright through the USCO selection, coordination, arrangement, and modification pathways; L0-L1 output is not separately protectable. *Testable against registration outcomes and litigation as they accumulate.*
+**P1: Copyright zones.** Work produced at L4-L5 supports native copyright; L2-L3 supports documented copyright through the USCO selection, coordination, arrangement, and modification pathways; L0-L1 output is not separately protectable. *Testable against registration outcomes and litigation as they accumulate.*
 
-**P2 — Guild alignment.** Guild "human-led" standards, as operationalized in the WGA and SAG-AFTRA agreements, are satisfied at L4-L5 and contested in the L3 band. *Testable against arbitration and credit determinations.*
+**P2: Guild alignment.** Guild "human-led" standards, as operationalized in the WGA and SAG-AFTRA agreements, are satisfied at L4-L5 and contested in the L3 band. *Testable against arbitration and credit determinations.*
 
-**P3 — EU marking exemption.** The Article 50(2) assistive-function exemption maps to L3-L5; L0-L2 output requires marking. *Testable against Commission guidance and enforcement practice from August 2026.*
+**P3: EU marking exemption.** The Article 50(2) assistive-function exemption maps to L3-L5; L0-L2 output requires marking. *Testable against Commission guidance and enforcement practice from August 2026.*
 
-**P4 — Cognitive shift.** The shift from generating expression to curating machine output occurs near the L4/L3 boundary. *Testable in controlled studies of writers across interface configurations.*
+**P4: Cognitive shift.** The shift from generating expression to curating machine output occurs near the L4/L3 boundary. *Testable in controlled studies of writers across interface configurations.*
 
-**P5 — Compliance stratification.** Professional market access stratifies along the L3/L4 and L2/L3 boundaries: high-stakes guild-covered work requires L4-L5, documented L3 serves standard professional production, and configurations below L2 are excluded from professional markets. *Testable against contract terms, insurer requirements, and deal structures through 2028.*
+**P5: Compliance stratification.** Professional market access stratifies along the L3/L4 and L2/L3 boundaries: high-stakes guild-covered work requires L4-L5, documented L3 serves standard professional production, and configurations below L2 are excluded from professional markets. *Testable against contract terms, insurer requirements, and deal structures through 2028.*
 
-**P6 — Work-level dominance.** For authorship assessment, weighted work-level agency predicts legal and professional outcomes better than interaction-level scoring. *Testable against registration and credit cases where process documentation exists.*
+**P6: Work-level dominance.** For authorship assessment, weighted work-level agency predicts legal and professional outcomes better than interaction-level scoring. *Testable against registration and credit cases where process documentation exists.*
 
 Where later sections speak definitively for readability ("L3-L5 = exempt"), the shorthand should be read through these propositions.
 
@@ -677,7 +677,7 @@ Where later sections speak definitively for readability ("L3-L5 = exempt"), the 
 
 ---
 
-Compliance requirements aren't bureaucratic obstacles. They're market architecture.
+Compliance requirements are market architecture, not bureaucratic obstacles.
 
 Five dimensions (data protection, talent rights, guild requirements, training-data licensing, and international regulation via the EU AI Act) operate simultaneously on every professional AI-assisted production. Together, they define which agency levels are permissible for which work — and lock some configurations out of professional markets entirely.
 
@@ -918,7 +918,7 @@ Your compliance capability is your market map: - Support L4-L5 with enterprise i
 
 The rules define the market.
 
-Compliance isn't something you satisfy after building your product or producing your content. It's the architecture that determines which markets exist and who can access them.
+Compliance is the architecture that determines which markets exist and who can access them, not a requirement you satisfy after building your product or producing your content.
 
 Know what you're building for, or what you're locked out of.
 
@@ -1013,7 +1013,7 @@ Same AI. Same user. Different defaults. Different agency.
 | **Data Control** | Training opt-out (contractual) | Prevent your work from training future models. |
 | **Alternatives** | Competition law principles | Meaningful choice between different architectures. |
 
-**The Lock-In Problem:** Three foundation models dominate the market with similar ToS. "Choice" between identical constraints isn't strategic agency: it's the illusion of choice.
+**The Lock-In Problem:** Three foundation models dominate the market with similar ToS. Choosing among options that impose identical constraints exercises no strategic agency.
 
 **The Training Trap:** Free-tier platforms extract your work into training data. Your style becomes part of the model. The model competes with you using your own patterns. Paid relationships with training opt-out partially mitigate this, but only partially.
 
@@ -1136,7 +1136,7 @@ Three filters operate before users see anything:
 | Platform incentives | Tool vendor | What gets surfaced vs. suppressed |
 | Prompt constraints | Interface design | How requests get framed to the model |
 
-The suggestion isn't neutral. It's pre-filtered through layers you don't see and can't audit.
+Every suggestion arrives pre-filtered through layers you don't see and can't audit.
 
 **The invisible hand:** You choose from options. You don't choose which options appear.
 
@@ -1271,13 +1271,13 @@ This framework sits at the intersection of five literatures. This section situat
 
 ### Levels of Automation
 
-Leveled description of human-machine task allocation begins with Sheridan and Verplank's (1978) ten-point scale from fully manual control to full machine autonomy, generalized by Parasuraman, Sheridan and Wickens (2000) into levels applied separately to four information-processing stages. The most publicly successful leveled taxonomy is SAE J3016's six driving-automation levels, L0-L5 — the explicit structural precedent for this framework's six-level legibility. The levels tradition has serious critics: Bradshaw et al. (2013) argue that "levels of autonomy" mislead because autonomy is relational and context-bound, not a quantity a machine possesses; Jamieson and Skraaning (2018) show LOA frameworks predicting poorly in complex work settings.
+Leveled description of human-machine task allocation begins with Sheridan and Verplank's (1978) ten-point scale from fully manual control to full machine autonomy, generalized by Parasuraman, Sheridan and Wickens (2000) into levels applied separately to four information-processing stages. The most publicly successful leveled taxonomy is SAE J3016's six driving-automation levels (L0-L5), the explicit structural precedent for this framework's six-level legibility. The levels tradition has serious critics: Bradshaw et al. (2013) argue that "levels of autonomy" mislead because autonomy is relational and context-bound, not a quantity a machine possesses; Jamieson and Skraaning (2018) show LOA frameworks predicting poorly in complex work settings.
 
-This framework accepts both critiques rather than contesting them. Its levels grade the *relation* between two parties — the distribution of authorship — not machine capability, and they are used for description, attribution, and disclosure, where legibility is the goal, not for performance prediction, where LOA demonstrably struggles. Parasuraman et al.'s insight that automation level varies per processing stage recurs here as per-phase scoring in the weighted contribution model. Recent leveled taxonomies for AI at large — Morris et al.'s (2024) Levels of AGI, and Feng, McDonald and Zhang's (2025) levels of autonomy for AI agents, defined like this framework's by the human's role — confirm the pattern's currency. This framework is the creative-authorship instance, with the legal and professional-standard anchoring those schemes do not attempt.
+This framework accepts both critiques rather than contesting them. Its levels grade the *relation* between two parties (the distribution of authorship), not machine capability, and they are used for description, attribution, and disclosure, where legibility is the goal, not for performance prediction, where LOA demonstrably struggles. Parasuraman et al.'s insight that automation level varies per processing stage recurs here as per-phase scoring in the weighted contribution model. Recent leveled taxonomies for AI at large confirm the pattern's currency: Morris et al.'s (2024) Levels of AGI, and Feng, McDonald and Zhang's (2025) levels of autonomy for AI agents, defined like this framework's by the human's role. This framework is the creative-authorship instance, with the legal and professional-standard anchoring those schemes do not attempt.
 
 ### Mixed-Initiative Interaction
 
-Horvitz (1999) set the principles for coupling automated services with direct manipulation; Allen, Guinn and Horvitz (1999) defined levels of initiative in dialog — a direct ancestor of leveled human-AI schemes, grading control of task-oriented dialog rather than authorship of creative expression. Yannakakis, Liapis and Alexopoulos (2014) brought mixed initiative to co-creativity, showing machine suggestions reshape the human's own creative process — a mechanism this document's Behavioral Constraints section develops in detail. Deterding et al. (2017) consolidated "mixed-initiative creative interfaces" as a research agenda. The middle of this framework's spectrum (roughly L2-L4) is that paradigm; the framework contributes the assessment machinery — who ends up the author, with what legal consequence — that the agenda called for but did not supply.
+Horvitz (1999) set the principles for coupling automated services with direct manipulation; Allen, Guinn and Horvitz (1999) defined levels of initiative in dialog, a direct ancestor of leveled human-AI schemes that grades control of task-oriented dialog rather than authorship of creative expression. Yannakakis, Liapis and Alexopoulos (2014) brought mixed initiative to co-creativity, showing machine suggestions reshape the human's own creative process, a mechanism this document's Behavioral Constraints section develops in detail. Deterding et al. (2017) consolidated "mixed-initiative creative interfaces" as a research agenda. The middle of this framework's spectrum (roughly L2-L4) is that paradigm; the framework contributes the assessment machinery — who ends up the author, with what legal consequence — that the agenda called for but did not supply.
 
 ### Human-AI Co-Creativity
 
@@ -1285,11 +1285,11 @@ Kantosalo and Toivonen (2016) distinguish alternating from task-divided co-creat
 
 ### Human Agency and Control
 
-Shneiderman (2020) rejects the one-dimensional automation-versus-control trade-off: control and automation are independent axes, and good design often maximizes both. That is the formal reason a single scale cannot represent a writer who uses heavy automation while retaining full creative control — and why this framework separates interaction agency from work agency instead of assigning one global number. Santoni de Sio and van den Hoven's (2018) account of meaningful human control requires outcomes be *traceable* to a responsible human; authorship attribution is the creative-work instance of tracing, and the weighted contribution model is an operationalization of it. Heer (2019) argues shared, inspectable representations keep human agency intact under automation — the mechanism that makes interaction-level assessment possible at all. Bennett et al.'s (2023) systematic review finds HCI's agency concepts ambiguous and organizes them partly by time-scale; the interaction/work distinction is a time-scale separation in their sense, made operational.
+Shneiderman (2020) rejects the one-dimensional automation-versus-control trade-off: control and automation are independent axes, and good design often maximizes both. That is the formal reason a single scale cannot represent a writer who uses heavy automation while retaining full creative control — and why this framework separates interaction agency from work agency instead of assigning one global number. Santoni de Sio and van den Hoven's (2018) account of meaningful human control requires outcomes be *traceable* to a responsible human; authorship attribution is the creative-work instance of tracing, and the weighted contribution model is an operationalization of it. Heer (2019) argues shared, inspectable representations keep human agency intact under automation; that mechanism is what makes interaction-level assessment possible at all. Bennett et al.'s (2023) systematic review finds HCI's agency concepts ambiguous and organizes them partly by time-scale; the interaction/work distinction is a time-scale separation in their sense, made operational.
 
 ### Authorship Attribution and AI Authorship
 
-On the doctrinal side, Ginsburg and Budiardjo (2019) partition machine-involved works among designer-authored, user-authored, and authorless — a coarse three-way legal taxonomy of the same space L0-L5 refines into actionable gradations; Samuelson (2023) maps the unsettled litigation landscape this framework's USCO anchoring must live in. On the empirical side, Epstein et al. (2023) name attribution as an open research program; Draxler et al.'s AI Ghostwriter Effect (2024) shows declared authorship and felt ownership diverge as a function of the human's influence on the text; Joshi and Vogel (2025) measure a dose-response between prompt share and psychological ownership. Both findings are what the framework predicts when work sits in the L1-L2 band: authorship claimed, ownership not felt, because expression was not human-produced. Hoque et al.'s HaLLMark (2024) demonstrates provenance visualization for writer-LLM interaction — an implementation substrate for the documentation requirements the work-level model imposes.
+On the doctrinal side, Ginsburg and Budiardjo (2019) partition machine-involved works among designer-authored, user-authored, and authorless — a coarse three-way legal taxonomy of the same space L0-L5 refines into actionable gradations; Samuelson (2023) maps the unsettled litigation landscape this framework's USCO anchoring must live in. On the empirical side, Epstein et al. (2023) name attribution as an open research program; Draxler et al.'s AI Ghostwriter Effect (2024) shows declared authorship and felt ownership diverge as a function of the human's influence on the text; Joshi and Vogel (2025) measure a dose-response between prompt share and psychological ownership. Both findings are what the framework predicts when work sits in the L1-L2 band: authorship claimed, ownership not felt, because expression was not human-produced. Hoque et al.'s HaLLMark (2024) demonstrates provenance visualization for writer-LLM interaction, an implementation substrate for the documentation requirements the work-level model imposes.
 
 ### Near-Neighbor Taxonomies
 
@@ -1366,9 +1366,9 @@ Stated plainly, so the framework's claims can be weighed at their actual strengt
 
 **Scope is text-based generation, pre-visualization.** Voice, likeness, and visual generation enter only where they intersect writing. The three axes (who initiates, who produces expression, who selects and approves) should transfer to other modalities; the legal anchors will not transfer unchanged.
 
-**Layer classification is self-documented in practice.** Absent provenance infrastructure in general-purpose tools, work-level scores rest on creator-kept evidence. Documentation is simultaneously the framework's compliance mechanism and its weakest evidentiary link — a gap the WildChat findings above make concrete at population scale.
+**Layer classification is self-documented in practice.** Absent provenance infrastructure in general-purpose tools, work-level scores rest on creator-kept evidence. Documentation is simultaneously the framework's compliance mechanism and its weakest evidentiary link, a gap the WildChat findings above make concrete at population scale.
 
-**Expert evaluation is pending.** The validation path — inter-rater classification exercises, expert walkthroughs with writers, attorneys, and guild-side reviewers, and scoring of documented real workflows — is future work. Until it is executed, the framework's standing is that of an argued proposal: internally consistent, externally anchored, and empirically corroborated only at the population level described in Subsequent Empirical Evidence.
+**Expert evaluation is pending.** The validation path (inter-rater classification exercises, expert walkthroughs with writers, attorneys, and guild-side reviewers, and scoring of documented real workflows) is future work. Until it is executed, the framework's standing is that of an argued proposal: internally consistent, externally anchored, and empirically corroborated only at the population level described in Subsequent Empirical Evidence.
 
 ---
 

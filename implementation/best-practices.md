@@ -144,11 +144,11 @@ If your user can't "land the plane" without your tool, you've built dependency, 
 
 ## Five Behavioral Constraints to Design Against
 
-1. **Anchoring Bias** — First AI suggestion becomes the gravitational center. Mitigation: show multiple alternatives, allow blank-slate starts.
-2. **Selection Bias** — AI output is pre-filtered through training data, platform incentives, and interface design. Mitigation: disclose training methodology and filtering.
-3. **Cognitive Friction** — Rejection costs effort; acceptance costs nothing. Mitigation: make accept and reject equally easy.
-4. **Overton Window** — Suggestions define "reasonable options"; others become invisible. Mitigation: preserve user ability to generate from scratch.
-5. **Homogenization at Scale** — Individual choices aggregate into cultural convergence. Mitigation: vary suggestions, track diversity metrics.
+1. **Anchoring Bias:** First AI suggestion becomes the gravitational center. Mitigation: show multiple alternatives, allow blank-slate starts.
+2. **Selection Bias:** AI output is pre-filtered through training data, platform incentives, and interface design. Mitigation: disclose training methodology and filtering.
+3. **Cognitive Friction:** Rejection costs effort; acceptance costs nothing. Mitigation: make accept and reject equally easy.
+4. **Overton Window:** Suggestions define "reasonable options"; others become invisible. Mitigation: preserve user ability to generate from scratch.
+5. **Homogenization at Scale:** Individual choices aggregate into cultural convergence. Mitigation: vary suggestions, track diversity metrics.
 
 ---
 
