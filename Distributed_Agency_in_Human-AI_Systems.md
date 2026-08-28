@@ -12,7 +12,7 @@ If our systems are architected to amplify the human capacity for taste, imaginat
 
 This document is a view into how artists (and industry) can navigate the pressures on storytelling in a generated world, by understanding agency at the tool level, and moving past the unsustainable good/bad binary.
 
-This framework emerged from building a human-led storytelling system (Narrative.new): a narrative development environment designed so that AI supports planning, structure, and suggestion while expression remains the writer's. Designing it meant deciding, interface choice by interface choice, where control sits between writer and machine. Those decisions required a way to describe how interaction and design shape creative autonomy and authorship — the vocabulary this document generalizes.
+This framework emerged from building a human-led storytelling system (Narrative.new): a narrative development environment designed so that AI supports planning, structure, and suggestion while expression remains the writer's. Designing it meant deciding, interface choice by interface choice, where control sits between writer and machine. Those decisions required a way to describe how interaction and design shape creative autonomy and authorship. This document generalizes that vocabulary.
 
 At this technological inflection point, creators, studios, and industry professionals find themselves navigating without a shared vocabulary, allowing for a shared feeling of "you're on your own." The existing language ("AI-generated," "AI-assisted," "human-written") fails to capture the spectrum of configurations actually in use. The scaffolding to build from is needed. Guild contracts reference "human-led" processes without defining the threshold. Copyright law requires "significant human control" without specifying what qualifies. Tool interfaces make design choices that shape agency without making those choices visible. Everyone operates from intuition where precision is needed.
 
@@ -96,7 +96,7 @@ flowchart TD
     E["Subsequent empirical evidence<br/>WildChat corpus findings (2026)"] -.->|"independent support"| P
 ```
 
-**Part I** defines the vocabulary: six layers on three consistent axes, two thresholds anchored in external standards, and two assessment scopes — a single interaction versus a completed work. Its output is a set of testable propositions (P1-P6).
+**Part I** defines the vocabulary: six layers on three consistent axes, two thresholds anchored in external standards, and two assessment scopes, a single interaction versus a completed work. Its output is a set of testable propositions (P1-P6).
 
 **Part II** consumes the layer classifications: five compliance dimensions gate which layers are permissible for which work, and their intersection determines which configurations can serve which markets.
 
@@ -120,7 +120,7 @@ Readers deciding tool policy can stop after Part I. Readers positioning producti
 
 ---
 
-When a large language model generates text, is it writing? When ChatGPT produces a scene, did it write that scene? When an AI tool suggests a paragraph, who authored it? When an AI completes your sentence, whose sentence is it?
+When a large language model generates text, is it writing? The same question recurs at every scale: who authored the paragraph the tool suggested, whose sentence it completed, who wrote the scene it produced from a prompt.
 
 Skeptics say concrete logic: it's pattern matching, not writing. Embracers say look at the output, it's indistinguishable. Creators know they are still creators, but wonder if an undiscerning audience might not care. Studios wonder who owns it. Unions wonder whose job it's replacing.
 
@@ -168,9 +168,9 @@ The underlying AI model is often identical, but the interface sets the dial on a
 
 For creators: the question is credit and ownership. When is the work yours?
 
-For studios: the question is liability and compliance. What's defensible? What satisfies guild requirements?
+For studios: the question is liability and compliance. Which configurations are defensible and satisfy guild requirements?
 
-For unions: the question is labor and compensation. What protects members? What counts as their work?
+For unions: the question is labor and compensation. What protects members, and what counts as their work?
 
 All three need the same thing: a way to measure and specify how authorship gets distributed between humans and machines.
 
@@ -184,7 +184,7 @@ This framework is a conceptual and design-research contribution, not a formal em
 
 **Conceptual analysis.** The same foundation model behind different interfaces (chatbot, embedded suggestion, structural assistance) produces different authorship distributions. Examining tool architectures in professional use showed that the configurations cluster, and that the clusters differ on three recurring axes: who initiates, who produces expression, who selects and approves.
 
-**Standards synthesis.** Copyright guidance, guild agreements, and the EU AI Act each draw qualitative lines ("significant human control," "human-led," "assistive function"). Reading them against the clustered configurations showed the lines land at consistent places on the spectrum — the anchoring argument developed in the sections that follow.
+**Standards synthesis.** Copyright guidance, guild agreements, and the EU AI Act each draw qualitative lines ("significant human control," "human-led," "assistive function"). Reading them against the clustered configurations showed the lines land at consistent places on the spectrum. The sections that follow develop that anchoring argument.
 
 The result: **a two-level distributional model, authorship risk as the central metric, and six interaction layers.** A map of authorship allocation across interaction architectures. Essentially a "you are here."
 
@@ -415,7 +415,7 @@ Two thresholds emerge. The **authorship floor** at L1↔L2 is the legal hard lin
 
 ---
 
-The framework so far measures agency at the interaction level—a single prompt and response. But creative work is iterative, spanning hours or days, with multiple inputs of varying weight that culminate in a final work.
+The framework so far measures agency at the interaction level, a single prompt and response. But creative work is iterative, spanning hours or days, with multiple inputs of varying weight that culminate in a final work.
 
 ---
 
@@ -538,7 +538,7 @@ Case A is the feature-screenplay calculation worked above (see The Weighted Cont
 
 **Interaction-level view:** AI touchpoints alone (75 hours at L2-L3) suggest L2-L3 authorship.
 
-**Work-level view:** 90.75% — within perturbation range of the 90% line (see Sensitivity), so an L4/L3 boundary case that resolves to L4 on the strength of process documentation: the high-weight creative decisions (concept, structure, characters) were human-led.
+**Work-level view:** 90.75%, within perturbation range of the 90% line (see Sensitivity), so an L4/L3 boundary case that resolves to L4 on the strength of process documentation: the high-weight creative decisions (concept, structure, characters) were human-led.
 
 **Compliance assessment:** Work-level L4 supports full writing credit with documented process.
 
@@ -559,9 +559,9 @@ Case A is the feature-screenplay calculation worked above (see The Weighted Cont
 | Polish & proof | 10 | L4 (95%) | 5% | 4.75% |
 | **Total** | **80** | **—** | **100%** | **75.5%** |
 
-**Interaction-level view:** 62% average at AI touchpoints—appears L2.
+**Interaction-level view:** 62% average at AI touchpoints, which appears L2.
 
-**Work-level view:** 75.5% aggregate—L3 territory.
+**Work-level view:** 75.5% aggregate, which is L3 territory.
 
 **Compliance assessment:** Conditional compliance. L3 requires documentation demonstrating human creative leadership. The series bible and beat sheet evidence becomes critical.
 
@@ -606,7 +606,7 @@ This case exercises four framework components end to end: mechanism audit → la
 
 **Context:** A production company develops a one-hour streaming drama pilot for EU-inclusive distribution. The staffed writer (WGA member) has company consent under Article 72.C to use an embedded-suggestion writing tool during drafting, plus a chatbot for research. Recognizable actors are attached; no digital replicas. Development IP sits on dedicated cloud instances.
 
-**Step 1: Classify the toolchain (Part III → Part I).** The writing tool defaults to suggest mode with one-click rejection, full editing, and standard-format export: tactical mechanisms present, strategic exit possible. Its configuration is L3 — the writer drafts, the machine proposes within human-drafted material. The research chatbot is used on command and none of its text enters the script: L4 use. Nothing drafts from specification, so no phase operates at L2.
+**Step 1: Classify the toolchain (Part III → Part I).** The writing tool defaults to suggest mode with one-click rejection, full editing, and standard-format export: tactical mechanisms present, strategic exit possible. Its configuration is L3: the writer drafts, the machine proposes within human-drafted material. The research chatbot is used on command and none of its text enters the script: L4 use. Nothing drafts from specification, so no phase operates at L2.
 
 **Step 2: Score the work (Part I).** 120 hours total:
 
@@ -623,7 +623,7 @@ This case exercises four framework components end to end: mechanism audit → la
 
 88.5% is a boundary case under the Sensitivity rule: within a few points of the 90% line, classification turns on process evidence. The writer's series bible, beat sheets, and the tool's suggestion logs document human creative leadership; the work is treated as high-L3 with an L4 documentation argument available.
 
-**Step 3: Run the compliance dimensions (Part II).** WGA: the writer incorporated GAI with company consent → literary material (Art. 72.C); credit intact; the company provided no AI-generated material, so no disclosure trigger. SAG-AFTRA: recognizable actors but no digital replicas → Tier 2 standard consent; §39 replica obligations not triggered. Data protection: development IP on dedicated instances satisfies the Enhanced tier that L3 work requires. EU AI Act: an L3 assistive configuration falls under the Article 50(2) exemption (Proposition P3) — no output marking, and no deep-fake disclosure absent replicas. Training-data axis: no covered material licensed for training → no notice obligation.
+**Step 3: Run the compliance dimensions (Part II).** WGA: the writer incorporated GAI with company consent → literary material (Art. 72.C); credit intact; the company provided no AI-generated material, so no disclosure trigger. SAG-AFTRA: recognizable actors but no digital replicas → Tier 2 standard consent; §39 replica obligations not triggered. Data protection: development IP on dedicated instances satisfies the Enhanced tier that L3 work requires. EU AI Act: an L3 assistive configuration falls under the Article 50(2) exemption (Proposition P3): no output marking, and no deep-fake disclosure absent replicas. Training-data axis: no covered material licensed for training → no notice obligation.
 
 **Step 4: Read off the market position (Part II).** Work-level high-L3 with documentation supports streaming distribution with standard E&O coverage and documented (not native) copyright, chain of title running through the writer's retained drafts. Native copyright and the premium valuation that follows it were available at the cost of a toolchain change — suggestion features off during scene drafting would have held drafting at L4. That is the point this case is built to show: **market position is a tool-configuration decision made before writing begins, not a property discovered after delivery.**
 
@@ -839,13 +839,13 @@ Article 50 splits its burden by role, and the split matters for productions:
 | **Provider** (tool vendor) | 50(2): machine-readable marking of synthetic output | The watermarking burden lands on tool builders, not studios |
 | **Deployer** (production) | 50(4): disclose deep fakes | Digital replicas, de-aging, and voice clones of real performers meet the Act's deep-fake definition even with performer consent |
 
-For content within the artistic/creative carve-out, deployer disclosure is satisfied "in an appropriate manner that does not hamper the display or enjoyment of the work" — end-credits disclosure, not on-screen watermarks. SAG-AFTRA consent (Dimension 2) and EU statutory disclosure are separate, stacking obligations: consent does not remove the disclosure duty, and disclosure does not substitute for consent.
+For content within the artistic/creative carve-out, deployer disclosure is satisfied "in an appropriate manner that does not hamper the display or enjoyment of the work," which in practice means end-credits disclosure, not on-screen watermarks. SAG-AFTRA consent (Dimension 2) and EU statutory disclosure are separate, stacking obligations: consent does not remove the disclosure duty, and disclosure does not substitute for consent.
 
 Three boundary clarifications from the regulation's text:
 
-- **The Act regulates AI systems, not content.** A film made with non-compliant tools is not itself barred from EU distribution. The exposure is administrative fines under Article 99 — up to €15 million or 3% of worldwide turnover for Article 50 breaches (the €35 million / 7% tier is reserved for Article 5 prohibited practices) — plus market-surveillance action against the AI system.
+- **The Act regulates AI systems, not content.** A film made with non-compliant tools is not itself barred from EU distribution. The exposure is administrative fines under Article 99, up to €15 million or 3% of worldwide turnover for Article 50 breaches (the €35 million / 7% tier is reserved for Article 5 prohibited practices), plus market-surveillance action against the AI system.
 - **Reach is extraterritorial.** The Act applies to providers and deployers outside the EU when a system's output is used in the Union. US production workflows serving European audiences are in scope.
-- **The model layer is regulated separately.** Since August 2, 2025, general-purpose AI model providers must maintain a copyright-compliance policy honoring text-and-data-mining opt-out reservations (Article 53(1)(c)) and publish a "sufficiently detailed summary" of training content (Article 53(1)(d)). This is a summary obligation, not source-level disclosure — it parallels the WGA and SAG-AFTRA training-data notice provisions as a compliance track governing what goes *into* models, independent of the agency configuration of what comes out.
+- **The model layer is regulated separately.** Since August 2, 2025, general-purpose AI model providers must maintain a copyright-compliance policy honoring text-and-data-mining opt-out reservations (Article 53(1)(c)) and publish a "sufficiently detailed summary" of training content (Article 53(1)(d)). This is a summary obligation, not source-level disclosure. It parallels the WGA and SAG-AFTRA training-data notice provisions as a compliance track governing what goes *into* models, independent of the agency configuration of what comes out.
 
 Adjacent but distinct: the Act's emotion-recognition prohibition in the workplace (Article 5(1)(f), in force February 2025) and its high-risk classification of recruitment and selection AI (Annex III 4(a), from August 2026) reach casting and audition screening tools. Those provisions govern employment decisions about people, not authorship of creative work; they sit outside this framework's scope and are noted here so the two compliance conversations are not conflated.
 
@@ -996,7 +996,7 @@ Studies on default effects and autocomplete interfaces consistently find: - Sign
 
 Research on machine translation post-editing, code completion (GitHub Copilot studies), and predictive text suggests these differences can exceed 20 percentage points for acceptance rates, with corresponding impacts on quality control.
 
-Same AI. Same user. Different defaults. Different agency.
+With the same model and the same user, changing the default changes the agency.
 
 **Legal Implication:** Publish mode makes "significant human control" harder to demonstrate. If the default is acceptance, the human's role shifts from *author* to *curator*, and curation alone does not satisfy USCO requirements.
 
@@ -1151,7 +1151,7 @@ Rejection costs effort. Accepting costs nothing.
 | Accept suggestion | One click |
 | Reject and generate alternative | Evaluate → Decide → Create → Compare |
 
-Users satisfice: they accept "good enough" because rejection is labor. The framework treats opt-in as a free choice. It isn't. Every rejection costs energy. Every acceptance conserves it.
+Users satisfice: they accept "good enough" because rejection is labor. The framework treats opt-in as a free choice, but rejection costs energy where acceptance conserves it.
 
 **The asymmetry:** The path of least resistance leads toward AI output, not away from it.
 
@@ -1277,11 +1277,11 @@ This framework accepts both critiques rather than contesting them. Its levels gr
 
 ### Mixed-Initiative Interaction
 
-Horvitz (1999) set the principles for coupling automated services with direct manipulation; Allen, Guinn and Horvitz (1999) defined levels of initiative in dialog, a direct ancestor of leveled human-AI schemes that grades control of task-oriented dialog rather than authorship of creative expression. Yannakakis, Liapis and Alexopoulos (2014) brought mixed initiative to co-creativity, showing machine suggestions reshape the human's own creative process, a mechanism this document's Behavioral Constraints section develops in detail. Deterding et al. (2017) consolidated "mixed-initiative creative interfaces" as a research agenda. The middle of this framework's spectrum (roughly L2-L4) is that paradigm; the framework contributes the assessment machinery — who ends up the author, with what legal consequence — that the agenda called for but did not supply.
+Horvitz (1999) set the principles for coupling automated services with direct manipulation; Allen, Guinn and Horvitz (1999) defined levels of initiative in dialog, a direct ancestor of leveled human-AI schemes that grades control of task-oriented dialog rather than authorship of creative expression. Yannakakis, Liapis and Alexopoulos (2014) brought mixed initiative to co-creativity, showing machine suggestions reshape the human's own creative process, a mechanism this document's Behavioral Constraints section develops in detail. Deterding et al. (2017) consolidated "mixed-initiative creative interfaces" as a research agenda. The middle of this framework's spectrum (roughly L2-L4) is that paradigm; the framework contributes the assessment machinery that the agenda called for but did not supply: who ends up the author, and with what legal consequence.
 
 ### Human-AI Co-Creativity
 
-Kantosalo and Toivonen (2016) distinguish alternating from task-divided co-creativity; Davis et al. (2016) model creativity as participatory sense-making that emerges in interaction; Guzdial and Riedl (2019) frame co-creation as turn-taking over a shared artifact; Rezwana and Maher's COFI (2023) maps the design space of co-creative interaction. These are typologies of interaction configuration: they describe *how* human and machine interleave. This framework grades *how much* creative agency each party ends up holding, ordinally, and attaches legal consequences to the grades. The two are complementary: COFI's dimensions are design-time inputs whose runtime outcomes the L0-L5 taxonomy classifies. Lee, Liang and Yang's CoAuthor dataset (2022) — keystroke-level logs of 1,445 human-GPT-3 writing sessions, in which self-reported ownership tracks the proportion of user-written text — is exactly the interaction-level evidence the two-level assessment model consumes. Lee, Gero, Chung et al.'s (2024) design space for intelligent writing assistants, a systematic review of 115 papers, is the field's current map of these systems; this framework's taxonomy is orthogonal to it, grading agency outcomes rather than cataloguing design options, and supplies the legal depth that the design space's ecosystem aspect gestures at.
+Kantosalo and Toivonen (2016) distinguish alternating from task-divided co-creativity; Davis et al. (2016) model creativity as participatory sense-making that emerges in interaction; Guzdial and Riedl (2019) frame co-creation as turn-taking over a shared artifact; Rezwana and Maher's COFI (2023) maps the design space of co-creative interaction. These are typologies of interaction configuration: they describe *how* human and machine interleave. This framework grades *how much* creative agency each party ends up holding, ordinally, and attaches legal consequences to the grades. The two are complementary: COFI's dimensions are design-time inputs whose runtime outcomes the L0-L5 taxonomy classifies. Lee, Liang and Yang's CoAuthor dataset (2022), keystroke-level logs of 1,445 human-GPT-3 writing sessions in which self-reported ownership tracks the proportion of user-written text, is exactly the interaction-level evidence the two-level assessment model consumes. Lee, Gero, Chung et al.'s (2024) design space for intelligent writing assistants, a systematic review of 115 papers, is the field's current map of these systems; this framework's taxonomy is orthogonal to it, grading agency outcomes rather than cataloguing design options, and supplies the legal depth that the design space's ecosystem aspect gestures at.
 
 ### Human Agency and Control
 
@@ -1335,11 +1335,11 @@ Honesty requires stating plainly: leveled scales of AI involvement in writing al
 
 This framework was published in January 2026 as a structural argument: that human-AI creative work distributes across measurable configurations, and that existing vocabulary fails to describe them. In June 2026, independent empirical work documented the behavior this taxonomy anticipated, at scale, without reference to it.
 
-Gupta, Antoniak, and Walsh analyzed 573,000 English-language ChatGPT conversations from the public WildChat corpus and found that over a third involved fiction generation. The dominant pattern they describe corresponds precisely to the L0–L1 band of this framework: users supply large-scale choices — characters, relationships, scenario premises — while the model authors all expression, and outputs are regenerated in near-identical permutations. The authors frame this through Ted Chiang's distinction between large-scale and small-scale creative choices; in this framework's terms, they observed a population holding human contribution at Oracle/Executor levels across thousands of sessions. Fiction generation was heavily concentrated: roughly two percent of users produced over eighty percent of fiction conversations. The distribution is a spectrum with a dense low-agency tail — not a binary of "AI-written" versus "human-written" — which is the empirical shape this framework predicted.
+Gupta, Antoniak, and Walsh analyzed 573,000 English-language ChatGPT conversations from the public WildChat corpus and found that over a third involved fiction generation. The dominant pattern they describe corresponds precisely to the L0–L1 band of this framework: users supply large-scale choices — characters, relationships, scenario premises — while the model authors all expression, and outputs are regenerated in near-identical permutations. The authors frame this through Ted Chiang's distinction between large-scale and small-scale creative choices; in this framework's terms, they observed a population holding human contribution at Oracle/Executor levels across thousands of sessions. Fiction generation was heavily concentrated: roughly two percent of users produced over eighty percent of fiction conversations. The distribution is a spectrum with a dense low-agency tail, not a binary of "AI-written" versus "human-written." That is the empirical shape this framework predicted.
 
 Two of their findings warrant specific note.
 
-First, their acknowledged measurement gap corresponds to this framework's central distinction. WildChat records only the generation moment: prompts submitted, completions returned. The authors note they cannot observe how the resulting fiction circulates, whether it is edited, shared, or abandoned, and call for ethnographic follow-up. That gap has a name here: they measured Interaction Agency and could not see Work Agency, because conversation logs structurally cannot capture the surrounding creative process. Traces of Work Agency nonetheless leak into their data — most visibly in what they call re-rolling, where a user regenerates a scenario repeatedly and then folds a preferred output back into an extended prompt. That is a human selection decision: curation, the constitutive act of the L2–L3 band. It occurs in their corpus with no apparatus to record what was selected or why. A half-million-conversation archive of curation without documentation is the strongest available evidence for this framework's claim that agency must be measured across the full creative process, and that the measurement infrastructure does not yet exist in general-purpose tools.
+First, their acknowledged measurement gap corresponds to this framework's central distinction. WildChat records only the generation moment: prompts submitted, completions returned. The authors note they cannot observe how the resulting fiction circulates, whether it is edited, shared, or abandoned, and call for ethnographic follow-up. That gap has a name here: they measured Interaction Agency and could not see Work Agency, because conversation logs structurally cannot capture the surrounding creative process. Traces of Work Agency nonetheless leak into their data, most visibly in what they call re-rolling, where a user regenerates a scenario repeatedly and then folds a preferred output back into an extended prompt. That is a human selection decision: curation, the constitutive act of the L2–L3 band. It occurs in their corpus with no apparatus to record what was selected or why. A half-million-conversation archive of curation without documentation is the strongest available evidence for this framework's claim that agency must be measured across the full creative process, and that the measurement infrastructure does not yet exist in general-purpose tools.
 
 Second, the economic consequence of the low-agency band is now measurable. Drawing on McGurl's account of fiction's commoditization, Gupta, Antoniak, and Walsh cite NBER findings (Reimers and Waldfogel) documenting a surge of LLM-generated self-published books that accumulate essentially no readership. This is the market consequence the compliance analysis above predicts, observed in the wild: output produced at L0–L2 without documented human authorship pools into an interchangeable class of goods that fails simultaneously as protectable property and as valued product. The stratification this framework derived from compliance constraints is materializing as market behavior.
 
