@@ -39,7 +39,7 @@ This framework provides the precision.
 
 ## Citing & Contributing
 
-Use the **Cite this repository** button on GitHub (powered by [`CITATION.cff`](CITATION.cff)) for APA, BibTeX, and other formats. Contribution guidelines, RFC process, and PR/issue conventions live in [`.github/CONTRIBUTING.md`](.github/CONTRIBUTING.md).
+Use the **Cite this repository** button on GitHub (powered by [`CITATION.cff`](CITATION.cff)) for APA, BibTeX, and other formats.
 
 ---
 
