@@ -324,14 +324,14 @@ The WGA contract establishes a binary distinction—AI is not a writer—with sp
 
 ### SAG-AFTRA Four Pillars of Ethical AI (2025) and 2026 Operationalization
 
-SAG-AFTRA's framework centers on performer agency through four requirements. The 2025 Interactive Media Agreement introduced the four pillars; the 2026 TV/Theatrical Tentative Agreement (Section 39, term July 1, 2026 – June 30, 2030) is the operative source for film and scripted television and gives each pillar concrete provisions.
+SAG-AFTRA's framework centers on performer agency through four requirements. The 2025 Interactive Media Agreement introduced the four pillars; the 2026 TV/Theatrical Agreement (Codified Basic Agreement Sections 64 and 64.1, adopted as Item 39 of the May 27, 2026 MOA; ratified by membership June 4, 2026; term July 1, 2026 – June 30, 2030) is the operative source for film and scripted television and gives each pillar concrete provisions.
 
 | Pillar | Right | Framework Mapping | 2026 TV/Theatrical Operationalization (Sec. 39) |
 |---|---|---|---|
-| **Transparency** | Know intended use of likeness | Legibility principle (users know where they stand) | "Articulable business reason" for scan-consent requests (39.J); strict notice/bargaining schedule for Synthetics (39.K); training-data licensing notice (39.L) |
-| **Consent** | Grant or deny permission (written, clear, reasonably specific) | Strategic agency (ability to opt out) | "No scan" replicas brought inside the EBDR consent regime (39.A); consent required for AI dubbing into other languages effective July 1, 2027 (39.D); strike-period consent integrity (39.G) |
-| **Compensation** | Fair pay (on-scale with in-person performance) | Economic line protection | ICDR floor at day-performer rate plus residuals when used as a performance that would qualify a natural performer (39.C) |
-| **Control** | Set limits on how, when, where, how long | Tactical agency (control within the tool) | Producer security obligations (39.H); downstream transfer compliance with 21-day Union approval (39.I); narrow biometric data prohibition for fingerprint, palmprint, iris (39.E); absolute prohibition on nude/simulated-sexual depiction of minors via digital replica, including age-up/de-age (39.F, 43.E) |
+| **Transparency** | Know intended use of likeness | Legibility principle (users know where they stand) | "Articulable business reason" for scan-consent requests (64.I); strict notice/bargaining schedule for Synthetics (64.1.A); training-data licensing notice (64.1.D) |
+| **Consent** | Grant or deny permission (written, clear, reasonably specific) | Strategic agency (ability to opt out) | "No scan" replicas brought inside the EBDR consent regime (64.A.(1)); consent required for AI dubbing into other languages effective July 1, 2027 (64.B); strike-period consent integrity (64.F) |
+| **Compensation** | Fair pay (on-scale with in-person performance) | Economic line protection | ICDR floor at day-performer rate plus residuals when used as a performance that would qualify a natural performer (64.A.(3)) |
+| **Control** | Set limits on how, when, where, how long | Tactical agency (control within the tool) | Producer security obligations (64.G); downstream transfer compliance with 21-day Union approval (64.H); narrow biometric data prohibition for fingerprint, palmprint, iris (64.D); absolute prohibition on nude/simulated-sexual depiction of minors via digital replica, including age-up/de-age (64.E, 43.E) |
 
 ### Guild Compliance by Layer
 
@@ -340,7 +340,7 @@ SAG-AFTRA's framework centers on performer agency through four requirements. The
 | WGA (Studios) | Full credit | Not literary material | Not literary material |
 | WGA (Hired Writers)* | Full credit | Literary material | Literary material |
 | DGA | Compliant | Director approval required | Requires consultation |
-| SAG-AFTRA | Compliant with consent (all four pillars satisfied) | Enhanced consent; control provisions | Prohibited for performance; Synthetic in a human role requires "significant additional value" beyond what a Digital Replica could provide (2026 TV/Theatrical §39.K) |
+| SAG-AFTRA | Compliant with consent (all four pillars satisfied) | Enhanced consent; control provisions | Prohibited for performance; Synthetic in a human role requires "significant additional value" beyond what a Digital Replica could provide (2026 TV/Theatrical §64.1.A) |
 
 *\*Per Article 72.C: Hired writers with company consent can incorporate GAI content as literary material at any agency level. Studios cannot claim AI-generated content as literary material.*
 
@@ -352,7 +352,7 @@ Psychologically, there is a tipping point where a human shifts from generating i
 
 **Above 90%:** You write. The machine assists.
 
-**Below 90%:** The machine writes. You select.
+**Below 90%:** Machine-generated expression enters the draft. Increasingly, you select.
 
 The practical test: "Did I write the words, or choose them?"
 
@@ -380,7 +380,7 @@ Six domains. Two thresholds.
 |---|---|---|
 | Legal (USCO) | "Significant human control" | L4-L5 = native copyright; L2-L3 = documented copyright (chain of title required); L0-L1 = no copyright in output |
 | WGA (2023 MBA) | AI output ≠ "literary material" (Art. 72.B); writer with consent retains literary material status (Art. 72.C) | Studios: AI output excluded at all levels. Hired writers: protected at all levels, but L4-L5 carries least copyright risk |
-| SAG-AFTRA (2026 TV/Theatrical §39; 2025 IMA for interactive) | Four Pillars: Transparency, Consent, Compensation, Control — operationalized with EBDR/ICDR definitions, ICDR scale + residuals floor, dubbing consent (2027), security/transfer/biometric obligations, and a "significant additional value" test for Synthetics in human roles | L4-L5 = pillars satisfied; L3 = enhanced consent; Synthetic in a human role requires bargained justification |
+| SAG-AFTRA (2026 TV/Theatrical §§64, 64.1; 2025 IMA for interactive) | Four Pillars: Transparency, Consent, Compensation, Control — operationalized with EBDR/ICDR definitions, ICDR scale + residuals floor, dubbing consent (2027), security/transfer/biometric obligations, and a "significant additional value" test for Synthetics in human roles | L4-L5 = pillars satisfied; L3 = enhanced consent; Synthetic in a human role requires bargained justification |
 | EU AI Act Art. 50 | "Assistive function" exempt; "substantially alter semantics" marked | L3-L5 = exempt; L0-L2 = marking required |
 | Cognitive | Creation vs. curation | L4-L5 = generating; L3 and below = selecting |
 | Economic | Chain of title risk | L4-L5 = native, premium valuation; L2-L3 = documented, mid valuation; L0-L1 = unprotected output |
@@ -405,7 +405,7 @@ Two thresholds emerge. The **authorship floor** at L1↔L2 is the legal hard lin
 - WGA Artificial Intelligence Provisions (2023 MBA, Article 72)
 - SAG-AFTRA AI Provisions and Four Pillars of Ethical AI (2025)
 - SAG-AFTRA 2025 Interactive Media Agreement (Digital Replica Definitions)
-- SAG-AFTRA 2026 TV/Theatrical Tentative Agreement, Section 39 (May 11, 2026), term July 1, 2026 – June 30, 2030
+- SAG-AFTRA 2026 TV/Theatrical Agreement, Codified Basic Agreement Sections 64 (Digital Replication and Alteration) and 64.1 (Generative Artificial Intelligence), with parallel Schedule X Part I §72 and Part II §67; adopted as MOA Item 39 (National Board approval May 11, 2026; MOA signed May 27, 2026; ratified June 4, 2026), term July 1, 2026 – June 30, 2030
 - EU AI Act, Article 50: Transparency Obligations (Regulation 2024/1689)
 - EU Code of Practice on Marking and Labelling AI-Generated Content (2025-2026)
 
@@ -421,7 +421,7 @@ The framework so far measures agency at the interaction level, a single prompt a
 
 ### The Problem with Interaction-Level Scoring
 
-Consider a screenwriter who spends 40 hours on a project:
+Consider a screenwriter who spends 41 hours on a project:
 
 - 8 hours researching and developing the concept (L5)
 - 4 hours on dramatic structure (L4)
@@ -559,7 +559,7 @@ Case A is the feature-screenplay calculation worked above (see The Weighted Cont
 | Polish & proof | 10 | L4 (95%) | 5% | 4.75% |
 | **Total** | **80** | **—** | **100%** | **75.5%** |
 
-**Interaction-level view:** 62% average at AI touchpoints, which appears L2.
+**Interaction-level view:** 62.5% unweighted average across the four L2-L3 phases, which appears L2.
 
 **Work-level view:** 75.5% aggregate, which is L3 territory.
 
@@ -602,7 +602,7 @@ The difference is what the user brings to the interaction.
 
 #### Case Study D (Integrated): Guild-Covered Streaming Pilot on an L3 Toolchain (Hypothetical)
 
-This case exercises four framework components end to end: mechanism audit → layer classification → work-level calculation → compliance dimensions → market position.
+This case exercises five framework components end to end: mechanism audit → layer classification → work-level calculation → compliance dimensions → market position.
 
 **Context:** A production company develops a one-hour streaming drama pilot for EU-inclusive distribution. The staffed writer (WGA member) has company consent under Article 72.C to use an embedded-suggestion writing tool during drafting, plus a chatbot for research. Recognizable actors are attached; no digital replicas. Development IP sits on dedicated cloud instances.
 
@@ -623,7 +623,7 @@ This case exercises four framework components end to end: mechanism audit → la
 
 88.5% is a boundary case under the Sensitivity rule: within a few points of the 90% line, classification turns on process evidence. The writer's series bible, beat sheets, and the tool's suggestion logs document human creative leadership; the work is treated as high-L3 with an L4 documentation argument available.
 
-**Step 3: Run the compliance dimensions (Part II).** WGA: the writer incorporated GAI with company consent → literary material (Art. 72.C); credit intact; the company provided no AI-generated material, so no disclosure trigger. SAG-AFTRA: recognizable actors but no digital replicas → Tier 2 standard consent; §39 replica obligations not triggered. Data protection: development IP on dedicated instances satisfies the Enhanced tier that L3 work requires. EU AI Act: an L3 assistive configuration falls under the Article 50(2) exemption (Proposition P3): no output marking, and no deep-fake disclosure absent replicas. Training-data axis: no covered material licensed for training → no notice obligation.
+**Step 3: Run the compliance dimensions (Part II).** WGA: the writer incorporated GAI with company consent → literary material (Art. 72.C); credit intact; the company provided no AI-generated material, so no disclosure trigger. SAG-AFTRA: recognizable actors are attached, but the AI workflow processes no performer likeness (no replicas, no alterations) → Tier 0 on the talent dimension; §64 replica obligations not triggered. Had the production altered or replicated a performer, Tier 2 or Tier 3 consent would attach. Data protection: development IP on dedicated instances satisfies the Enhanced tier that L3 work requires. EU AI Act: an L3 assistive configuration falls under the Article 50(2) exemption (Proposition P3): no output marking, and no deep-fake disclosure absent replicas. Training-data axis: no covered material licensed for training → no notice obligation.
 
 **Step 4: Read off the market position (Part II).** Work-level high-L3 with documentation supports streaming distribution with standard E&O coverage and documented (not native) copyright, chain of title running through the writer's retained drafts. Native copyright and the premium valuation that follows it were available at the cost of a toolchain change — suggestion features off during scene drafting would have held drafting at L4. That is the point this case is built to show: **market position is a tool-configuration decision made before writing begins, not a property discovered after delivery.**
 
@@ -631,7 +631,7 @@ This case exercises four framework components end to end: mechanism audit → la
 
 #### Observations Across Iterative Cases
 
-1. **In these constructed cases, work-level scores run 15-25 points higher** than interaction-level views when the creator does substantial pre-work. Whether real workflows show the same gap is an empirical question (see Limitations).
+1. **In these constructed cases, work-level scores run well above interaction-level views** when the creator does substantial pre-work: 13.5 points in Case B, and 58.5 points in Case C, where prior authored work dominates the weighting. Whether real workflows show the same gap is an empirical question (see Limitations).
 2. **Weight distribution matters more than time distribution.** 15% of time on concept at L5 contributes more than 50% of time on drafting at L2.
 3. **Prior work counts.** Users adapting their own material have legitimate authorship claims even when the adaptation session is low-agency.
 4. **Documentation becomes essential at L3.** The difference between conditional compliance and non-compliance often depends on whether the user can demonstrate their process.
@@ -690,7 +690,7 @@ Five dimensions (data protection, talent rights, guild requirements, training-da
 | **Data Protection** | Enterprise IT / Legal | What can the AI see? | Infrastructure requirements |
 | **Talent Rights** | SAG-AFTRA / Performers | Whose likeness can it use? | Consent protocols |
 | **Guild Compliance** | WGA / DGA / IATSE | Who gets credit and compensation? | Agency level permitted |
-| **Training Data Licensing** | WGA (2026 MBA, Art. 72) / SAG-AFTRA (2026 TV/Theatrical §39.L) | When can covered material or performances be licensed to train commercial GAI? | Notice and bargaining obligations to the relevant guild |
+| **Training Data Licensing** | WGA (2026 MBA, Art. 72) / SAG-AFTRA (2026 TV/Theatrical §64.1.D) | When can covered material or performances be licensed to train commercial GAI? | Notice and bargaining obligations to the relevant guild |
 | **International (EU AI Act)** | European Commission | Is output marked as AI-generated? | Disclosure and labeling requirements |
 
 Each dimension independently constrains which agency levels (L0-L5) are permissible. The intersection of all five determines what's actually allowed for any given project. The training-data axis is structurally parallel to production-authorship compliance but governs a separate workflow: any license of covered literary material (WGA) or covered performances (SAG-AFTRA) to non-affiliated third parties for the purpose of training a public-facing, commercially available GAI system triggers written notice to the union and an obligation to meet and discuss remuneration on request.
@@ -699,17 +699,21 @@ Each dimension independently constrains which agency levels (L0-L5) are permissi
 
 ### Dimension 1: Data Protection
 
-What the AI can access depends on what you're willing to expose.
+What the AI can access depends on what you're willing to expose. The tiers and agency mappings below are proposed production policies, not requirements drawn from any security standard.
 
 | Tier | Infrastructure | Data Retention | Content Type | Agency Permitted |
 |---|---|---|---|---|
-| **Standard** | Shared cloud | 90-day logs | Released/public | L4-L5 only |
+| **Standard** | Shared cloud | 90-day logs | Released/public | Any level for released/public material; L4-L5 only if unreleased IP is exposed |
 | **Enhanced** | Dedicated instances, CMEK | Zero retention | Development IP | L2-L5 |
 | **Maximum** | On-premise, air-gapped, TEE | Forensic watermarking | Tentpole/unreleased | All levels with controls |
 
 **The constraint:** You cannot run L2 tools on shared cloud infrastructure with unreleased IP. The data sensitivity gates your agency options before any other consideration.
 
-**Why it matters:** - Shared cloud = your prompts and outputs may be logged, reviewed, or used for improvement - Unreleased scripts, character designs, plot points = competitive intelligence - Tentpole IP = nine-figure assets that cannot leak
+**Why it matters:**
+
+- Shared cloud = your prompts and outputs may be logged, reviewed, or used for improvement
+- Unreleased scripts, character designs, plot points = competitive intelligence
+- Tentpole IP = nine-figure assets that cannot leak
 
 **The rule:** Lower agency levels generate more content, which means more data exposure. More sensitive IP requires more infrastructure protection. These scale together.
 
@@ -726,30 +730,30 @@ Performer likeness triggers consent requirements that constrain agency levels.
 | **Tier 2** | Recognizable alterations | Standard SAG-AFTRA consent | L3-L5 |
 | **Tier 3** | Digital replicas (EBDR or ICDR) | Enhanced consent + legal review; ICDR carries day-performer scale floor + residuals; security and transfer-compliance obligations attach | L4-L5 only |
 
-**Tier 3 examples:** De-aging, voice cloning, posthumous performance, deepfakes, digital doubles. "No scan" replicas built from on-set photography qualify as Employment-Based Digital Replicas and carry the full EBDR consent regime (2026 TV/Theatrical §39.A).
+**Tier 3 examples:** De-aging, voice cloning, posthumous performance, deepfakes, digital doubles. "No scan" replicas built from on-set photography qualify as Employment-Based Digital Replicas and carry the full EBDR consent regime (2026 TV/Theatrical §64.A.(1)).
 
 ### SAG-AFTRA Digital Replica and Synthetic Definitions
 
-For film and scripted television, the 2026 TV/Theatrical Tentative Agreement (Section 39) is the operative source; the 2025 Interactive Media Agreement remains operative for interactive scope.
+For film and scripted television, the 2026 TV/Theatrical Agreement (Sections 64 and 64.1, ratified June 4, 2026) is the operative source; the 2025 Interactive Media Agreement remains operative for interactive scope.
 
 | Term | Definition | Consent / Compensation Requirement |
 |---|---|---|
-| **Employment-Based Digital Replica (EBDR)** | Digital replica created from a performer's or background actor's engagement, including where the replica is built from on-set photography without a separate scan | Written, clear, conspicuous, reasonably specific consent; producer must have an "articulable business reason" before requesting scan consent (§39.J) |
-| **Independently Created Digital Replica (ICDR)** | Replica the producer did not create themselves (for example, one created by the performer or a third party and licensed in) | Consent + benefit-fund contributions, with day-performer rate as the minimum payment and residuals when the ICDR is used in a way that would qualify a natural performer for residuals (§39.C) |
+| **Employment-Based Digital Replica (EBDR)** | Digital replica created from a performer's or background actor's engagement, including where the replica is built from on-set photography without a separate scan | Written, clear, conspicuous, reasonably specific consent; producer must have an "articulable business reason" before requesting scan consent (§64.I) |
+| **Independently Created Digital Replica (ICDR)** | Replica the producer did not create themselves (for example, one created by the performer or a third party and licensed in) | Consent + benefit-fund contributions, with day-performer rate as the minimum payment and residuals when the ICDR is used in a way that would qualify a natural performer for residuals (§64.A.(3)) |
 | **Vocal / Visual Digital Replica (IMA)** | Algorithmically generates new vocal or visual performances of a performer (operative for interactive media) | Separate consent per use category |
-| **Synthetic** (formerly "Synthetic Performer") | A GAI-generated digital asset used in a role for which no natural performer is hired, intended to and creating the clear impression of a natural performer, but not recognizable as any identifiable performer and not voiced by a natural person (§39.K) | Notice and bargaining; usable in a human role only on a showing of "significant additional value" beyond what a Digital Replica of a real performer could provide, with strict scheduling and arbitration remedies |
-| **Digital Replication** | Use of a Digital Replica of a real performer; counts as human performance for the §39.K "significant additional value" comparison | Inherits the consent regime of the underlying EBDR or ICDR |
+| **Synthetic** (formerly "Synthetic Performer") | A GAI-generated digital asset used in a role for which no natural performer is hired, intended to and creating the clear impression of a natural performer, but not recognizable as any identifiable performer and not voiced by a natural person (§64.1.A) | Notice and bargaining; usable in a human role only on a showing of "significant additional value" beyond what a Digital Replica of a real performer could provide, with strict scheduling and arbitration remedies |
+| **Digital Replication** | Use of a Digital Replica of a real performer; counts as human performance for the §64.1.A "significant additional value" comparison | Inherits the consent regime of the underlying EBDR or ICDR |
 | **Objectively Identifiable** | Replica must be recognizable as the performer, including in character roles (IMA) | Usage reports required |
 
-**Consent architecture (2026 TV/Theatrical):** Consent must fit a "reasonably specific description" and is invalidated when use exceeds it. Consent is structurally suspended during a strike: producers may not use a performer or background actor's digital replica in any circumstance where consent would be required and the worker could refuse to render services (§39.G). Use of a digital replica to dub a performance into another language now requires consent for motion pictures commencing principal photography on or after July 1, 2027 (§39.D), reversing the prior default.
+**Consent architecture (2026 TV/Theatrical):** Consent must fit a "reasonably specific description" and is invalidated when use exceeds it. Consent is structurally suspended during a strike: producers may not use a performer or background actor's digital replica in any circumstance where consent would be required and the worker could refuse to render services (§64.F). Use of a digital replica to dub a performance into another language now requires consent for motion pictures commencing principal photography on or after July 1, 2027 (§64.B), reversing the prior default.
 
 **Operational obligations on producers:**
-- *Security* (§39.H): limit access to digital replicas to persons with a legitimate business need; use commercially reasonable efforts to prevent unauthorized access, use, or copying.
-- *Transfer compliance* (§39.I): producer remains responsible for contractual digital-replica protections even after transferring the replica, unless the Union approves the transferee's financial responsibility and the transferee commits in writing to comply, including a right to arbitrate. Union must respond within 21 days and not unreasonably withhold approval.
-- *Biometric data* (§39.E): performer or background actor fingerprints, palmprints, and iris scans may not be used for any purpose unrelated to the picture (set-security technologies excepted).
-- *Minor protection* (§39.F, §43.E): no use of a minor's digital replica to depict the minor as nude or engaged in simulated sexual activity, including by age-up or de-age.
+- *Security* (§64.G): limit access to digital replicas to persons with a legitimate business need; use commercially reasonable efforts to prevent unauthorized access, use, or copying.
+- *Transfer compliance* (§64.H): producer remains responsible for contractual digital-replica protections even after transferring the replica, unless the Union approves the transferee's financial responsibility and the transferee commits in writing to comply, including a right to arbitrate. Union must respond within 21 days and not unreasonably withhold approval.
+- *Biometric data* (§64.D): performer or background actor fingerprints, palmprints, and iris scans may not be used for any purpose unrelated to the picture (set-security technologies excepted).
+- *Minor protection* (§64.E, General Provisions §50.O): no use of a minor's digital replica to depict the minor as nude or engaged in simulated sexual activity, including by age-up or de-age.
 
-**The constraint:** Digital replicas require L4-L5 AND full SAG-AFTRA compliance with all four pillars (Transparency, Consent, Compensation, Control). The performer must remain in control of how their likeness is used. Lower agency levels (where the AI generates autonomously) are prohibited for any recognizable likeness work, and the use of a Synthetic in a human role is constrained by the §39.K "significant additional value" test.
+**The constraint:** Digital replicas require L4-L5 AND full SAG-AFTRA compliance with all four pillars (Transparency, Consent, Compensation, Control). The performer must remain in control of how their likeness is used. Lower agency levels (where the AI generates autonomously) are prohibited for any recognizable likeness work, and the use of a Synthetic in a human role is constrained by the §64.1.A "significant additional value" test.
 
 ---
 
@@ -757,13 +761,15 @@ For film and scripted television, the 2026 TV/Theatrical Tentative Agreement (Se
 
 Who gets credit and compensation depends on who did the creative work.
 
-| Layer | WGA: Studios | WGA: Hired Writers (with consent) | SAG-AFTRA (2026 TV/Theatrical §39) | DGA | IATSE |
+The layer-by-layer mappings below are this framework's proposed operationalization of the guild agreements. Where a cell rests on contract language, the article is cited; the remaining cells are proposals for how productions could apply those provisions, not terms the agreements state.
+
+| Layer | WGA: Studios | WGA: Hired Writers (with consent) | SAG-AFTRA (2026 TV/Theatrical §§64, 64.1) | DGA | IATSE |
 |---|---|---|---|---|---|
 | **L5** | Full credit | Full credit | Unrestricted | Compliant | Compliant |
-| **L4** | Full credit | Full credit | Compliant with consent; EBDR / ICDR permitted with §39 protections | Compliant | Compliant |
+| **L4** | Full credit | Full credit | Compliant with consent; EBDR / ICDR permitted with §64 protections | Compliant | Compliant |
 | **L3** | Not literary material | Literary material | Enhanced consent | Director approval | Monitored |
 | **L2** | Not literary material | Literary material | Prohibited for performance | Consultation required | Prohibited |
-| **L0-L1** | Not literary material | Literary material per 72.C | Prohibited for performance; Synthetic in a human role requires "significant additional value" beyond what a Digital Replica could provide (§39.K) | Prohibited | Prohibited |
+| **L0-L1** | Not literary material | Literary material per 72.C | Prohibited for performance; Synthetic in a human role requires "significant additional value" beyond what a Digital Replica could provide (§64.1.A) | Prohibited | Prohibited |
 
 **The pattern:** 90%+ (L4-L5) is the safe zone across all guilds for studio-produced content.
 
@@ -779,14 +785,14 @@ The WGA contract draws a critical distinction between studios and hired writers:
 
 - **Studios** cannot claim AI-generated content as literary material at any agency level (prevents bypassing writer employment)
 - **Hired writers** with company consent CAN incorporate GAI content as literary material at any agency level
-- **Companies must disclose** when providing AI-generated material to writers
+- **Companies must disclose** when providing AI-generated material to writers (Art. 72.C.1)
 - **Companies cannot require** writers to use GAI (Art. 72.E)
 
 Note: The WGA deliberately avoids defining a spectrum of acceptable AI involvement. Article 72.C protects writers contractually regardless of how much AI they use. However, this contractual protection does not resolve the *copyright* question: USCO's "significant human control" standard still applies independently. A writer working at L0-L1 may retain WGA credit protections while facing copyright registration challenges.
 
 **Other guild constraints:**
 
-- SAG-AFTRA: Cannot replace performance with generation; under 2026 TV/Theatrical §39.K, a Synthetic in a human role requires a demonstrable "significant additional value" beyond what a Digital Replica of a real performer could provide, with notice, bargaining, and arbitration remedies attached
+- SAG-AFTRA: Cannot replace performance with generation; under 2026 TV/Theatrical §64.1.A, a Synthetic in a human role requires a demonstrable "significant additional value" beyond what a Digital Replica of a real performer could provide, with notice, bargaining, and arbitration remedies attached
 - DGA: Cannot automate directorial decisions
 - IATSE: Cannot displace craft work with AI output
 
@@ -794,7 +800,7 @@ Note: The WGA deliberately avoids defining a spectrum of acceptable AI involveme
 
 ---
 
-### EU AI Act: International Compliance Layer
+### Dimension 5: EU AI Act (International Compliance Layer)
 
 The EU AI Act (Regulation 2024/1689) adds a fifth compliance dimension for any content distributed in European markets. Article 50 establishes transparency obligations that align with (and validate) the framework's layer distinctions.
 
@@ -804,7 +810,7 @@ The EU AI Act (Regulation 2024/1689) adds a fifth compliance dimension for any c
 |---|---|---|
 | **50(1)** | Disclose AI interaction to users | Transparency at all layers |
 | **50(2)** | Mark AI-generated outputs in machine-readable format | L0-L2 requires marking |
-| **50(4)** | Disclose deep fakes; creative exception for artistic works | L4-L5 creative work: non-intrusive disclosure only |
+| **50(4)** | Deployers disclose deep fakes; creative exception for artistic works | Artistic work at any layer: non-intrusive disclosure; provider marking under 50(2) unaffected |
 | **50(5)** | Clear disclosure at first interaction | Legibility principle |
 
 ### The "Assistive Function" Exemption
@@ -818,13 +824,13 @@ This maps to the L3-L5 range:
 | **L0-L2** | Marking required | AI substantially alters semantics; generates content |
 | **L3-L5** | Assistive function exemption applies | Human controls semantics; AI assists without substantial alteration |
 
-The EU implicitly recognizes a spectrum. "Substantially alter semantics" is the threshold language our framework operationalizes: the 90% safe harbor gives this vague standard a measurable boundary.
+The EU implicitly recognizes a spectrum. "Substantially alter semantics" is the threshold language our framework operationalizes: the L2/L3 boundary (roughly 70%, where the human drafts and the machine proposes bounded suggestions) gives this vague standard a measurable line. This mapping is the framework's proposal, not Commission guidance.
 
 ### Creative Content Exception
 
 "Where the content forms part of an evidently artistic, creative, satirical, fictional or analogous work or programme, the transparency obligations are limited to disclosure of the existence of such generated or manipulated content in an **appropriate manner that does not hamper the display or enjoyment of the work**."
 
-For professional creative work at L4-L5, disclosure requirements are non-intrusive. The EU distinguishes between informational content (strict marking) and artistic work (flexible disclosure), validating the compliance analysis that professional creative contexts operate under different rules.
+This carve-out sits inside Article 50(4), the deployer's deep-fake disclosure duty. It applies to artistic work at any agency level and does not touch the provider's Article 50(2) marking obligation. For professional creative work, disclosure is therefore non-intrusive (end credits rather than on-screen labels), but the two duties stack: the tool vendor still marks L0-L2 output, and the production still discloses. The EU distinguishes informational content (strict disclosure) from artistic work (flexible disclosure), which is consistent with the compliance analysis that professional creative contexts operate under different rules.
 
 ### Timeline
 
@@ -845,23 +851,27 @@ Three boundary clarifications from the regulation's text:
 
 - **The Act regulates AI systems, not content.** A film made with non-compliant tools is not itself barred from EU distribution. The exposure is administrative fines under Article 99, up to €15 million or 3% of worldwide turnover for Article 50 breaches (the €35 million / 7% tier is reserved for Article 5 prohibited practices), plus market-surveillance action against the AI system.
 - **Reach is extraterritorial.** The Act applies to providers and deployers outside the EU when a system's output is used in the Union. US production workflows serving European audiences are in scope.
-- **The model layer is regulated separately.** Since August 2, 2025, general-purpose AI model providers must maintain a copyright-compliance policy honoring text-and-data-mining opt-out reservations (Article 53(1)(c)) and publish a "sufficiently detailed summary" of training content (Article 53(1)(d)). This is a summary obligation, not source-level disclosure. It parallels the WGA and SAG-AFTRA training-data notice provisions as a compliance track governing what goes *into* models, independent of the agency configuration of what comes out.
+- **The model layer is regulated separately.** Since August 2, 2025, providers of general-purpose AI models placed on the market from that date must maintain a copyright-compliance policy honoring text-and-data-mining opt-out reservations (Article 53(1)(c)) and publish a "sufficiently detailed summary" of training content (Article 53(1)(d)). This is a summary obligation, not source-level disclosure. Models already on the market before August 2, 2025 have until August 2, 2027 to comply (Article 111(3)). It parallels the WGA and SAG-AFTRA training-data notice provisions as a compliance track governing what goes *into* models, independent of the agency configuration of what comes out.
 
 Adjacent but distinct: the Act's emotion-recognition prohibition in the workplace (Article 5(1)(f), in force February 2025) and its high-risk classification of recruitment and selection AI (Annex III 4(a), from August 2026) reach casting and audition screening tools. Those provisions govern employment decisions about people, not authorship of creative work; they sit outside this framework's scope and are noted here so the two compliance conversations are not conflated.
 
 ---
 
+### Dimension 4: Training Data Licensing
+
+The training-data dimension governs what goes *into* models rather than what comes out of them. Under the 2026 WGA MBA (Art. 72.G.2) and the 2026 SAG-AFTRA TV/Theatrical Agreement (§64.1.D), any compensated license of covered literary material or covered performances to a non-affiliated third party for training a public-facing, commercially available GAI system triggers written notice to the union and, at the union's request, a meeting to discuss the license, including remuneration. Because this dimension attaches to licensing decisions rather than to production workflow, it does not gate agency levels directly; it runs as a parallel compliance track alongside the EU model-layer obligations discussed under Dimension 5.
+
 ### Private Ordering on the Model Layer
 
 The model-layer track described above is not governed by statute alone. On August 17, 2026, the Motion Picture Association and ByteDance signed a memorandum of understanding covering the Seedance video and Seedream image models and their outputs on TikTok, CapCut, and Dreamina, the first agreement between the MPA and an AI developer. It followed a February 2026 cease-and-desist over Seedance 2.0 outputs that reproduced recognizable performers. Its published mechanisms are provenance and filtering measures — watermarking, C2PA content credentials, face-blocking, and output filters — shipped in Seedance 2.5 and Seedream 5.0 Pro. Commercial terms were not disclosed.
 
-The MOU is neither a licensing regime nor a standard, and it is noted here for two structural reasons rather than as an anchor. First, it is the earliest instance of the input-and-output provenance track being governed by negotiated private agreement rather than by statute or collective bargaining. Second, no guild was party to it: the MPA represents studios, and the likeness protections it secured guard studio-controlled IP, leaving performer consent, compensation, and control where SAG-AFTRA's Section 39 puts them. A rightsholder agreement covering likeness-adjacent output is not a substitute for Dimension 2 compliance, and neither party has claimed it is.
+The MOU is neither a licensing regime nor a standard, and it is noted here for two structural reasons rather than as an anchor. First, it is the earliest instance of the input-and-output provenance track being governed by negotiated private agreement rather than by statute or collective bargaining. Second, no guild was party to it: the MPA represents studios, and the likeness protections it secured guard studio-controlled IP, leaving performer consent, compensation, and control where SAG-AFTRA's Sections 64 and 64.1 put them. A rightsholder agreement covering likeness-adjacent output is not a substitute for Dimension 2 compliance, and neither party has claimed it is.
 
 ---
 
 ### How Compliance Creates Market Structure
 
-The compliance dimensions don't just constrain; they define where different content can be made:
+The compliance dimensions don't just constrain; they define where different content can be made. The profiles below are illustrative applications of the proposed policies above:
 
 | Project Profile | Data Requirement | Talent Requirement | Guild Requirement | Result |
 |---|---|---|---|---|
@@ -876,11 +886,11 @@ The compliance dimensions don't just constrain; they define where different cont
 
 Compliance requirements become product positioning. Serving guild-covered professional work requires L3-L5 modes, dedicated infrastructure, disclosure generation, and contribution tracking; high-stakes production adds enterprise-grade security, consent-management integration, and audit trails.
 
-**The lockout:** tools that only support L0-L2 are excluded from professional production entirely.
+**The lockout:** tools that only support L0-L1 are excluded from professional production entirely, and tools capped at L2 are excluded from guild-covered production.
 
 **The opportunity:** tools that support the full L2-L5 range with appropriate infrastructure options can serve the whole professional spectrum. The compliance capability becomes competitive differentiation.
 
-**The two gates.** The lockout has two independent conditions, and clearing one does not clear the other. *Agency capability* is the first: a tool that supports only L0-L2 cannot produce guild-compliant or natively copyrightable work, whatever else it offers. *IP posture* is the second: a tool can be excluded for what its model was trained on and what it will generate on request, independent of the configurations it supports. The MPA-ByteDance MOU is the first case of a consumer generator addressing the second condition without touching the first. Seedance with watermarking, content credentials, and likeness filters is a better-behaved model; it remains an L0-L1 tool, and its outputs still fail USCO's significant-human-control standard, still are not literary material under WGA 72.B, and still cannot stand in for a performance under Section 39.K. Rightsholder tolerance at the provenance layer does not create authorship at the agency layer.
+**The two gates.** The lockout has two independent conditions, and clearing one does not clear the other. *Agency capability* is the first: a tool that supports only L0-L2 cannot produce guild-compliant or natively copyrightable work, whatever else it offers. *IP posture* is the second: a tool can be excluded for what its model was trained on and what it will generate on request, independent of the configurations it supports. The MPA-ByteDance MOU is the first case of a consumer generator addressing the second condition without touching the first. Seedance with watermarking, content credentials, and likeness filters is a better-behaved model; it remains an L0-L1 tool, and its outputs still fail USCO's significant-human-control standard, still are not literary material under WGA 72.B, and still cannot stand in for a performance under Section 64.1.A. Rightsholder tolerance at the provenance layer does not create authorship at the agency layer.
 
 ---
 
@@ -894,7 +904,12 @@ For any project, walk through:
 
 The most restrictive requirement wins.
 
-**Example:** - Streaming series (Enhanced data tier) - Features recognizable actors (Tier 2 consent) - WGA-covered (Guild compliance required) - **Result:** L3-L5 permitted, dedicated cloud minimum, standard consent required
+**Example:**
+
+- Streaming series (Enhanced data tier)
+- AI-altered performances by recognizable actors (Tier 2 consent)
+- WGA-covered (Guild compliance required)
+- **Result:** L3-L5 permitted, dedicated cloud minimum, standard consent required
 
 ---
 
@@ -902,15 +917,27 @@ The most restrictive requirement wins.
 
 #### For Creators
 
-Know where your work falls: - Guild member working on covered production? L4-L5 is your safe zone. - Independent project, non-guild? L4-L5 gives native copyright; L2-L3 gives documented copyright (chain of title required); at L0-L1 the output isn't separately protected. - Using your own likeness? You control consent tier.
+Know where your work falls:
+
+- Guild member working on covered production? L4-L5 is your safe zone.
+- Independent project, non-guild? L4-L5 gives native copyright; L2-L3 gives documented copyright (chain of title required); at L0-L1 the output isn't separately protected.
+- Using your own likeness? You control consent tier.
 
 #### For Studios
 
-Compliance determines market access: - High-stakes prestige work requires L4-L5 capability across the production pipeline - Guild-covered standard production requires L3+ with documentation - Non-guild volume work accepts L2+, at the cost of access to guild-covered markets
+Compliance determines market access:
+
+- High-stakes prestige work requires L4-L5 capability across the production pipeline
+- Guild-covered standard production requires L3+ with documentation
+- Non-guild volume work accepts L2+, at the cost of access to guild-covered markets
 
 #### For Tool Builders
 
-Your compliance capability is your market map: - Support L4-L5 with enterprise infrastructure → access to the full professional market - Support only L2-L3 with shared cloud → non-guild work only - Support only L0-L1 → locked out of the professional market entirely
+Your compliance capability is your market map:
+
+- Support L4-L5 with enterprise infrastructure → access to the full professional market
+- Support only L2-L3 with shared cloud → non-guild work only
+- Support only L0-L1 → locked out of the professional market entirely
 
 ---
 
@@ -943,7 +970,7 @@ Agency is a dial, not a switch. The dial setting determines everything else.
 **References:**
 - SAG-AFTRA TV/Theatrical Contract, AI Provisions (2023)
 - SAG-AFTRA 2025 Interactive Media Agreement (Digital Replica definitions; Four Pillars)
-- SAG-AFTRA 2026 TV/Theatrical Tentative Agreement, Section 39 (May 11, 2026), term July 1, 2026 – June 30, 2030
+- SAG-AFTRA 2026 TV/Theatrical Agreement, Codified Basic Agreement Sections 64 (Digital Replication and Alteration) and 64.1 (Generative Artificial Intelligence), with parallel Schedule X Part I §72 and Part II §67; adopted as MOA Item 39 (National Board approval May 11, 2026; MOA signed May 27, 2026; ratified June 4, 2026), term July 1, 2026 – June 30, 2030
 - WGA Minimum Basic Agreement, AI Provisions (2023)
 - 2026 WGA–AMPTP Theatrical and Television Basic Agreement (Memorandum of Agreement, April 4, 2026), Item 15
 - Motion Picture Association & ByteDance, Memorandum of Understanding on IP protection for AI video and image generation models (announced August 17, 2026; terms not publicly disclosed)
@@ -970,7 +997,7 @@ Agency preservation operates on two levels: what you can do *within* a tool (tac
 
 | Mechanism | Legal Anchor | What It Enables |
 |---|---|---|
-| **Interruption** | "Meaningful human oversight" (EU AI Act) | Stop generation mid-stream. Prevent runaway output. |
+| **Interruption** | Human oversight (EU AI Act Art. 14; a high-risk-system requirement, applied here as a design principle) | Stop generation mid-stream. Prevent runaway output. |
 | **Direction** | "Human-led creative process" (WGA) | Steer what the AI produces. Set constraints before generation. |
 | **Editing** | "Significant human control" (USCO) | Modify AI output before finalization. Transform machine suggestion into human expression. |
 | **Configuration** | "Adjustable automation levels" (ISO/IEC) | Control AI involvement level. Scale from L5 to L2 as needed. |
@@ -992,7 +1019,11 @@ The single design choice that most determines authorship preservation:
 
 **What Research Shows:**
 
-Studies on default effects and autocomplete interfaces consistently find: - Significantly higher acceptance rates when defaults favor acceptance (opt-out vs. opt-in) - Reduced error detection when users operate in "approval mode" rather than "creation mode" - Lower situational awareness when cognitive load shifts from generation to evaluation
+Studies on default effects and autocomplete interfaces consistently find:
+
+- Significantly higher acceptance rates when defaults favor acceptance (opt-out vs. opt-in)
+- Reduced error detection when users operate in "approval mode" rather than "creation mode"
+- Lower situational awareness when cognitive load shifts from generation to evaluation
 
 Research on machine translation post-editing, code completion (GitHub Copilot studies), and predictive text suggests these differences can exceed 20 percentage points for acceptance rates, with corresponding impacts on quality control.
 
@@ -1004,11 +1035,11 @@ With the same model and the same user, changing the default changes the agency.
 
 ### Strategic Agency: The Ability to Leave
 
-**Core Question:** Can I exit this platform with your work and capabilities intact?
+**Core Question:** Can I exit this platform with my work and capabilities intact?
 
 | Mechanism | Legal Anchor | What It Enables |
 |---|---|---|
-| **Export** | Data portability (GDPR Art. 20) | Take your work in standard formats. |
+| **Export** | Data portability (GDPR Art. 20; covers personal data the user provided, applied here by analogy to creative work) | Take your work in standard formats. |
 | **Ownership Clarity** | Copyright assignment (ToS) | Know who owns what you create. |
 | **Data Control** | Training opt-out (contractual) | Prevent your work from training future models. |
 | **Alternatives** | Competition law principles | Meaningful choice between different architectures. |
@@ -1071,7 +1102,7 @@ With the same model and the same user, changing the default changes the agency.
 | USCO "significant human control" | Editing + Direction | Ownership clarity |
 | WGA "human-led creative process" | Direction + Interruption | Platform alternatives |
 | EU AI Act "meaningful oversight" | Interruption + Configuration | Data portability |
-| SAG-AFTRA 2026 TV/Theatrical §39 (EBDR scan consent; ICDR scale floor + residuals; dubbing consent eff. 2027; strike; security; transfer; biometric; Synthetic "significant additional value" test; training-data licensing notice) | Consent management + scan flow + replica security and access controls | Transferability of consent terms; ability to migrate without violating §39.I transfer compliance |
+| SAG-AFTRA 2026 TV/Theatrical §§64, 64.1 (EBDR scan consent; ICDR scale floor + residuals; dubbing consent eff. 2027; strike; security; transfer; biometric; Synthetic "significant additional value" test; training-data licensing notice) | Consent management + scan flow + replica security and access controls | Transferability of consent terms; ability to migrate without violating §64.H transfer compliance |
 | GDPR data subject rights | N/A | Export + Data control |
 
 ---
@@ -1089,11 +1120,11 @@ Professional-grade AI assistance requires both: control within the tool *and* th
 **References:**
 - U.S. Copyright Office, "Copyright Registration Guidance: Works Containing Material Generated by Artificial Intelligence" (2023)
 - U.S. Copyright Office, "Copyright and Artificial Intelligence, Part 2: Copyrightability" (January 2025)
-- EU AI Act, Article 14: Human Oversight (2024)
+- EU AI Act, Article 14: Human Oversight (2024; applies to high-risk AI systems)
 - WGA Minimum Basic Agreement, AI Provisions (2023)
-- GDPR Article 20: Right to Data Portability
+- GDPR Article 20: Right to Data Portability (personal data provided by the data subject)
 - Johnson, E.J. & Goldstein, D. (2003). Do Defaults Save Lives? *Science*, 302(5649), 1338-1339.
-- Vaithilingam, P., Zhang, T., & Glassman, E.L. (2022). Expectation vs. Experience: Evaluating the Usability of Code Generation Tools. *CHI '22*.
+- Vaithilingam, P., Zhang, T., & Glassman, E.L. (2022). Expectation vs. Experience: Evaluating the Usability of Code Generation Tools. *CHI EA '22*.
 - Green, S., Heer, J., & Manning, C.D. (2013). The Efficacy of Human Post-Editing for Language Translation. *CHI '13*.
 
 ---
@@ -1306,7 +1337,7 @@ Honesty requires stating plainly: leveled scales of AI involvement in writing al
 - Morris, M.R., et al. (2024). Position: Levels of AGI for Operationalizing Progress on the Path to AGI. *ICML 2024*. arXiv:2311.02462.
 - Feng, K.J.K., McDonald, D.W., & Zhang, A.X. (2025). Levels of Autonomy for AI Agents. arXiv:2506.12469.
 - Horvitz, E. (1999). Principles of Mixed-Initiative User Interfaces. *CHI '99*, 159-166.
-- Allen, J.E., Guinn, C.I., & Horvitz, E. (1999). Mixed-Initiative Interaction. *IEEE Intelligent Systems*, 14(5), 14-23.
+- Allen, J.F., Guinn, C.I., & Horvitz, E. (1999). Mixed-Initiative Interaction. *IEEE Intelligent Systems*, 14(5), 14-23.
 - Yannakakis, G.N., Liapis, A., & Alexopoulos, C. (2014). Mixed-Initiative Co-Creativity. *FDG 2014*.
 - Deterding, S., et al. (2017). Mixed-Initiative Creative Interfaces. *CHI EA '17*, 628-635.
 - Kantosalo, A. & Toivonen, H. (2016). Modes for Creative Human-Computer Collaboration: Alternating and Task-Divided Co-Creativity. *ICCC 2016*, 77-84.
@@ -1341,7 +1372,7 @@ Two of their findings warrant specific note.
 
 First, their acknowledged measurement gap corresponds to this framework's central distinction. WildChat records only the generation moment: prompts submitted, completions returned. The authors note they cannot observe how the resulting fiction circulates, whether it is edited, shared, or abandoned, and call for ethnographic follow-up. That gap has a name here: they measured Interaction Agency and could not see Work Agency, because conversation logs structurally cannot capture the surrounding creative process. Traces of Work Agency nonetheless leak into their data, most visibly in what they call re-rolling, where a user regenerates a scenario repeatedly and then folds a preferred output back into an extended prompt. That is a human selection decision: curation, the constitutive act of the L2–L3 band. It occurs in their corpus with no apparatus to record what was selected or why. A half-million-conversation archive of curation without documentation is the strongest available evidence for this framework's claim that agency must be measured across the full creative process, and that the measurement infrastructure does not yet exist in general-purpose tools.
 
-Second, the economic consequence of the low-agency band is now measurable. Drawing on McGurl's account of fiction's commoditization, Gupta, Antoniak, and Walsh cite NBER findings (Reimers and Waldfogel) documenting a surge of LLM-generated self-published books that accumulate essentially no readership. This is the market consequence the compliance analysis above predicts, observed in the wild: output produced at L0–L2 without documented human authorship pools into an interchangeable class of goods that fails simultaneously as protectable property and as valued product. The stratification this framework derived from compliance constraints is materializing as market behavior.
+Second, the economic consequence of the low-agency band is now measurable. Drawing on McGurl's account of fiction's commoditization, Gupta, Antoniak, and Walsh cite NBER findings (Reimers and Waldfogel) documenting a surge of LLM-generated self-published books that accumulate essentially no readership. This is the market consequence the compliance analysis above predicts, observed in the wild: output produced at L0–L1 without documented human authorship pools into an interchangeable class of goods that fails simultaneously as protectable property and as valued product. The stratification this framework derived from compliance constraints is materializing as market behavior.
 
 The chronology matters. These findings postdate this framework and were produced independently of it. They are offered here not as sources the framework was built upon, but as subsequent confirmation that its categories describe real populations, its measurement distinction names a real methodological gap, and its market structure is emerging as predicted.
 
