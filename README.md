@@ -28,18 +28,7 @@ This framework provides the precision.
 | File | Description |
 |---|---|
 | **[executive-summary.md](executive-summary.md)** | Start here — 5-minute overview |
-| **[taxonomy.md](taxonomy.md)** | Six-level heuristic model (L0-L5) with legal and professional anchors |
 | **[Distributed_Agency_in_Human-AI_Systems.md](Distributed_Agency_in_Human-AI_Systems.md)** | Full paper — framework, market structure, mechanisms |
-
-## Implementation
-
-Resources for developers and product teams building tools with human agency in mind.
-
-| File | Audience | Description |
-|---|---|---|
-| **[quick-reference.md](implementation/quick-reference.md)** | Everyone | Spectrum, design principles, anti-patterns at a glance |
-| **[best-practices.md](implementation/best-practices.md)** | Developers, PMs | State management, composite agency calculation, phased roadmap |
-| **[agency-mechanisms.md](implementation/agency-mechanisms.md)** | Engineers, Legal | Tactical/strategic mechanisms, legal anchors, compliance checklist |
 
 ## Key Concepts
 
